@@ -1,0 +1,13 @@
+---
+title: ""
+page-layout: full
+title-block-banner: true
+---
+
+# Contact
+
+<br>
+
+<address>
+Contact me at <a href="mailto:david.munoztord@mailbox.org">david.munoztord@mailbox.org</a>.<br>
+</address>

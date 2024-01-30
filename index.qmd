@@ -23,7 +23,7 @@ listing:
 
 
 ::: {.center-text}
-## {{< fa hand-peace >}} hello there! this is a website I don't always have a chance to update but it has a few posts and some ways to get in touch with me if you need to; cheers {{< fa champagne-glasses >}}
+## {{< fa hand-peace >}} Hi, I'm David. I'm a Data Scientist / R Developer always looking for a cool open-source project to work on !
 :::
 
 ::: {.grid}
@@ -31,7 +31,7 @@ listing:
 ::: {.g-col-8}
 ##### little about me
 
-> dad of two young autistic boys {{< fa child-reaching >}} {{< fa child >}} husband to a wonderfully caring and patient partner {{< fa ring >}} I'm pretty lucky {{< fa clover >}} I am neurodivergent {{< fa infinity >}} and also have a visual disability {{< fa eye-low-vision >}} but this doesn't stop me from persuing my passions: code {{< fa code >}} Bayesian stats {{< fa ranking-star >}} DevOps {{< fa cubes >}} ancient and continental philosophy {{< fa building-columns >}} dichotomy busting {{< fa circle-nodes >}} vegan food {{< fa seedling >}} beer {{< fa beer-mug-empty >}} wine {{< fa wine-bottle >}} coffee {{< fa mug-hot >}} tea {{< fa leaf >}} travel {{< fa plane-departure >}} and striving for balance {{< fa scale-balanced >}} I love abstract and conceptual thinking {{< fa brain >}} and am always trying to learn something new {{< fa book-open-reader >}} 
+> Passionated about code {{< fa code >}} Bayesian stats {{< fa ranking-star >}} DevOps {{< fa cubes >}} Neurosciences {{< fa brain >}} machine learning {{< fa circle-nodes >}} beer {{< fa beer-mug-empty >}} wine {{< fa wine-bottle >}} coffee {{< fa mug-hot >}} travel {{< fa plane-departure >}} and striving for balance {{< fa scale-balanced >}} I love abstract and conceptual thinking and am always trying to learn something new {{< fa book-open-reader >}} 
 :::
 
 ::: {.g-col-4 .vh-center .center-text}
@@ -96,13 +96,12 @@ Latest tinkering
 
 ### Currently at
 
-`Skylight`<br>
-__Senior Data Engineer__<br>
-_Skylight is a digital government consultancy driven by_ <br>
-_making government work in a digital world through design,_ <br>
-_technology, and procurement._ <br>
+`Opifex`<br>
+__R Developper__<br>
+_Services, products, and open-source projects on <br>
+data and programming._ <br>
 <small>April 2023--Present</small> 
 
-[Full CV](vitae.qmd){.btn .btn-secondary role="button"}
+[Full CV](https://github.com/munoztd0/CV_DMT/raw/main/CV_DMT.pdf){.btn .btn-secondary role="button"}
 
-<link rel="me" href="https://hachyderm.io/@robertmitchellv">
+<link rel="me" href="https://github/com/munoztd0">
