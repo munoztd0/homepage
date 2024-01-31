@@ -4,17 +4,8 @@ author: "David Munoz Tord"
 date: "2023-06-27"
 categories: ["Python", "AI"]
 tags: ["language models", "llm", "chatGPT"]
-execute: 
-  eval: true
-  freeze: false
-image: ai.jpg
-page-layout: article 
-toc: true
-toc-location: left
-code-line-numbers: true
-code-copy: true
-df-print: paged
 ---
+
 
 ```{r}
 #| label: setup
