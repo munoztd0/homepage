@@ -48,7 +48,7 @@ Indeed the model performance is quite low because the models used by this packag
 The base model should work on any system with 512MB of memory, but this memory limit can be increased. Setting this value higher will require more memory and generate results more slowly, but the results should be superior. I let your try at home because this is rendered on a free server but if you uncomment `lm.set_max_ram('4gb')` you should get better results.
 
 ```{python}
-lm.set_max_ram('4gb')
+#lm.set_max_ram('4gb')
 lm.do("If I have 7 apples then eat 5, how many apples do I have?")
 ```
 
