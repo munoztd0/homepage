@@ -1,4 +1,15 @@
 ---
-title: "est"
-editor: visual
+title: "Your first chat bot with python!"
+author: "David Munoz Tord"
+date: "2023-06-27"
+categories: ["Python", "AI"]
+tags: ["language models", "llm", "chatGPT"]
 ---
+
+
+```{r}
+#| label: setup
+#| include: false
+library(reticulate)
+reticulate::use_condaenv(condaenv = "py3")
+```
