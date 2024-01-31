@@ -9,10 +9,10 @@ format:
       light: [flatly, custom.scss]
       dark: [darkly, custom-dark.scss]
 website:
-  title: "munoztd0"
+  title: "David Munoz Tord"
   description: "David Munoz Tord's personal website"
   favicon: "images/me.png"
-  google-analytics: ""
+  google-analytics: "G-6KTW1Z7J25"
   twitter-card:
     creator: "@munoztd0"
   site-url: https://munoztd0.github.io/homepage/
