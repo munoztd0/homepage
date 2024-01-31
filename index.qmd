@@ -25,7 +25,8 @@ listing:
 
 
 ::: {.center-text}
-## {{< fa hand-peace >}} Hi, I'm David. I'm a Data Scientist / R Developer always looking for a cool open-source project to work on !
+## {{< fa hand-peace >}} Hi, I'm David. 
+## I'm a Data Scientist / R Developer always looking for a cool open-source project to work on !
 :::
 
 ::: {.grid}
