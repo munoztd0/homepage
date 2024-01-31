@@ -1,7 +1,13 @@
 project:
   type: website
   output-dir: docs
-
+execute:
+  freeze: auto
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom-dark.scss]
 website:
   title: "munoztd0"
   description: "David Munoz Tord's personal website"
@@ -56,10 +62,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/david-munoz-tord-409639150/
 
-format:
-  html:
-    theme:
-      light: [flatly, custom.scss]
-      dark: [darkly, custom-dark.scss]
 
-freeze: true
+
+
