@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "index.html#fa-hand-peace-hi-im-david.",
-    "href": "index.html#fa-hand-peace-hi-im-david.",
+    "objectID": "index.html#fa-hand-peace-hi-im-david.-fa-hand-peace-im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project",
+    "href": "index.html#fa-hand-peace-hi-im-david.-fa-hand-peace-im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project",
     "title": "munoztd0",
-    "section": " Hi, I’m David.",
-    "text": "Hi, I’m David."
-  },
-  {
-    "objectID": "index.html#im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project-to-work-on",
-    "href": "index.html#im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project-to-work-on",
-    "title": "munoztd0",
-    "section": "I’m a Data Scientist / R Developer always looking for a cool open-source project to work on !",
-    "text": "I’m a Data Scientist / R Developer always looking for a cool open-source project to work on !"
-  },
-  {
-    "objectID": "blog/Stats_With_R/index.html",
-    "href": "blog/Stats_With_R/index.html",
-    "title": "Satistics with R",
-    "section": "",
-    "text": "By Vestin Hategekimana\nGoal: To cover the structure of a classical statistical analysis with R. We will then go into more depth on each part while presenting packages in the language that make the work easier. Although this playlist is designed for social science students, it can be useful for anyone.\nPlaylist here\nNote: video in french, ask in comments for subtitle in your language"
-  },
-  {
-    "objectID": "blog/Stats_With_R/index.html#first-video-of-the-playlist",
-    "href": "blog/Stats_With_R/index.html#first-video-of-the-playlist",
-    "title": "Satistics with R",
-    "section": "First video of the playlist:",
-    "text": "First video of the playlist:"
-  },
-  {
-    "objectID": "blog/Code_Hygiene/index.html",
-    "href": "blog/Code_Hygiene/index.html",
-    "title": "Code Hygiene. Don’t Laugh it off !",
-    "section": "",
-    "text": "By Fabrice Hategekimana\nGoal: Introduce the basics of hygiene in the code to have clean and reusable scripts. Workflow and refactoring are also important elements to achieve good results. We explain everything in our videos!\nPlaylist here\nNote: video in french, ask in comments for subtitle in your language"
-  },
-  {
-    "objectID": "blog/Code_Hygiene/index.html#first-vidéo-of-the-playlist",
-    "href": "blog/Code_Hygiene/index.html#first-vidéo-of-the-playlist",
-    "title": "Code Hygiene. Don’t Laugh it off !",
-    "section": "First vidéo of the playlist:",
-    "text": "First vidéo of the playlist:"
+    "section": " Hi, I’m David.   I’m a Data Scientist / R Developer always looking for a cool open-source project ! ",
+    "text": "Hi, I’m David.   I’m a Data Scientist / R Developer always looking for a cool open-source project !"
   },
   {
     "objectID": "blog/Data_manip_Fundamental/index.html",
@@ -70,20 +35,6 @@
     "text": "By David Munoz Tord\nGoal: Learn about data exploration and familiarize yourself with some of the basic functions of the tidyverse.\nOpen it full\nNote: All in english"
   },
   {
-    "objectID": "blog/R_basics/index.html",
-    "href": "blog/R_basics/index.html",
-    "title": "Learn R Basics",
-    "section": "",
-    "text": "By Vestin Hategekimana\nGoal: To initiate people who would like to start with R by starting with the basics or the basics or people who want to reinforce their knowledge by going through important concepts in programming.\nPlaylist here\nNote: video in french, ask in comments for subtitle in your language"
-  },
-  {
-    "objectID": "blog/R_basics/index.html#first-vidéo-of-the-playlist",
-    "href": "blog/R_basics/index.html#first-vidéo-of-the-playlist",
-    "title": "Learn R Basics",
-    "section": "First vidéo of the playlist:",
-    "text": "First vidéo of the playlist:"
-  },
-  {
     "objectID": "blog/Data_Viz_Fundamentals/index.html",
     "href": "blog/Data_Viz_Fundamentals/index.html",
     "title": "Data Viz Fundamentals with R",
@@ -102,7 +53,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\n\nYour first chat bot with python!\n\n\n\n\n\n\n\n\n\n\n\n\nJun 27, 2023\n\n\nDavid Munoz Tord\n\n\n\n\n\n\n\n\nR Lunches in university of Geneva\n\n\n\n\n\n\n\n\n\n\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nWe-Data Live on YouTube\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nData Manipulation with R\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\n\n\n\n\n\n\nData Exploration with R\n\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\nSatistics with R\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\nCode Hygiene. Don’t Laugh it off !\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\nData Viz Fundamentals with R\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2022\n\n\n\n\n\n\n\n\nLearn R Basics\n\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\n\nYour first chat bot with python!\n\n\n\n\n\n\n\n\n\n\n\n\nJun 27, 2023\n\n\nDavid Munoz Tord\n\n\n\n\n\n\n\n\nR Lunches in university of Geneva\n\n\n\n\n\n\n\n\n\n\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nWe-Data Live on YouTube\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nData Manipulation with R\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\n\n\n\n\n\n\nData Exploration with R\n\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\nData Viz Fundamentals with R\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/2023-04-Deploy-your-R-code/index.html",
