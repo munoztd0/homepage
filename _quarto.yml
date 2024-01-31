@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "munoztd0"
@@ -16,7 +17,7 @@ website:
     logo: "images/rbmv-secondary.png"
     background: primary
     search: true
-    left: 
+    left:
       - text: "{{< fa house-user >}} Home"
         href: index.qmd
       - text: "{{< fa laptop-code >}} Blog"
