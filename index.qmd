@@ -25,8 +25,7 @@ listing:
 
 
 ::: {.center-text}
-## {{< fa hand-peace >}} Hi, I'm David. 
-## I'm a Data Scientist / R Developer always looking for a cool open-source project to work on !
+## {{< fa hand-peace >}} Hi, I'm David. {{< fa hand-peace >}} <br><br> I'm a Data Scientist / R Developer always looking for a cool open-source project ! <br><br>
 :::
 
 ::: {.grid}
@@ -34,7 +33,13 @@ listing:
 ::: {.g-col-8}
 ##### little about me
 
-> Passionated about code {{< fa code >}} Bayesian stats {{< fa ranking-star >}} DevOps {{< fa cubes >}} Neurosciences {{< fa brain >}} machine learning {{< fa circle-nodes >}} beer {{< fa beer-mug-empty >}} wine {{< fa wine-bottle >}} coffee {{< fa mug-hot >}} travel {{< fa plane-departure >}} and striving for balance {{< fa scale-balanced >}} I love abstract and conceptual thinking and am always trying to learn something new {{< fa book-open-reader >}} 
+> My job consists in helping companies and researchers to analyse and manage their datasets. 
+I am skilled for most data-science steps: data pre-processing, data-ingestion,application of statistical methods, data visualization and results communication.
+<br><br>
+After having worked for renowned research institutes like the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Center 
+for Affective Sciences</a>. I'm now working as a freelance data scientist for different companies (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>) and 
+nonprofit organizations (<a href="http://cicad.ch/">CICAD</a> ). In parallel, I am also working as an open-source R developer for <a href="https://opifex.org/">Opifex</a>. 
+<br>
 :::
 
 ::: {.g-col-4 .vh-center .center-text}
