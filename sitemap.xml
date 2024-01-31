@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://munoztd0.github.io/homepage/index.html</loc>
-    <lastmod>2024-01-31T12:48:44.346Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/blog/Data_manip_Fundamental/index.html</loc>
-    <lastmod>2024-01-31T12:48:46.454Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/blog/Live/index.html</loc>
-    <lastmod>2024-01-31T12:48:46.830Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/blog/llm/index.html</loc>
-    <lastmod>2024-01-31T12:48:47.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/blog/Data_explor_Fundamentals/index.html</loc>
-    <lastmod>2024-01-31T12:48:47.674Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/blog/Data_Viz_Fundamentals/index.html</loc>
-    <lastmod>2024-01-31T12:48:48.082Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/blog/R-Lunches/index.html</loc>
-    <lastmod>2024-01-31T12:48:48.454Z</lastmod>
-  </url>
-  <url>
     <loc>https://munoztd0.github.io/homepage/blog.html</loc>
-    <lastmod>2024-01-31T12:48:49.022Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/talks/2023-04-Deploy-your-R-code/index.html</loc>
-    <lastmod>2024-01-31T12:48:49.434Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/talks.html</loc>
-    <lastmod>2024-01-31T12:48:49.854Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/contact.html</loc>
-    <lastmod>2024-01-31T12:48:50.214Z</lastmod>
+    <lastmod>2024-01-31T12:57:33.924Z</lastmod>
   </url>
   <url>
     <loc>https://munoztd0.github.io/homepage/projects/2022-12-echarts4r/index.html</loc>
-    <lastmod>2024-01-31T12:48:50.674Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/about.html</loc>
-    <lastmod>2024-01-31T12:48:51.106Z</lastmod>
+    <lastmod>2024-01-31T12:57:36.492Z</lastmod>
   </url>
   <url>
     <loc>https://munoztd0.github.io/homepage/projects.html</loc>
-    <lastmod>2024-01-31T12:48:51.554Z</lastmod>
+    <lastmod>2024-01-31T12:57:37.016Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/talks/2023-04-Deploy-your-R-code/index.html</loc>
+    <lastmod>2024-01-31T12:57:37.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/index.html</loc>
+    <lastmod>2024-01-31T12:57:38.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/blog/Live/index.html</loc>
+    <lastmod>2024-01-31T12:57:38.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/blog/Data_explor_Fundamentals/index.html</loc>
+    <lastmod>2024-01-31T12:57:39.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/blog/R-Lunches/index.html</loc>
+    <lastmod>2024-01-31T12:57:39.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/blog/Data_manip_Fundamental/index.html</loc>
+    <lastmod>2024-01-31T12:57:40.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/blog/llm/index.html</loc>
+    <lastmod>2024-01-31T12:57:40.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/blog/Data_Viz_Fundamentals/index.html</loc>
+    <lastmod>2024-01-31T12:57:41.216Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/talks.html</loc>
+    <lastmod>2024-01-31T12:57:41.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/about.html</loc>
+    <lastmod>2024-01-31T12:57:42.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/contact.html</loc>
+    <lastmod>2024-01-31T12:57:42.792Z</lastmod>
   </url>
   <url>
     <loc>https://munoztd0.github.io/homepage/talks copy/2018-09-ucla-cpi/index.html</loc>
-    <lastmod>2024-01-31T12:48:51.946Z</lastmod>
-  </url>
-  <url>
-    <loc>https://munoztd0.github.io/homepage/talks copy/2017-09-Data-and-Donuts/index.html</loc>
-    <lastmod>2024-01-31T12:48:52.330Z</lastmod>
+    <lastmod>2024-01-31T12:57:43.272Z</lastmod>
   </url>
   <url>
     <loc>https://munoztd0.github.io/homepage/talks copy/2018-12-east-la-r-users/index.html</loc>
-    <lastmod>2024-01-31T12:48:52.742Z</lastmod>
+    <lastmod>2024-01-31T12:57:43.736Z</lastmod>
+  </url>
+  <url>
+    <loc>https://munoztd0.github.io/homepage/talks copy/2017-09-Data-and-Donuts/index.html</loc>
+    <lastmod>2024-01-31T12:57:44.268Z</lastmod>
   </url>
   <url>
     <loc>https://munoztd0.github.io/homepage/vitae copy.html</loc>
-    <lastmod>2024-01-31T12:48:54.023Z</lastmod>
+    <lastmod>2024-01-31T12:57:45.844Z</lastmod>
   </url>
 </urlset>
