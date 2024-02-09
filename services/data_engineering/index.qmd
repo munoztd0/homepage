@@ -1,0 +1,44 @@
+---
+title: "Data Engineering"
+format: html
+image: ./engineering.png
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+## {{< fa cog >}}  Data Engineering
+
+<br> A data project always start with a data engineering step.
+You need to harvest data and store it in an adequate format to be able to use it.
+Let me help you with it !
+
+I can help you to:
+
+-   {{< fa angle-double-right >}} Harvest data from various sources, including APIs, SQL databases, or complex Excel spreadsheets.
+
+-   {{< fa angle-double-right >}} Reformat and reshape data to facilitate further analysis.
+
+-   {{< fa angle-double-right >}} Clean datasets to remove outliers and aberrant data points.
+
+-   {{< fa angle-double-right >}} Develop reproducible data preparation workflows.
+
+-   {{< fa angle-double-right >}} Automate the creation of data-related reports.
+
+<br>
+
+### Examples:
+
+<br> 
+
+-   {{< fa angle-double-right >}} Led development and launch of a collaborative project with EPFL, transitioning scripts into a Software as a Service (SaaS) solution on AWS.
+
+-   {{< fa angle-double-right >}} Provided technical consulting to a startup, translating academic research into actionable solutions and advising on machine learning.
+
+-   {{< fa angle-double-right >}} Collaborated across departments to design and deploy data platform initiatives, implementing automation for time savings.
+
+<br>
+
+### Contact Me 
+
+If you're interested in learning more about how I can assist with your project, feel free to reach out at [david.munoztord\@mailbox.org](mailto:david.munoztord@mailbox.org).

@@ -28,6 +28,8 @@ website:
         href: index.qmd
       - text: "{{< fa laptop-code >}} Blog"
         href: https://wedata.ch/blog
+      - text: "{{< fa wrench >}} Services"
+        href: services.qmd
       - text: "{{< fa chalkboard-user >}} Talks"
         href: talks.qmd
       - text: "{{< fa chart-line >}} Projects"

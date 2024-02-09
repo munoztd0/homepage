@@ -58,6 +58,12 @@ $font-size-root: 14pt;
 
 /*-- scss:rules --*/
 
+/* Custom CSS to resize and center thumbnail images */
+.thumbnail-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
 a {
   color: $violet;
 }
