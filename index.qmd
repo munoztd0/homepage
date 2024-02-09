@@ -104,11 +104,11 @@ Latest tinkering
 
 ### Currently at
 
-`Opifex`<br>
-__R Developper__<br>
+`Freelancer`<br>
+__R Developper / Data Scientist__<br>
 _Services, products, and open-source projects on <br>
 data and programming._ <br>
-<small>April 2023--Present</small> 
+<small>Oct 2022--Present</small> 
 
 [Full CV](https://github.com/munoztd0/CV_DMT/raw/main/CV_DMT.pdf){.btn .btn-secondary role="button"}
 

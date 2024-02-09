@@ -4,7 +4,10 @@ author: "David Munoz Tord"
 date: 2023-04-04
 categories: [Talk, Thoughts, Web, R, Implementing an idea, DevOps]
 format: html
+image: http://www.phdcomics.com/comics/archive/phd112107s.gif
 ---
+
+# Deploy Your R Code!
 
 ::: {.iframe-container}
 <iframe class="iframe-responsive" scrolling="no" src="https://we-data-ch.github.io/Web_Deployment_With_R/R-Lunch#1"></iframe>

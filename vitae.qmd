@@ -33,7 +33,7 @@ title-block-banner: true
     -   {{< fa long-arrow-right >}} reliable
     -   {{< fa long-arrow-right >}} a lateral thinker
     -   {{< fa long-arrow-right >}} motivated
-    
+
 <br>
 
 -   {{< fa angle-double-right >}} I am able to:
@@ -51,20 +51,18 @@ title-block-banner: true
 
 ## {{< fa code >}} Technical Skills
 
-
-
 -   {{< fa angle-double-right >}} **Coding:** `R`, `Python`, `STAN`, `BASH`, `SQL` and `JavaScript`.
+
+
+-   {{< fa angle-double-right >}} **Data:** Relational Databases (data modeling and SQL); Extract-Transfer-Load (ETL) strategies for data engineering --- specifically with Apache `NIFI` for ETL; information retrieval; and, knowledge organizational theory. I have created my own DBMS in R and Shiny that uses `PostgreSQL` and SQLite as back-ends.
+
+-   {{< fa angle-double-right >}} **Data Science:** both R and Python are a big part of my workflow from reading in data, transforming and *tidying* data, exploring and visualizing data, modeling, reporting, presenting, and tying it all together in a dashboard. In connection to R, I am a proponent of the `tidyverse` framework for its unifying API. With respect to Python, I enjoy using `polars`, `pyjanitor`, `pymc`, and `plotly` to work in equivalent ways. However I honestly prefer working in `R`. I am of course familiar with the `scikit-learn` and `tensorflow` libraries in Python. I have experience with `spark` as well, plus `torch` and `keras` for R. I have also worked with `brms` and `hBayesDM` for Bayesian modeling.
 
 -   {{< fa angle-double-right >}} **Web Technologies:** HTML, CSS, Javascript; `Quarto` publishing; Rmarkdown Websites, Dashboards in R with `shiny`/`flexdashboard` that support `crosstalk`, and interactive data visualization with `echarts`; Static Site Generators, i.e., Hugo, and others.
 
 -   {{< fa angle-double-right >}} **OSs:** macOS, `Linux`, and containers. Within the Linux ecosystem, I have experience with Debian based distributions as well as Red Hat Enterprise Linux. I love the terminal and wish `vim` bindings were universal.
 
--   {{< fa angle-double-right >}} **Data:** Relational Databases (data modeling and SQL); Extract-Transfer-Load (ETL) strategies for data engineering --- specifically with Apache `NIFI` for ETL; information retrieval; and, knowledge organizational theory. I have created my own DBMS in R and Shiny that uses `PostgreSQL` and SQLite as back-ends.
-
--   {{< fa angle-double-right >}} **Data Science:** both R and Python are a big part of my workflow from reading in data, transforming and 'tidying' data, exploring and visualizing data, modeling, reporting, presenting, and tying it all together in a dashboard. In connection to R, I am a proponent of the `tidyverse` framework for its unifying API. With respect to Python, I enjoy using `polars`, `pyjanitor`, `pymc`, and `plotly` to work in equivalent ways. However I honestly prefer working in `R`. I am of course familiar with the `scikit-learn` and `tensorflow` libraries in Python. I have experience with `spark` as well, plus `torch` and `keras` for R. I have also worked with `brms` and `hBayesDM` for Bayesian modeling. 
-
 -   {{< fa angle-double-right >}} **DevOps tools:** Fair knowledge of `AWS` and its services, including `S3`, `Sagemaker`, `Glue`, and `EKS`. I have also worked with Azure DevOps. I am very familiar with `git` and `github` and have experience with `github actions` for CI/CD. I have also worked with `Docker` and I have some MlOps experience.
-
 
 <br>
 
@@ -113,7 +111,7 @@ title-block-banner: true
 
 <h4>Data Scientist - Part-time: Oct 2022 – Present \| Geneva, Switzerland</h4>
 
-<ul>{{< fa angle-double-right >}} ed the development and launch of a scientific project in collaboration with EPFL, transitioning initial scripts into a comprehensive Software as a Service (SaaS) solution accessible to clients via Elastic Kubernetes Service (EKS) on AWS.</ul>
+<ul>{{< fa angle-double-right >}} Led the development and launch of a scientific project in collaboration with EPFL, transitioning initial scripts into a comprehensive Software as a Service (SaaS) solution accessible to clients via Elastic Kubernetes Service (EKS) on AWS.</ul>
 
 <ul>{{< fa angle-double-right >}} Offered technical consulting services to a startup specializing in cognitive and educational technologies, translating academic research in cognitive neuroscience and developmental psychology into actionable solutions, while also advising on machine learning implementations.</ul>
 
@@ -165,12 +163,11 @@ title-block-banner: true
 
 <ul>{{< fa angle-double-right >}} Mentored and supervised graduate students in their statistical research projects, nurturing their analytical skills and research capabilities.</ul>
 
-<ul> {{< fa angle-double-right >}} Created and shared freely available data 
-[workshops](https://github.com/munoztd0/teaching/blob/main/README.md) in R and Python.</ul>
+<ul>{{< fa angle-double-right >}} Created and shared freely available data [workshops](https://github.com/munoztd0/teaching/blob/main/README.md) in R and Python.</ul>
 
 </ul>
 
-<br> 
+<br>
 
 <ul>
 
@@ -184,7 +181,7 @@ title-block-banner: true
 
 </ul>
 
-<br> 
+<br>
 
 <ul>
 
@@ -200,44 +197,38 @@ title-block-banner: true
 
 <br>
 
-
-
 ## {{< fa cube >}} Open-Source Contributions
 
-* {{< fa angle-double-right >}} **echarts4r**
-  + `R`, `JavaScript` - 2023 - Present
-  + Collaborated on the development of [echarts4r](https://echarts4r.john-coene.com), a R package that expands the capabilities of R-based interactive visualizations with a powerful rendering engine, while enhancing flexibility and ease of use.
+-   {{< fa angle-double-right >}} **echarts4r**
+    -   `R`, `JavaScript` - 2023 - Present
+    -   Collaborated on the development of [echarts4r](https://echarts4r.john-coene.com), a R package that expands the capabilities of R-based interactive visualizations with a powerful rendering engine, while enhancing flexibility and ease of use.
 
-<br> 
+<br>
 
-* {{< fa angle-double-right >}} **Firebase**
-  + `R`, `JavaScript` - 2023 - Present
-  + Contributed to the [firebase](https://github.com/JohnCoene/firebase/) integration package for R, empowering the Shiny user community by enabling user authentication and secure file storage through Firebase Storage.
+-   {{< fa angle-double-right >}} **Firebase**
+    -   `R`, `JavaScript` - 2023 - Present
+    -   Contributed to the [firebase](https://github.com/JohnCoene/firebase/) integration package for R, empowering the Shiny user community by enabling user authentication and secure file storage through Firebase Storage.
 
-<br> 
+<br>
 
-* {{< fa angle-double-right >}} **DbVieweR**
-  + `R`, `SQL` - 2022 - Present
-  + Created a shiny app simulating a database management system featuring functions like login authentication, save/create/delete tables, add/rename columns, using either a PostgreSQL or SQLite back-end. [DbVieweR](https://github.com/munoztd0/DbVieweR)
+-   {{< fa angle-double-right >}} **DbVieweR**
+    -   `R`, `SQL` - 2022 - Present
+    -   Created a shiny app simulating a database management system featuring functions like login authentication, save/create/delete tables, add/rename columns, using either a PostgreSQL or SQLite back-end. [DbVieweR](https://github.com/munoztd0/DbVieweR)
 
-<br> 
+<br>
 
-* {{< fa angle-double-right >}} **brms**
-  + `R` - 2022
-  + Made small contributions to the [brms](https://paul-buerkner.github.io/brms/) package, including resolving issues related to class definition.
-
-* {{< fa angle-double-right >}} **reprtree**
-  + `R` - 2022
-  + Integrated the caret ensemble for [reprtree](https://github.com/araastat/reprtree) (implementation of representative trees from ensembles of tree-based machines).
-
-* {{< fa angle-double-right >}} **hBayesDM**
-  + `STAN`, `R`, `Python` - 2021
-  + Collaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library. Built Q-learning algorithm for probabilistic selection task. [hBayesDM](https://github.com/CCS-Lab/hBayesDM)
-
-* {{< fa angle-double-right >}} **3dLMEr**
-  + `BASH`, `R` - 2020
-  + Collaborated on the AFNI's functions for 3Dimensional Linear Mixed-Effects Regression. Fixed residuals output image by adding bottom tolerance. [3dLMEr](https://github.com/afni/afni/blob/ebd2aef51c27cf7684f38f580e1db832b1ccf621/src/R_scripts/3dLMEr.R)
-
+-   {{< fa angle-double-right >}} **brms**
+    -   `R` - 2022
+    -   Made small contributions to the [brms](https://paul-buerkner.github.io/brms/) package, including resolving issues related to class definition.
+-   {{< fa angle-double-right >}} **reprtree**
+    -   `R` - 2022
+    -   Integrated the caret ensemble for [reprtree](https://github.com/araastat/reprtree) (implementation of representative trees from ensembles of tree-based machines).
+-   {{< fa angle-double-right >}} **hBayesDM**
+    -   `STAN`, `R`, `Python` - 2021
+    -   Collaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library. Built Q-learning algorithm for probabilistic selection task. [hBayesDM](https://github.com/CCS-Lab/hBayesDM)
+-   {{< fa angle-double-right >}} **3dLMEr**
+    -   `BASH`, `R` - 2020
+    -   Collaborated on the AFNI's functions for 3Dimensional Linear Mixed-Effects Regression. Fixed residuals output image by adding bottom tolerance. [3dLMEr](https://github.com/afni/afni/blob/ebd2aef51c27cf7684f38f580e1db832b1ccf621/src/R_scripts/3dLMEr.R)
 
 <!-- Personal Projects: Developed and maintained several personal projects, including a data visualization dashboard for tracking personal productivity and a web scraper for gathering data on environmental pollution levels. -->
 
@@ -263,10 +254,10 @@ title-block-banner: true
 
 ## {{< fa user >}} Extracurricular Activities
 
-* {{< fa angle-double-right >}} Contributing to We Data’s mission by facilitating workshops, providing statistics tutorials, and participating in coding demonstrations.
-* {{< fa angle-double-right >}} Organizing R-Lunches at UniGe.
-* {{< fa angle-double-right >}} Co-founder of Go-Fast, a socially responsible Bike Messenger cooperative in Geneva.
-* {{< fa angle-double-right >}} Co-president of La Rustine, a non-profit organization promoting non-motorized mobility and self-sustainability in Switzerland.
+-   {{< fa angle-double-right >}} Contributing to We Data’s mission by facilitating workshops, providing statistics tutorials, and participating in coding demonstrations.
+-   {{< fa angle-double-right >}} Organizing R-Lunches at UniGe.
+-   {{< fa angle-double-right >}} Co-founder of Go-Fast, a socially responsible Bike Messenger cooperative in Geneva.
+-   {{< fa angle-double-right >}} Co-president of La Rustine, a non-profit organization promoting non-motorized mobility and self-sustainability in Switzerland.
 
 <br>
 

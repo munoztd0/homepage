@@ -1,0 +1,43 @@
+---
+title: "DbVieweR"
+author: "David Munoz Tord"
+date: 2024-02-12
+categories: [Project, Package, R, DBMS, SQL]
+format: html
+image: https://www.interviewbit.com/blog/wp-content/uploads/2021/08/dbms.jpg
+---
+
+# DbVieweR an R package for database management
+
+DbVieweR is a Shiny app that simulates a database management system, featuring functions like login/logout, save/create/delete tables, and add/rename columns.
+    
+    
+::: {.iframe-container}
+
+<iframe class="iframe-responsive" scrolling="yes" src="https://munoztd0.shinyapps.io/DbViewer/"></iframe>
+:::
+<br><br>
+<a href="https://munoztd0.shinyapps.io/DbViewer/" class="btn btn-secondary">Demo</a>
+<br>
+<div style="text-align: left">
+<h6>Description</h6>
+<hr>
+<p>
+
+Highlights of this app:
+    <br><br>
+    - Back-end database: Utilizes SQLite or PostgreSQL for storing dummy data.<br>
+    - Authorization: Incorporates the shinyauthr package to add an authentication layer to the app.<br>
+    <br><br>
+    Features of the app:
+    <br><br>
+    - Save tables: Store sales summary tables in the database.<br>
+    - Update existing tables: Rename tables or columns.<br>
+    - Create new tables: Customize table and column names, with options for integer, float, varchar(255), and boolean columns.<br>
+    - Create entries: Add entries to tables with customizable column types.<br>
+    - Delete tables: Accessible only with specific authorization.<br>
+    - Robustness: Defense mechanism prevents duplicates, invalid expressions, and conflicts with SQL keywords.<br>
+    <br><br>
+    Check out the project on <a href="https://github.com/munoztd0/DbVieweR">GitHub</a>.
+</p>
+</div>
