@@ -34,7 +34,7 @@ website:
       - text: "{{< fa address-card >}} About"
         href: about.qmd
       - text: "{{< fa paperclip >}} Vitae"
-        href: https://github.com/munoztd0/CV_DMT/raw/main/CV_DMT.pdf
+        href: vitae.qmd
       - text: "{{< fa paper-plane >}} Contact"
         href: contact.qmd
     right:

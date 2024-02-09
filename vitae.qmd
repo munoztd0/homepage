@@ -1,0 +1,286 @@
+---
+title: ""
+page-layout: full
+title-block-banner: true
+---
+
+# Full CV
+
+<br>
+
+## {{< fa compass >}} Personal Philosophy
+
+-   {{< fa angle-double-right >}} I believe that the 21st century requires a more multifaceted toolkit if we hope to solve complex challenges--process and task oriented approaches balanced within a framework that fosters strategic thinking. That interdisciplinary relationships can be strengthened through active community participation--working toward something with the shared value of doing good.
+
+-   {{< fa angle-double-right >}} I bring a lot of energy and enthusiasm to the projects that I become involved in. I thrive in situations that require imagination and innovation. My interests are varied; among my passions I would list: academic inquiry, classical and contemporary thought, the music and cuisine of other cultures, the arts, traveling, languages, and social justice. I believe that our most vulnerable deserve respect and to be treated with dignity and fairness.
+
+-   {{< fa angle-double-right >}} Ultimately I hope that the work I do is helpful--that it enables discovery or provides clarity. I hope to bring together practical and principled approaches and I hope to further grow as this philosophy guides me.
+
+<br>
+
+## {{< fa magic >}} Personal Skills
+
+-   {{< fa angle-double-right >}} I am dedicated and hard working --- a good communicator and active community participant. I work well on team efforts and projects with the ultimate aim of using data for social good.
+
+<br>
+
+-   {{< fa angle-double-right >}} I am:
+    -   {{< fa long-arrow-right >}} creative
+    -   {{< fa long-arrow-right >}} honest
+    -   {{< fa long-arrow-right >}} friendly
+    -   {{< fa long-arrow-right >}} enthusiastic
+    -   {{< fa long-arrow-right >}} keen to learn new things and take on new roles
+    -   {{< fa long-arrow-right >}} reliable
+    -   {{< fa long-arrow-right >}} a lateral thinker
+    -   {{< fa long-arrow-right >}} motivated
+    
+<br>
+
+-   {{< fa angle-double-right >}} I am able to:
+    -   {{< fa long-arrow-right >}} listen to and follow instructions accurately
+    -   {{< fa long-arrow-right >}} work cooperatively
+    -   {{< fa long-arrow-right >}} take on new challenges
+    -   {{< fa long-arrow-right >}} complete tasks
+    -   {{< fa long-arrow-right >}} support others
+    -   {{< fa long-arrow-right >}} identify new innovations and technologies while working toward implementing them
+    -   {{< fa long-arrow-right >}} be proactive
+    -   {{< fa long-arrow-right >}} speak and read in French, Spanish, and English
+    -   {{< fa long-arrow-right >}} read and understand some Japanese
+
+<br>
+
+## {{< fa code >}} Technical Skills
+
+
+
+-   {{< fa angle-double-right >}} **Coding:** `R`, `Python`, `STAN`, `BASH`, `SQL` and `JavaScript`.
+
+-   {{< fa angle-double-right >}} **Web Technologies:** HTML, CSS, Javascript; `Quarto` publishing; Rmarkdown Websites, Dashboards in R with `shiny`/`flexdashboard` that support `crosstalk`, and interactive data visualization with `echarts`; Static Site Generators, i.e., Hugo, and others.
+
+-   {{< fa angle-double-right >}} **OSs:** macOS, `Linux`, and containers. Within the Linux ecosystem, I have experience with Debian based distributions as well as Red Hat Enterprise Linux. I love the terminal and wish `vim` bindings were universal.
+
+-   {{< fa angle-double-right >}} **Data:** Relational Databases (data modeling and SQL); Extract-Transfer-Load (ETL) strategies for data engineering --- specifically with Apache `NIFI` for ETL; information retrieval; and, knowledge organizational theory. I have created my own DBMS in R and Shiny that uses `PostgreSQL` and SQLite as back-ends.
+
+-   {{< fa angle-double-right >}} **Data Science:** both R and Python are a big part of my workflow from reading in data, transforming and 'tidying' data, exploring and visualizing data, modeling, reporting, presenting, and tying it all together in a dashboard. In connection to R, I am a proponent of the `tidyverse` framework for its unifying API. With respect to Python, I enjoy using `polars`, `pyjanitor`, `pymc`, and `plotly` to work in equivalent ways. However I honestly prefer working in `R`. I am of course familiar with the `scikit-learn` and `tensorflow` libraries in Python. I have experience with `spark` as well, plus `torch` and `keras` for R. I have also worked with `brms` and `hBayesDM` for Bayesian modeling. 
+
+-   {{< fa angle-double-right >}} **DevOps tools:** Fair knowledge of `AWS` and its services, including `S3`, `Sagemaker`, `Glue`, and `EKS`. I have also worked with Azure DevOps. I am very familiar with `git` and `github` and have experience with `github actions` for CI/CD. I have also worked with `Docker` and I have some MlOps experience.
+
+
+<br>
+
+## {{< fa graduation-cap >}} Education
+
+{{< fa angle-double-right >}} **Doctor of Philosophy (Ph.D.) in Neurosciences** - University of Geneva, Switerland / Mar 2019 ‑ Nov 2022
+
+-   Research focus on computational models of addiction
+-   Thesis Title: *"Learning and Decision Making in Addiction: A Computational Approach"*
+-   Discontinued studies after 2.5 years
+
+{{< fa angle-double-right >}} **Master in Neurosciences** - University of Geneva, Switzerland / Sep 2018 ‑ Mar 2019 <br>
+
+-   Thesis: *"Differential contributions of ventral striatum subregions to the affective processing of reward"*
+-   Collaborated with CalTech data engineers to implement tICA for better identification of activation and artifact components in fMRI.
+
+{{< fa angle-double-right >}} **Complementary Studies in Data Science** - Smith College, MA, USA / Sep 2017 ‑ Jun 2018
+
+-   Capstone project: Leveraged SQL and R to create a comprehensive analysis of the entertainment industry's network using the IMDb database.
+
+{{< fa angle-double-right >}} **Bachelor of Science in Psychology** - University of Geneva, Switzerland /Sep 2014 ‑ Jun 2017
+
+-   Relevant coursework completed in statistics and scientific programming.
+
+<br>
+
+## {{< fa chart-bar >}} Coursework
+
+-   {{< fa angle-double-right >}} Data Sctuctures and Algorithms
+-   {{< fa angle-double-right >}} Data Mining
+-   {{< fa angle-double-right >}} Machine Learning
+-   {{< fa angle-double-right >}} Artificial Intelligence
+-   {{< fa angle-double-right >}} Linux System Administration
+-   {{< fa angle-double-right >}} Visualization for Scientific Data
+-   {{< fa angle-double-right >}} Database Management Systems
+-   {{< fa angle-double-right >}} Object-Oriented Programming
+-   {{< fa angle-double-right >}} Spatial Analysis
+
+<br>
+
+## {{< fa institution >}} Work Experience
+
+<ul>
+
+<h3>Freelancer</h3>
+
+<h4>Data Scientist - Part-time: Oct 2022 – Present \| Geneva, Switzerland</h4>
+
+<ul>{{< fa angle-double-right >}} ed the development and launch of a scientific project in collaboration with EPFL, transitioning initial scripts into a comprehensive Software as a Service (SaaS) solution accessible to clients via Elastic Kubernetes Service (EKS) on AWS.</ul>
+
+<ul>{{< fa angle-double-right >}} Offered technical consulting services to a startup specializing in cognitive and educational technologies, translating academic research in cognitive neuroscience and developmental psychology into actionable solutions, while also advising on machine learning implementations.</ul>
+
+<ul>{{< fa angle-double-right >}} Collaborated closely with analysts across departments to design, build, and deploy various initiatives within the data platform, including the development, deployment, and maintenance of data services using R and PostgreSQL. Additionally, implemented best practices for continuous process automation, resulting in significant time savings for month-end processing.</ul>
+
+</ul>
+
+<br> <!-- FlowBank / Full Stack Data Scientist -->
+
+<ul>
+
+<h3>FlowBank</h3>
+
+<h4>Full Stack Data Scientist - Part-time: Jan 2023 – Jan 2024 \| Geneva, Switzerland</h4>
+
+<ul>{{< fa angle-double-right >}} Conducted in-depth data analysis to classify customers using Bayesian inference, revealing distinct segments and patterns for data-driven decision-making and targeted strategies.</ul>
+
+<ul>{{< fa angle-double-right >}} Designed and implemented Apache NiFi ETL for efficient data processing and orchestration, contributing to streamlined data engineering workflows.</ul>
+
+<ul>{{< fa angle-double-right >}} Developed new internal tools for data analysts.</ul>
+
+</ul>
+
+<br> <!-- FlowBank / R Developer/ Data Engineer -->
+
+<ul>
+
+<h3>FlowBank</h3>
+
+<h4>R Developer/ Data Engineer - Apr 2022 – Jan 2023 \| Geneva, Switzerland</h4>
+
+<ul>{{< fa angle-double-right >}} Led the development of the data science infrastructure, creating an environment tailored for cutting-edge research and innovation.</ul>
+
+<ul>{{< fa angle-double-right >}} Developed and implemented complex statistical models in R to detect fraudulent transactions.</ul>
+
+<ul>{{< fa angle-double-right >}} Designed and maintained a data visualization dashboard in R Shiny, which allowed for easy monitoring of key performance indicators.</ul>
+
+</ul>
+
+<br> <!-- University of Geneva / Lecturer in Statistics -->
+
+<ul>
+
+<h3>University of Geneva</h3>
+
+<h4>Lecturer in Statistics - Part-time: Sep 2020 – Jan 2023 \| Geneva, Switzerland</h4>
+
+<ul>{{< fa angle-double-right >}} Conducted lectures on statistics for the graduate program.</ul>
+
+<ul>{{< fa angle-double-right >}} Mentored and supervised graduate students in their statistical research projects, nurturing their analytical skills and research capabilities.</ul>
+
+<ul> {{< fa angle-double-right >}} Created and shared freely available data 
+[workshops](https://github.com/munoztd0/teaching/blob/main/README.md) in R and Python.</ul>
+
+</ul>
+
+<br> 
+
+<ul>
+
+<h3>Smith College</h3>
+
+<h4>Research Assistant - Part-time: Sep 2017 – Jun 2018 \| Northampton, USA</h4>
+
+<ul>{{< fa angle-double-right >}} Led an independent research project in Pr. Wraga’s visual cognition group.</ul>
+
+<ul>{{< fa angle-double-right >}} Designed and collected data for a cognitive neuroscience experiment.</ul>
+
+</ul>
+
+<br> 
+
+<ul>
+
+<h3>University of Geneva</h3>
+
+<h4>Research Assistant - Part-time: Sep 2016 – Jun 2017 \| Geneva, Switzerland</h4>
+
+<ul>{{< fa angle-double-right >}} Led an independent research project as part of Dr. Burra’s attentional capture group.</ul>
+
+<ul>{{< fa angle-double-right >}} Conducted signal processing of EEG data.</ul>
+
+</ul>
+
+<br>
+
+
+
+## {{< fa cube >}} Open-Source Contributions
+
+* {{< fa angle-double-right >}} **echarts4r**
+  + `R`, `JavaScript` - 2023 - Present
+  + Collaborated on the development of [echarts4r](https://echarts4r.john-coene.com), a R package that expands the capabilities of R-based interactive visualizations with a powerful rendering engine, while enhancing flexibility and ease of use.
+
+<br> 
+
+* {{< fa angle-double-right >}} **Firebase**
+  + `R`, `JavaScript` - 2023 - Present
+  + Contributed to the [firebase](https://github.com/JohnCoene/firebase/) integration package for R, empowering the Shiny user community by enabling user authentication and secure file storage through Firebase Storage.
+
+<br> 
+
+* {{< fa angle-double-right >}} **DbVieweR**
+  + `R`, `SQL` - 2022 - Present
+  + Created a shiny app simulating a database management system featuring functions like login authentication, save/create/delete tables, add/rename columns, using either a PostgreSQL or SQLite back-end. [DbVieweR](https://github.com/munoztd0/DbVieweR)
+
+<br> 
+
+* {{< fa angle-double-right >}} **brms**
+  + `R` - 2022
+  + Made small contributions to the [brms](https://paul-buerkner.github.io/brms/) package, including resolving issues related to class definition.
+
+* {{< fa angle-double-right >}} **reprtree**
+  + `R` - 2022
+  + Integrated the caret ensemble for [reprtree](https://github.com/araastat/reprtree) (implementation of representative trees from ensembles of tree-based machines).
+
+* {{< fa angle-double-right >}} **hBayesDM**
+  + `STAN`, `R`, `Python` - 2021
+  + Collaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library. Built Q-learning algorithm for probabilistic selection task. [hBayesDM](https://github.com/CCS-Lab/hBayesDM)
+
+* {{< fa angle-double-right >}} **3dLMEr**
+  + `BASH`, `R` - 2020
+  + Collaborated on the AFNI's functions for 3Dimensional Linear Mixed-Effects Regression. Fixed residuals output image by adding bottom tolerance. [3dLMEr](https://github.com/afni/afni/blob/ebd2aef51c27cf7684f38f580e1db832b1ccf621/src/R_scripts/3dLMEr.R)
+
+
+<!-- Personal Projects: Developed and maintained several personal projects, including a data visualization dashboard for tracking personal productivity and a web scraper for gathering data on environmental pollution levels. -->
+
+<br>
+
+## {{< fa language >}} Languages
+
+-   {{< fa angle-double-right >}} French (Mother Tongue)
+-   {{< fa angle-double-right >}} Spanish (Mother Tongue)
+-   {{< fa angle-double-right >}} English (Fluent)
+-   {{< fa angle-double-right >}} German (Basic)
+-   {{< fa angle-double-right >}} Italian (Basic)
+
+<br>
+
+## {{< fa trophy >}} Accomplishments
+
+-   {{< fa angle-double-right >}} Top 2% on Stack Overflow in 2024
+-   {{< fa angle-double-right >}} Top 25% on GitHub in 2023
+-   {{< fa angle-double-right >}} Global Fellow scholarship recipient in 2017
+
+<br>
+
+## {{< fa user >}} Extracurricular Activities
+
+* {{< fa angle-double-right >}} Contributing to We Data’s mission by facilitating workshops, providing statistics tutorials, and participating in coding demonstrations.
+* {{< fa angle-double-right >}} Organizing R-Lunches at UniGe.
+* {{< fa angle-double-right >}} Co-founder of Go-Fast, a socially responsible Bike Messenger cooperative in Geneva.
+* {{< fa angle-double-right >}} Co-president of La Rustine, a non-profit organization promoting non-motorized mobility and self-sustainability in Switzerland.
+
+<br>
+
+## {{< fa lightbulb >}} Interests
+
+-   {{< fa angle-double-right >}} Artificial Intelligence
+-   {{< fa angle-double-right >}} Machine Learning
+-   {{< fa angle-double-right >}} Bayesian Statistics
+-   {{< fa angle-double-right >}} Natural Language Processing
+-   {{< fa angle-double-right >}} Data Visualization
+-   {{< fa angle-double-right >}} Ethics in Technology
+-   {{< fa angle-double-right >}} Data Privacy
+-   {{< fa angle-double-right >}} Data Engineering
+-   {{< fa angle-double-right >}} Cybersecurity
+-   {{< fa angle-double-right >}} Data Journalism
+
+<br> {{< fa link >}} References Available upon request.
