@@ -1,124 +1,5 @@
 [
   {
-    "objectID": "index.html#fa-hand-peace-hi-im-david.-fa-hand-peace-im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project",
-    "href": "index.html#fa-hand-peace-hi-im-david.-fa-hand-peace-im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project",
-    "title": "David Munoz Tord",
-    "section": " Hi, I’m David.   I’m a Data Scientist / R Developer always looking for a cool open-source project ! ",
-    "text": "Hi, I’m David.   I’m a Data Scientist / R Developer always looking for a cool open-source project !"
-  },
-  {
-    "objectID": "blog/Data_manip_Fundamental/index.html",
-    "href": "blog/Data_manip_Fundamental/index.html",
-    "title": "Data Manipulation with R",
-    "section": "",
-    "text": "By David Munoz Tord\nGoal: Learn more about data manipulation: how to pivot, join and filter data using {dplyr} and {tidyr} packages.\nOpen it full\nNote: All in english"
-  },
-  {
-    "objectID": "blog/Live/index.html",
-    "href": "blog/Live/index.html",
-    "title": "We-Data Live on YouTube",
-    "section": "",
-    "text": "By David Munoz Tord, Fabrice Hategekimana and Vestin Hategekimana\nLive of December 29 edited in which we present in more detail WeData, its functioning and its future.\nNote: video in french, ask in comments for subtitle in your language\nVideo link"
-  },
-  {
-    "objectID": "blog/llm/index.html",
-    "href": "blog/llm/index.html",
-    "title": "Your first chat bot with python!",
-    "section": "",
-    "text": "By David Munoz Tord\nGoal: Learn about language models and familiarize yourself with some of the basic functions of the {languagemodels} to create your own chat bot.\n{languagemodels} is a python module designed to be as simple as possible for learners and educators exploring how large language models intersect with modern software development. The interfaces to this package are all simple functions using standard types. The complexity of large language models is hidden from view while providing free local inference using light-weight, open models. All included models are free for educational use, no API keys are required, and all inference is performed locally by default.\nRead more about it\nYou can morph between plot like this:\n\nimport languagemodels as lm\nlm.do(\"What color is the sky?\")\n\n'The color of the sky is blue.'\n\n\nFetching 6 files:   0%|          | 0/6 [00:00&lt;?, ?it/s]\nFetching 6 files: 100%|##########| 6/6 [00:00&lt;00:00, 2553.87it/s]\n\n\n\nTo easy, let’s try something a bit harder\n\nlm.do(\"If I have 7 apples then eat 5, how many apples do I have?\")\n\n'You have 8 apples.'\n\n\nAouch…\nIndeed the model performance is quite low because the models used by this package are 1000x smaller than the largest models in use today. They are useful as learning tools, but if you are expecting ChatGPT or similar performance, you will be very disappointed…\nThe base model should work on any system with 512MB of memory, but this memory limit can be increased. Setting this value higher will require more memory and generate results more slowly, but the results should be superior. I let your try at home because this is rendered on a free server but if you uncomment lm.set_max_ram('4gb') you should get better results.\n\n#lm.set_max_ram('4gb')\nlm.do(\"If I have 7 apples then eat 5, how many apples do I have?\")\n\n'You have 8 apples.'\n\n\nYeah, here we go little (4gb) buddy!\n\nNow that we got the basics, let’s play with it!\n\nlm.chat('''\n     System: Respond as a helpful assistant.\n\n     User: What is relativity?\n\n     Assistant:\n     ''')\n\n'Relativity is the theory that explains how space and time are relative to each other.'\n\n\n\n\nlm.complete(\"She hid in her room until\")\n\n' she was alone.'\n\n\n\n\nlm.get_wiki(\"Physics\")\n\n'Physics is the natural science of matter, involving the study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force. Physics is one of the most fundamental scientific disciplines, with its main goal being to understand how the universe behaves. A scientist who specializes in the field of physics is called a physicist.\\n\\nPhysics is one of the oldest academic disciplines and, through its inclusion of astronomy, perhaps the oldest. Over much of the past two millennia, physics, chemistry, biology, and certain branches of mathematics were a part of natural philosophy, but during the Scientific Revolution in the 17th century these natural sciences emerged as unique research endeavors in their own right. Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined. New ideas in physics often explain the fundamental mechanisms studied by other sciences and suggest new avenues of research in these and other academic disciplines such as mathematics and philosophy.\\n\\nAdvances in physics often enable new technologies. For example, advances in the understanding of electromagnetism, solid-state physics, and nuclear physics led directly to the development of new products that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons; advances in thermodynamics led to the development of industrialization; and advances in mechanics inspired the development of calculus.'"
-  },
-  {
-    "objectID": "blog/Data_explor_Fundamentals/index.html",
-    "href": "blog/Data_explor_Fundamentals/index.html",
-    "title": "Data Exploration with R",
-    "section": "",
-    "text": "By David Munoz Tord\nGoal: Learn about data exploration and familiarize yourself with some of the basic functions of the tidyverse.\nOpen it full\nNote: All in english"
-  },
-  {
-    "objectID": "blog/Data_Viz_Fundamentals/index.html",
-    "href": "blog/Data_Viz_Fundamentals/index.html",
-    "title": "Data Viz Fundamentals with R",
-    "section": "",
-    "text": "By David Munoz Tord\nGoal: Go over the basics of data visualization with R and learn more advanced concepts using the ggplot package.\nNote: All is in english\nOpen it full"
-  },
-  {
-    "objectID": "blog/R-Lunches/index.html",
-    "href": "blog/R-Lunches/index.html",
-    "title": "R Lunches in university of Geneva",
-    "section": "",
-    "text": "By David Munoz Tord\nR lunches are multidisciplinary meetings on R at UniMail.\nWe finished this semester R Lunches but you can still find the video links if you missed one!\nRead more about it"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\n\nYour first chat bot with python!\n\n\n\n\n\n\n\n\n\n\n\n\nJun 27, 2023\n\n\nDavid Munoz Tord\n\n\n\n\n\n\n\n\nR Lunches in university of Geneva\n\n\n\n\n\n\n\n\n\n\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nWe-Data Live on YouTube\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nData Manipulation with R\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\n\n\n\n\n\n\nData Exploration with R\n\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\nData Viz Fundamentals with R\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/2023-04-Deploy-your-R-code/index.html",
-    "href": "talks/2023-04-Deploy-your-R-code/index.html",
-    "title": "Deploy Your R Code!",
-    "section": "",
-    "text": "Full Slides\nPresentation Recording"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Talks\n\n\n\n\n\n\n\n\n\n\n\n\nDeploy Your R Code!\n\n\n\n\n\n\n\n\n\n\n\n\nApr 4, 2023\n\n\nDavid Munoz Tord\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Contact\n\n\nContact me at david.munoztord@mailbox.org."
-  },
-  {
-    "objectID": "projects/2022-12-echarts4r/index.html",
-    "href": "projects/2022-12-echarts4r/index.html",
-    "title": "Echarts4r",
-    "section": "",
-    "text": "Full Screen\n\n\n\nDescription\n\n\n\nThis R package is a wrapper of the ECharts library. It provides a set of functions to generate interactive charts in R.  Highlights of this package:  - Provide functions to generate interactive charts in R. - The package is built on top of the ECharts library, which is a powerful library for data visualization. - The package provides a set of functions that can be used to generate charts with ECharts. - The package is still under development. More features will be added in the future. - The package is open source.   Features of the package: \n\nProvides more than 20 chart types available out of the box, along with a dozen components, and each of them can be arbitrarily combined to use.\nHas a powerful rendering engine that allows you to easily switch between Canvas and SVG rendering. Progressive rendering and stream loading make it possible to render 10 million data in realtime.\nOffers professional data analysis through datasets, which support data transforms like filtering, clustering, and regression to help analyze multi-dimensional analysis of the same data.\nHas an elegant visual design that follows visualization principles and supports responsive design. Flexible configurations make it easy to customize.\nHas a healthy community that ensures the healthy development of the project and contributes a wealth of third-party extensions.\nIs accessibility-friendly with automatically generated chart descriptions and decal patterns that help users with disabilities understand the content and the stories behind the charts.\n\n\nYou can check the project on Github."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "tl;dr\n\nPassionated about code  Bayesian stats  DevOps  Neurosciences  machine learning  beer  wine  coffee  travel  and striving for balance  I love abstract and conceptual thinking and am always trying to learn something new"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\n\n\nEcharts4r\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2022\n\n\nDavid Munoz Tord\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks copy/2018-09-ucla-cpi/index.html",
-    "href": "talks copy/2018-09-ucla-cpi/index.html",
-    "title": "Thoughts and Perspectives on PSH from the Ground Up",
-    "section": "",
-    "text": "Full Screen"
-  },
-  {
-    "objectID": "talks copy/2017-09-Data-and-Donuts/index.html",
-    "href": "talks copy/2017-09-Data-and-Donuts/index.html",
-    "title": "Ex-nihilo Data Analysis; Getting up and Running with Limited Resources",
-    "section": "",
-    "text": "Full Screen"
-  },
-  {
-    "objectID": "talks copy/2018-12-east-la-r-users/index.html",
-    "href": "talks copy/2018-12-east-la-r-users/index.html",
-    "title": "Interactive Dashboards with shiny",
-    "section": "",
-    "text": "Full Screen"
-  },
-  {
     "objectID": "vitae copy.html",
     "href": "vitae copy.html",
     "title": "Full CV",
@@ -173,5 +54,208 @@
     "title": "Full CV",
     "section": "",
     "text": "Learning more about statistics and data science; particularly its applications in R. I am more and more becoming interested in Bayesian approaches.\n\n\n Coding: I will likely never code as neatly as an engineer but I try to incorporate software engineering best practices as I can–I am very keen to become more proficient with workflows in airflow, deploying APIs to AWS, and taking on more data engineering as practicable.\n\n\n Design: I love typefaces and modernist design, in another life I would love to work as a designer or artist so it is something I passionately admire and sometimes try to do when time permits.\n\n\n Exploration: I like to explore other places through travel and food; ideologies through reading and communicating, and world through science and discovery!\n\n\nUpdated on: r Sys.Date()"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Talks\n\n\n\n\n\n\n\n\n\n\n\n\nDeploy Your R Code!\n\n\n\n\n\n\n\n\n\n\n\n\nApr 4, 2023\n\n\nDavid Munoz Tord\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks copy/2018-09-ucla-cpi/index.html",
+    "href": "talks copy/2018-09-ucla-cpi/index.html",
+    "title": "Thoughts and Perspectives on PSH from the Ground Up",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "talks copy/2017-09-Data-and-Donuts/index.html",
+    "href": "talks copy/2017-09-Data-and-Donuts/index.html",
+    "title": "Ex-nihilo Data Analysis; Getting up and Running with Limited Resources",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "talks copy/2018-12-east-la-r-users/index.html",
+    "href": "talks copy/2018-12-east-la-r-users/index.html",
+    "title": "Interactive Dashboards with shiny",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "blog/Data_manip_Fundamental/index.html",
+    "href": "blog/Data_manip_Fundamental/index.html",
+    "title": "Data Manipulation with R",
+    "section": "",
+    "text": "By David Munoz Tord\nGoal: Learn more about data manipulation: how to pivot, join and filter data using {dplyr} and {tidyr} packages.\nOpen it full\nNote: All in english"
+  },
+  {
+    "objectID": "blog/Live/index.html",
+    "href": "blog/Live/index.html",
+    "title": "We-Data Live on YouTube",
+    "section": "",
+    "text": "By David Munoz Tord, Fabrice Hategekimana and Vestin Hategekimana\nLive of December 29 edited in which we present in more detail WeData, its functioning and its future.\nNote: video in french, ask in comments for subtitle in your language\nVideo link"
+  },
+  {
+    "objectID": "blog/Data_explor_Fundamentals/index.html",
+    "href": "blog/Data_explor_Fundamentals/index.html",
+    "title": "Data Exploration with R",
+    "section": "",
+    "text": "By David Munoz Tord\nGoal: Learn about data exploration and familiarize yourself with some of the basic functions of the tidyverse.\nOpen it full\nNote: All in english"
+  },
+  {
+    "objectID": "blog/llm/index.html",
+    "href": "blog/llm/index.html",
+    "title": "Your first chat bot with python!",
+    "section": "",
+    "text": "By David Munoz Tord\nGoal: Learn about language models and familiarize yourself with some of the basic functions of the {languagemodels} to create your own chat bot.\n{languagemodels} is a python module designed to be as simple as possible for learners and educators exploring how large language models intersect with modern software development. The interfaces to this package are all simple functions using standard types. The complexity of large language models is hidden from view while providing free local inference using light-weight, open models. All included models are free for educational use, no API keys are required, and all inference is performed locally by default.\nRead more about it\nYou can morph between plot like this:\n\nimport languagemodels as lm\nlm.do(\"What color is the sky?\")\n\n'The color of the sky is blue.'\n\n\nFetching 6 files:   0%|          | 0/6 [00:00&lt;?, ?it/s]\nFetching 6 files: 100%|##########| 6/6 [00:00&lt;00:00, 2553.87it/s]\n\n\n\nTo easy, let’s try something a bit harder\n\nlm.do(\"If I have 7 apples then eat 5, how many apples do I have?\")\n\n'You have 8 apples.'\n\n\nAouch…\nIndeed the model performance is quite low because the models used by this package are 1000x smaller than the largest models in use today. They are useful as learning tools, but if you are expecting ChatGPT or similar performance, you will be very disappointed…\nThe base model should work on any system with 512MB of memory, but this memory limit can be increased. Setting this value higher will require more memory and generate results more slowly, but the results should be superior. I let your try at home because this is rendered on a free server but if you uncomment lm.set_max_ram('4gb') you should get better results.\n\n#lm.set_max_ram('4gb')\nlm.do(\"If I have 7 apples then eat 5, how many apples do I have?\")\n\n'You have 8 apples.'\n\n\nYeah, here we go little (4gb) buddy!\n\nNow that we got the basics, let’s play with it!\n\nlm.chat('''\n     System: Respond as a helpful assistant.\n\n     User: What is relativity?\n\n     Assistant:\n     ''')\n\n'Relativity is the theory that explains how space and time are relative to each other.'\n\n\n\n\nlm.complete(\"She hid in her room until\")\n\n' she was alone.'\n\n\n\n\nlm.get_wiki(\"Physics\")\n\n'Physics is the natural science of matter, involving the study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force. Physics is one of the most fundamental scientific disciplines, with its main goal being to understand how the universe behaves. A scientist who specializes in the field of physics is called a physicist.\\n\\nPhysics is one of the oldest academic disciplines and, through its inclusion of astronomy, perhaps the oldest. Over much of the past two millennia, physics, chemistry, biology, and certain branches of mathematics were a part of natural philosophy, but during the Scientific Revolution in the 17th century these natural sciences emerged as unique research endeavors in their own right. Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined. New ideas in physics often explain the fundamental mechanisms studied by other sciences and suggest new avenues of research in these and other academic disciplines such as mathematics and philosophy.\\n\\nAdvances in physics often enable new technologies. For example, advances in the understanding of electromagnetism, solid-state physics, and nuclear physics led directly to the development of new products that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons; advances in thermodynamics led to the development of industrialization; and advances in mechanics inspired the development of calculus.'"
+  },
+  {
+    "objectID": "blog/Data_Viz_Fundamentals/index.html",
+    "href": "blog/Data_Viz_Fundamentals/index.html",
+    "title": "Data Viz Fundamentals with R",
+    "section": "",
+    "text": "By David Munoz Tord\nGoal: Go over the basics of data visualization with R and learn more advanced concepts using the ggplot package.\nNote: All is in english\nOpen it full"
+  },
+  {
+    "objectID": "blog/R-Lunches/index.html",
+    "href": "blog/R-Lunches/index.html",
+    "title": "R Lunches in university of Geneva",
+    "section": "",
+    "text": "By David Munoz Tord\nR lunches are multidisciplinary meetings on R at UniMail.\nWe finished this semester R Lunches but you can still find the video links if you missed one!\nRead more about it"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\n\n\nEcharts4r\n\n\n\n\n\n\n\n\n\n\n\n\nApr 12, 2022\n\n\nDavid Munoz Tord\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#fa-hand-peace-hi-im-david.-fa-hand-peace-im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project",
+    "href": "index.html#fa-hand-peace-hi-im-david.-fa-hand-peace-im-a-data-scientist-r-developer-always-looking-for-a-cool-open-source-project",
+    "title": "David Munoz Tord",
+    "section": " Hi, I’m David.   I’m a Data Scientist / R Developer always looking for a cool open-source project ! ",
+    "text": "Hi, I’m David.   I’m a Data Scientist / R Developer always looking for a cool open-source project !"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "tl;dr\n\nPassionated about code  Bayesian stats  DevOps  Neurosciences  machine learning  beer  wine  coffee  travel  and striving for balance  I love abstract and conceptual thinking and am always trying to learn something new"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\n\n\nContact me at david.munoztord@mailbox.org."
+  },
+  {
+    "objectID": "vitae.html",
+    "href": "vitae.html",
+    "title": "Full CV",
+    "section": "",
+    "text": "I believe that the 21st century requires a more multifaceted toolkit if we hope to solve complex challenges–process and task oriented approaches balanced within a framework that fosters strategic thinking. That interdisciplinary relationships can be strengthened through active community participation–working toward something with the shared value of doing good.\n I bring a lot of energy and enthusiasm to the projects that I become involved in. I thrive in situations that require imagination and innovation. My interests are varied; among my passions I would list: academic inquiry, classical and contemporary thought, the music and cuisine of other cultures, the arts, traveling, languages, and social justice. I believe that our most vulnerable deserve respect and to be treated with dignity and fairness.\n Ultimately I hope that the work I do is helpful–that it enables discovery or provides clarity. I hope to bring together practical and principled approaches and I hope to further grow as this philosophy guides me.\n\n\n\n\n\n\n I am dedicated and hard working — a good communicator and active community participant. I work well on team efforts and projects with the ultimate aim of using data for social good.\n\n\n\n I am:\n\n creative\n honest\n friendly\n enthusiastic\n keen to learn new things and take on new roles\n reliable\n a lateral thinker\n motivated\n\n\n\n\n I am able to:\n\n listen to and follow instructions accurately\n work cooperatively\n take on new challenges\n complete tasks\n support others\n identify new innovations and technologies while working toward implementing them\n be proactive\n speak and read in French, Spanish, and English\n read and understand some Japanese\n\n\n\n\n\n\n\n Coding: R, Python, STAN, BASH, SQL and JavaScript.\n Web Technologies: HTML, CSS, Javascript; Quarto publishing; Rmarkdown Websites, Dashboards in R with shiny/flexdashboard that support crosstalk, and interactive data visualization with echarts; Static Site Generators, i.e., Hugo, and others.\n OSs: macOS, Linux, and containers. Within the Linux ecosystem, I have experience with Debian based distributions as well as Red Hat Enterprise Linux. I love the terminal and wish vim bindings were universal.\n Data: Relational Databases (data modeling and SQL); Extract-Transfer-Load (ETL) strategies for data engineering — specifically with Apache NIFI for ETL; information retrieval; and, knowledge organizational theory. I have created my own DBMS in R and Shiny that uses PostgreSQL and SQLite as back-ends.\n Data Science: both R and Python are a big part of my workflow from reading in data, transforming and ‘tidying’ data, exploring and visualizing data, modeling, reporting, presenting, and tying it all together in a dashboard. In connection to R, I am a proponent of the tidyverse framework for its unifying API. With respect to Python, I enjoy using polars, pyjanitor, pymc, and plotly to work in equivalent ways. However I honestly prefer working in R. I am of course familiar with the scikit-learn and tensorflow libraries in Python. I have experience with spark as well, plus torch and keras for R. I have also worked with brms and hBayesDM for Bayesian modeling.\n DevOps tools: Fair knowledge of AWS and its services, including S3, Sagemaker, Glue, and EKS. I have also worked with Azure DevOps. I am very familiar with git and github and have experience with github actions for CI/CD. I have also worked with Docker and I have some MlOps experience.\n\n\n\n\n\n Doctor of Philosophy (Ph.D.) in Neurosciences - University of Geneva, Switerland / Mar 2019 ‑ Nov 2022\n\nResearch focus on computational models of addiction\nThesis Title: “Learning and Decision Making in Addiction: A Computational Approach”\nDiscontinued studies after 2.5 years\n\n Master in Neurosciences - University of Geneva, Switzerland / Sep 2018 ‑ Mar 2019 \n\nThesis: “Differential contributions of ventral striatum subregions to the affective processing of reward”\nCollaborated with CalTech data engineers to implement tICA for better identification of activation and artifact components in fMRI.\n\n Complementary Studies in Data Science - Smith College, MA, USA / Sep 2017 ‑ Jun 2018\n\nCapstone project: Leveraged SQL and R to create a comprehensive analysis of the entertainment industry’s network using the IMDb database.\n\n Bachelor of Science in Psychology - University of Geneva, Switzerland /Sep 2014 ‑ Jun 2017\n\nRelevant coursework completed in statistics and scientific programming.\n\n\n\n\n\n\n Data Sctuctures and Algorithms\n Data Mining\n Machine Learning\n Artificial Intelligence\n Linux System Administration\n Visualization for Scientific Data\n Database Management Systems\n Object-Oriented Programming\n Spatial Analysis\n\n\n\n\n\n\n\n\n\n ed the development and launch of a scientific project in collaboration with EPFL, transitioning initial scripts into a comprehensive Software as a Service (SaaS) solution accessible to clients via Elastic Kubernetes Service (EKS) on AWS.\n\n\n Offered technical consulting services to a startup specializing in cognitive and educational technologies, translating academic research in cognitive neuroscience and developmental psychology into actionable solutions, while also advising on machine learning implementations.\n\n\n Collaborated closely with analysts across departments to design, build, and deploy various initiatives within the data platform, including the development, deployment, and maintenance of data services using R and PostgreSQL. Additionally, implemented best practices for continuous process automation, resulting in significant time savings for month-end processing.\n\n\n \n\n\n\n\n Conducted in-depth data analysis to classify customers using Bayesian inference, revealing distinct segments and patterns for data-driven decision-making and targeted strategies.\n\n\n Designed and implemented Apache NiFi ETL for efficient data processing and orchestration, contributing to streamlined data engineering workflows.\n\n\n Developed new internal tools for data analysts.\n\n\n \n\n\n\n\n Led the development of the data science infrastructure, creating an environment tailored for cutting-edge research and innovation.\n\n\n Developed and implemented complex statistical models in R to detect fraudulent transactions.\n\n\n Designed and maintained a data visualization dashboard in R Shiny, which allowed for easy monitoring of key performance indicators.\n\n\n \n\n\n\n\n Conducted lectures on statistics for the graduate program.\n\n\n Mentored and supervised graduate students in their statistical research projects, nurturing their analytical skills and research capabilities.\n\n\n Created and shared freely available data workshops in R and Python.\n\n\n\n\n\n\n\n Led an independent research project in Pr. Wraga’s visual cognition group.\n\n\n Designed and collected data for a cognitive neuroscience experiment.\n\n\n\n\n\n\n\n Led an independent research project as part of Dr. Burra’s attentional capture group.\n\n\n Conducted signal processing of EEG data.\n\n\n\n\n\n\n\n echarts4r\n\nR, JavaScript - 2023 - Present\nCollaborated on the development of echarts4r, a R package that expands the capabilities of R-based interactive visualizations with a powerful rendering engine, while enhancing flexibility and ease of use.\n\n\n\n\n Firebase\n\nR, JavaScript - 2023 - Present\nContributed to the firebase integration package for R, empowering the Shiny user community by enabling user authentication and secure file storage through Firebase Storage.\n\n\n\n\n DbVieweR\n\nR, SQL - 2022 - Present\nCreated a shiny app simulating a database management system featuring functions like login authentication, save/create/delete tables, add/rename columns, using either a PostgreSQL or SQLite back-end. DbVieweR\n\n\n\n\n brms\n\nR - 2022\nMade small contributions to the brms package, including resolving issues related to class definition.\n\n reprtree\n\nR - 2022\nIntegrated the caret ensemble for reprtree (implementation of representative trees from ensembles of tree-based machines).\n\n hBayesDM\n\nSTAN, R, Python - 2021\nCollaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library. Built Q-learning algorithm for probabilistic selection task. hBayesDM\n\n 3dLMEr\n\nBASH, R - 2020\nCollaborated on the AFNI’s functions for 3Dimensional Linear Mixed-Effects Regression. Fixed residuals output image by adding bottom tolerance. 3dLMEr\n\n\n\n\n\n\n\n\n French (Mother Tongue)\n Spanish (Mother Tongue)\n English (Fluent)\n German (Basic)\n Italian (Basic)\n\n\n\n\n\n\n Top 2% on Stack Overflow in 2024\n Top 25% on GitHub in 2023\n Global Fellow scholarship recipient in 2017\n\n\n\n\n\n\n Contributing to We Data’s mission by facilitating workshops, providing statistics tutorials, and participating in coding demonstrations.\n Organizing R-Lunches at UniGe.\n Co-founder of Go-Fast, a socially responsible Bike Messenger cooperative in Geneva.\n Co-president of La Rustine, a non-profit organization promoting non-motorized mobility and self-sustainability in Switzerland.\n\n\n\n\n\n\n Artificial Intelligence\n Machine Learning\n Bayesian Statistics\n Natural Language Processing\n Data Visualization\n Ethics in Technology\n Data Privacy\n Data Engineering\n Cybersecurity\n Data Journalism\n\n  References Available upon request."
+  },
+  {
+    "objectID": "vitae.html#fa-compass-personal-philosophy",
+    "href": "vitae.html#fa-compass-personal-philosophy",
+    "title": "Full CV",
+    "section": "",
+    "text": "I believe that the 21st century requires a more multifaceted toolkit if we hope to solve complex challenges–process and task oriented approaches balanced within a framework that fosters strategic thinking. That interdisciplinary relationships can be strengthened through active community participation–working toward something with the shared value of doing good.\n I bring a lot of energy and enthusiasm to the projects that I become involved in. I thrive in situations that require imagination and innovation. My interests are varied; among my passions I would list: academic inquiry, classical and contemporary thought, the music and cuisine of other cultures, the arts, traveling, languages, and social justice. I believe that our most vulnerable deserve respect and to be treated with dignity and fairness.\n Ultimately I hope that the work I do is helpful–that it enables discovery or provides clarity. I hope to bring together practical and principled approaches and I hope to further grow as this philosophy guides me."
+  },
+  {
+    "objectID": "vitae.html#fa-magic-personal-skills",
+    "href": "vitae.html#fa-magic-personal-skills",
+    "title": "Full CV",
+    "section": "",
+    "text": "I am dedicated and hard working — a good communicator and active community participant. I work well on team efforts and projects with the ultimate aim of using data for social good.\n\n\n\n I am:\n\n creative\n honest\n friendly\n enthusiastic\n keen to learn new things and take on new roles\n reliable\n a lateral thinker\n motivated\n\n\n\n\n I am able to:\n\n listen to and follow instructions accurately\n work cooperatively\n take on new challenges\n complete tasks\n support others\n identify new innovations and technologies while working toward implementing them\n be proactive\n speak and read in French, Spanish, and English\n read and understand some Japanese"
+  },
+  {
+    "objectID": "vitae.html#fa-code-technical-skills",
+    "href": "vitae.html#fa-code-technical-skills",
+    "title": "Full CV",
+    "section": "",
+    "text": "Coding: R, Python, STAN, BASH, SQL and JavaScript.\n Web Technologies: HTML, CSS, Javascript; Quarto publishing; Rmarkdown Websites, Dashboards in R with shiny/flexdashboard that support crosstalk, and interactive data visualization with echarts; Static Site Generators, i.e., Hugo, and others.\n OSs: macOS, Linux, and containers. Within the Linux ecosystem, I have experience with Debian based distributions as well as Red Hat Enterprise Linux. I love the terminal and wish vim bindings were universal.\n Data: Relational Databases (data modeling and SQL); Extract-Transfer-Load (ETL) strategies for data engineering — specifically with Apache NIFI for ETL; information retrieval; and, knowledge organizational theory. I have created my own DBMS in R and Shiny that uses PostgreSQL and SQLite as back-ends.\n Data Science: both R and Python are a big part of my workflow from reading in data, transforming and ‘tidying’ data, exploring and visualizing data, modeling, reporting, presenting, and tying it all together in a dashboard. In connection to R, I am a proponent of the tidyverse framework for its unifying API. With respect to Python, I enjoy using polars, pyjanitor, pymc, and plotly to work in equivalent ways. However I honestly prefer working in R. I am of course familiar with the scikit-learn and tensorflow libraries in Python. I have experience with spark as well, plus torch and keras for R. I have also worked with brms and hBayesDM for Bayesian modeling.\n DevOps tools: Fair knowledge of AWS and its services, including S3, Sagemaker, Glue, and EKS. I have also worked with Azure DevOps. I am very familiar with git and github and have experience with github actions for CI/CD. I have also worked with Docker and I have some MlOps experience."
+  },
+  {
+    "objectID": "vitae.html#fa-graduation-cap-education",
+    "href": "vitae.html#fa-graduation-cap-education",
+    "title": "Full CV",
+    "section": "",
+    "text": "Doctor of Philosophy (Ph.D.) in Neurosciences - University of Geneva, Switerland / Mar 2019 ‑ Nov 2022\n\nResearch focus on computational models of addiction\nThesis Title: “Learning and Decision Making in Addiction: A Computational Approach”\nDiscontinued studies after 2.5 years\n\n Master in Neurosciences - University of Geneva, Switzerland / Sep 2018 ‑ Mar 2019 \n\nThesis: “Differential contributions of ventral striatum subregions to the affective processing of reward”\nCollaborated with CalTech data engineers to implement tICA for better identification of activation and artifact components in fMRI.\n\n Complementary Studies in Data Science - Smith College, MA, USA / Sep 2017 ‑ Jun 2018\n\nCapstone project: Leveraged SQL and R to create a comprehensive analysis of the entertainment industry’s network using the IMDb database.\n\n Bachelor of Science in Psychology - University of Geneva, Switzerland /Sep 2014 ‑ Jun 2017\n\nRelevant coursework completed in statistics and scientific programming."
+  },
+  {
+    "objectID": "vitae.html#fa-chart-bar-coursework",
+    "href": "vitae.html#fa-chart-bar-coursework",
+    "title": "Full CV",
+    "section": "",
+    "text": "Data Sctuctures and Algorithms\n Data Mining\n Machine Learning\n Artificial Intelligence\n Linux System Administration\n Visualization for Scientific Data\n Database Management Systems\n Object-Oriented Programming\n Spatial Analysis"
+  },
+  {
+    "objectID": "vitae.html#fa-institution-work-experience",
+    "href": "vitae.html#fa-institution-work-experience",
+    "title": "Full CV",
+    "section": "",
+    "text": "ed the development and launch of a scientific project in collaboration with EPFL, transitioning initial scripts into a comprehensive Software as a Service (SaaS) solution accessible to clients via Elastic Kubernetes Service (EKS) on AWS.\n\n\n Offered technical consulting services to a startup specializing in cognitive and educational technologies, translating academic research in cognitive neuroscience and developmental psychology into actionable solutions, while also advising on machine learning implementations.\n\n\n Collaborated closely with analysts across departments to design, build, and deploy various initiatives within the data platform, including the development, deployment, and maintenance of data services using R and PostgreSQL. Additionally, implemented best practices for continuous process automation, resulting in significant time savings for month-end processing.\n\n\n \n\n\n\n\n Conducted in-depth data analysis to classify customers using Bayesian inference, revealing distinct segments and patterns for data-driven decision-making and targeted strategies.\n\n\n Designed and implemented Apache NiFi ETL for efficient data processing and orchestration, contributing to streamlined data engineering workflows.\n\n\n Developed new internal tools for data analysts.\n\n\n \n\n\n\n\n Led the development of the data science infrastructure, creating an environment tailored for cutting-edge research and innovation.\n\n\n Developed and implemented complex statistical models in R to detect fraudulent transactions.\n\n\n Designed and maintained a data visualization dashboard in R Shiny, which allowed for easy monitoring of key performance indicators.\n\n\n \n\n\n\n\n Conducted lectures on statistics for the graduate program.\n\n\n Mentored and supervised graduate students in their statistical research projects, nurturing their analytical skills and research capabilities.\n\n\n Created and shared freely available data workshops in R and Python.\n\n\n\n\n\n\n\n Led an independent research project in Pr. Wraga’s visual cognition group.\n\n\n Designed and collected data for a cognitive neuroscience experiment.\n\n\n\n\n\n\n\n Led an independent research project as part of Dr. Burra’s attentional capture group.\n\n\n Conducted signal processing of EEG data."
+  },
+  {
+    "objectID": "vitae.html#fa-cube-open-source-contributions",
+    "href": "vitae.html#fa-cube-open-source-contributions",
+    "title": "Full CV",
+    "section": "",
+    "text": "echarts4r\n\nR, JavaScript - 2023 - Present\nCollaborated on the development of echarts4r, a R package that expands the capabilities of R-based interactive visualizations with a powerful rendering engine, while enhancing flexibility and ease of use.\n\n\n\n\n Firebase\n\nR, JavaScript - 2023 - Present\nContributed to the firebase integration package for R, empowering the Shiny user community by enabling user authentication and secure file storage through Firebase Storage.\n\n\n\n\n DbVieweR\n\nR, SQL - 2022 - Present\nCreated a shiny app simulating a database management system featuring functions like login authentication, save/create/delete tables, add/rename columns, using either a PostgreSQL or SQLite back-end. DbVieweR\n\n\n\n\n brms\n\nR - 2022\nMade small contributions to the brms package, including resolving issues related to class definition.\n\n reprtree\n\nR - 2022\nIntegrated the caret ensemble for reprtree (implementation of representative trees from ensembles of tree-based machines).\n\n hBayesDM\n\nSTAN, R, Python - 2021\nCollaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library. Built Q-learning algorithm for probabilistic selection task. hBayesDM\n\n 3dLMEr\n\nBASH, R - 2020\nCollaborated on the AFNI’s functions for 3Dimensional Linear Mixed-Effects Regression. Fixed residuals output image by adding bottom tolerance. 3dLMEr"
+  },
+  {
+    "objectID": "vitae.html#fa-language-languages",
+    "href": "vitae.html#fa-language-languages",
+    "title": "Full CV",
+    "section": "",
+    "text": "French (Mother Tongue)\n Spanish (Mother Tongue)\n English (Fluent)\n German (Basic)\n Italian (Basic)"
+  },
+  {
+    "objectID": "vitae.html#fa-trophy-accomplishments",
+    "href": "vitae.html#fa-trophy-accomplishments",
+    "title": "Full CV",
+    "section": "",
+    "text": "Top 2% on Stack Overflow in 2024\n Top 25% on GitHub in 2023\n Global Fellow scholarship recipient in 2017"
+  },
+  {
+    "objectID": "vitae.html#fa-user-extracurricular-activities",
+    "href": "vitae.html#fa-user-extracurricular-activities",
+    "title": "Full CV",
+    "section": "",
+    "text": "Contributing to We Data’s mission by facilitating workshops, providing statistics tutorials, and participating in coding demonstrations.\n Organizing R-Lunches at UniGe.\n Co-founder of Go-Fast, a socially responsible Bike Messenger cooperative in Geneva.\n Co-president of La Rustine, a non-profit organization promoting non-motorized mobility and self-sustainability in Switzerland."
+  },
+  {
+    "objectID": "vitae.html#fa-lightbulb-interests",
+    "href": "vitae.html#fa-lightbulb-interests",
+    "title": "Full CV",
+    "section": "",
+    "text": "Artificial Intelligence\n Machine Learning\n Bayesian Statistics\n Natural Language Processing\n Data Visualization\n Ethics in Technology\n Data Privacy\n Data Engineering\n Cybersecurity\n Data Journalism\n\n  References Available upon request."
+  },
+  {
+    "objectID": "talks/2023-04-Deploy-your-R-code/index.html",
+    "href": "talks/2023-04-Deploy-your-R-code/index.html",
+    "title": "Deploy Your R Code!",
+    "section": "",
+    "text": "Full Slides\nPresentation Recording"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\n\nYour first chat bot with python!\n\n\n\n\n\n\n\n\n\n\n\n\nJun 27, 2023\n\n\nDavid Munoz Tord\n\n\n\n\n\n\n\n\nR Lunches in university of Geneva\n\n\n\n\n\n\n\n\n\n\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\nWe-Data Live on YouTube\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nData Manipulation with R\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2022\n\n\n\n\n\n\n\n\nData Exploration with R\n\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\nData Viz Fundamentals with R\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/2022-12-echarts4r/index.html",
+    "href": "projects/2022-12-echarts4r/index.html",
+    "title": "Echarts4r",
+    "section": "",
+    "text": "Full Screen\n\n\n\nDescription\n\n\n\nThis R package is a wrapper of the ECharts library. It provides a set of functions to generate interactive charts in R.  Highlights of this package:  - Provide functions to generate interactive charts in R. - The package is built on top of the ECharts library, which is a powerful library for data visualization. - The package provides a set of functions that can be used to generate charts with ECharts. - The package is still under development. More features will be added in the future. - The package is open source.   Features of the package: \n\nProvides more than 20 chart types available out of the box, along with a dozen components, and each of them can be arbitrarily combined to use.\nHas a powerful rendering engine that allows you to easily switch between Canvas and SVG rendering. Progressive rendering and stream loading make it possible to render 10 million data in realtime.\nOffers professional data analysis through datasets, which support data transforms like filtering, clustering, and regression to help analyze multi-dimensional analysis of the same data.\nHas an elegant visual design that follows visualization principles and supports responsive design. Flexible configurations make it easy to customize.\nHas a healthy community that ensures the healthy development of the project and contributes a wealth of third-party extensions.\nIs accessibility-friendly with automatically generated chart descriptions and decal patterns that help users with disabilities understand the content and the stories behind the charts.\n\n\nYou can check the project on Github."
   }
 ]
