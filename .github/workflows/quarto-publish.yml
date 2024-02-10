@@ -24,8 +24,8 @@ jobs:
             packages:
               any::knitr
               any::rmarkdown
-              any::downlit
-              any::xml2
+              any::reticulate
+              #any::xml2
 
         - name: Publish to GitHub Pages (and render)
           uses: quarto-dev/quarto-actions/publish@v2
