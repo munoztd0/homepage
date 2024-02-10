@@ -1,4 +1,7 @@
-Sys.setenv(RETICULATE_CONDA = "~/Repos/anaconda3/condabin/conda")
+
+Sys.setenv(
+  RETICULATE_CONDA = "~/snap/miniforge3/bin/conda"
+)
 
 source("renv/activate.R")
 

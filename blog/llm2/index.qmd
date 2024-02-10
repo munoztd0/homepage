@@ -52,7 +52,7 @@ lm.set_max_ram('8gb')
 lm.do("If I have 7 apples then eat 5, how many apples do I have?")
 ```
 
-Yeah, here we go little (4gb) buddy!
+Yeah, here we go little (*gb) buddy!
 
 <br/>
 
