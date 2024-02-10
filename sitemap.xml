@@ -1,79 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://david-munoztord.com/vitae copy.html</loc>
-    <lastmod>2024-02-09T11:56:36.576Z</lastmod>
-  </url>
-  <url>
     <loc>https://david-munoztord.com/talks.html</loc>
-    <lastmod>2024-02-09T11:56:37.764Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-munoztord.com/talks copy/2018-09-ucla-cpi/index.html</loc>
-    <lastmod>2024-02-09T11:56:38.144Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-munoztord.com/talks copy/2017-09-Data-and-Donuts/index.html</loc>
-    <lastmod>2024-02-09T11:56:38.512Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-munoztord.com/talks copy/2018-12-east-la-r-users/index.html</loc>
-    <lastmod>2024-02-09T11:56:38.880Z</lastmod>
+    <lastmod>2024-02-10T09:50:47.247Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Data_manip_Fundamental/index.html</loc>
-    <lastmod>2024-02-09T11:56:39.236Z</lastmod>
+    <lastmod>2024-02-10T09:50:49.351Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Live/index.html</loc>
-    <lastmod>2024-02-09T11:56:39.596Z</lastmod>
+    <lastmod>2024-02-10T09:50:49.727Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Data_explor_Fundamentals/index.html</loc>
-    <lastmod>2024-02-09T11:56:39.988Z</lastmod>
+    <lastmod>2024-02-10T09:50:50.083Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/llm/index.html</loc>
-    <lastmod>2024-02-09T11:56:40.448Z</lastmod>
+    <lastmod>2024-02-10T09:50:50.567Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Data_Viz_Fundamentals/index.html</loc>
-    <lastmod>2024-02-09T11:56:40.812Z</lastmod>
+    <lastmod>2024-02-10T09:50:50.951Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/R-Lunches/index.html</loc>
-    <lastmod>2024-02-09T11:56:41.168Z</lastmod>
+    <lastmod>2024-02-10T09:50:51.319Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects.html</loc>
-    <lastmod>2024-02-09T11:56:41.608Z</lastmod>
+    <lastmod>2024-02-10T09:50:51.803Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-munoztord.com/services/data_engineering/index.html</loc>
+    <lastmod>2024-02-10T09:50:52.207Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/index.html</loc>
-    <lastmod>2024-02-09T11:56:42.100Z</lastmod>
+    <lastmod>2024-02-10T09:50:52.723Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/about.html</loc>
-    <lastmod>2024-02-09T11:56:42.504Z</lastmod>
+    <lastmod>2024-02-10T09:50:53.139Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/contact.html</loc>
-    <lastmod>2024-02-09T11:56:42.884Z</lastmod>
+    <lastmod>2024-02-10T09:50:53.483Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/vitae.html</loc>
-    <lastmod>2024-02-09T11:56:43.848Z</lastmod>
+    <lastmod>2024-02-10T09:50:54.455Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/talks/2023-04-Deploy-your-R-code/index.html</loc>
-    <lastmod>2024-02-09T11:56:44.204Z</lastmod>
+    <lastmod>2024-02-10T09:50:54.819Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog.html</loc>
-    <lastmod>2024-02-09T11:56:44.768Z</lastmod>
+    <lastmod>2024-02-10T09:50:55.543Z</lastmod>
   </url>
   <url>
-    <loc>https://david-munoztord.com/projects/2022-12-echarts4r/index.html</loc>
-    <lastmod>2024-02-09T11:56:45.196Z</lastmod>
+    <loc>https://david-munoztord.com/services.html</loc>
+    <lastmod>2024-02-10T09:50:55.927Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-munoztord.com/projects/DbVieweR/index.html</loc>
+    <lastmod>2024-02-10T09:50:56.339Z</lastmod>
   </url>
 </urlset>
