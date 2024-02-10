@@ -11,6 +11,7 @@ tags: ["language models", "llm", "chatGPT"]
 #| label: setup
 #| include: false
 library(reticulate)
+# require(rmarkdown)
 reticulate::use_condaenv(condaenv = "py3")
 ```
 
