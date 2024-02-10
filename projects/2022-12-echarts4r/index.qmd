@@ -35,38 +35,38 @@ mtcars |>
   e_boxplot(mpg, colorBy="data",) |>
   e_tooltip(trigger = "axis") |>
   e_title("Descriptive Stats on mtcars Data") #|>
-  #e_toolbox_feature(feature = "saveAsImage")  # add the download button!
-# 
-# # Plot 2
-# lakers |>           
-#   mutate(date = lubridate::ymd(date)) |>
-#   mutate(points = points+runif(n=34624, min=-0.5, max=0.5) ) |>
-#   group_by(date) |>
-#   summarise(points2 = sum(points),
-#             min= points2 - (50 +min(points)),
-#             max=points2 + (50+max(points)) ) |> 
-#   e_charts(date) |>
-#   e_line(points2) |>
-#   e_band2(min, max, color = "lemonchiffon") |>
-#   e_tooltip(trigger = "axis") |>
-#   e_title("Lakers Timeseries Data") |>
-#   e_toolbox_feature(feature = "saveAsImage")  # add the download button!
-# 
-# # Plot 3
-# starwars |>
-#   e_charts(mass) |>
-#   e_scatter(height, bind = name, symbol_size = 5, legend =F) |>
-#   e_datazoom() |>
-#   e_tooltip(
-#     formatter = htmlwidgets::JS("
-#       function(params){
-#         return('<strong>' + params.name + 
-#                 '</strong><br />mass: ' + params.value[0] + 
-#                 '<br />height: ' + params.value[1]) 
-#                 }
-#     ")) |> # little JS formatter to make it pretty
-#   e_title("Starwars Outlier Data") |>
-#   e_toolbox_feature(feature = "saveAsImage")  # add the download button!
+  e_toolbox_feature(feature = "saveAsImage")  # add the download button!
+
+# Plot 2
+lakers |>           
+  mutate(date = lubridate::ymd(date)) |>
+  mutate(points = points+runif(n=34624, min=-0.5, max=0.5) ) |>
+  group_by(date) |>
+  summarise(points2 = sum(points),
+            min= points2 - (50 +min(points)),
+            max=points2 + (50+max(points)) ) |> 
+  e_charts(date) |>
+  e_line(points2) |>
+  e_band2(min, max, color = "lemonchiffon") |>
+  e_tooltip(trigger = "axis") |>
+  e_title("Lakers Timeseries Data") |>
+  e_toolbox_feature(feature = "saveAsImage")  # add the download button!
+
+# Plot 3
+starwars |>
+  e_charts(mass) |>
+  e_scatter(height, bind = name, symbol_size = 5, legend =F) |>
+  e_datazoom() |>
+  e_tooltip(
+    formatter = htmlwidgets::JS("
+      function(params){
+        return('<strong>' + params.name + 
+                '</strong><br />mass: ' + params.value[0] + 
+                '<br />height: ' + params.value[1]) 
+                }
+    ")) |> # little JS formatter to make it pretty
+  e_title("Starwars Outlier Data") |>
+  e_toolbox_feature(feature = "saveAsImage")  # add the download button!
   
 ```
 
