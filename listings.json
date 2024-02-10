@@ -8,7 +8,8 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/DbVieweR/index.html"
+      "/projects/DbVieweR/index.html",
+      "/projects/2022-12-echarts4r/index.html"
     ]
   },
   {
@@ -21,7 +22,8 @@
       "/blog/Data_explor_Fundamentals/index.html",
       "/blog/Data_Viz_Fundamentals/index.html",
       "/talks/2023-04-Deploy-your-R-code/index.html",
-      "/projects/DbVieweR/index.html"
+      "/projects/DbVieweR/index.html",
+      "/projects/2022-12-echarts4r/index.html"
     ]
   },
   {
