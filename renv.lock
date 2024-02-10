@@ -402,30 +402,6 @@
       ],
       "Hash": "2d7b3857980e0e0d0a1fd6f11928ab0f"
     },
-    "rmarkdown": {
-      "Package": "rmarkdown",
-      "Version": "2.25",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "bslib",
-        "evaluate",
-        "fontawesome",
-        "htmltools",
-        "jquerylib",
-        "jsonlite",
-        "knitr",
-        "methods",
-        "stringr",
-        "tinytex",
-        "tools",
-        "utils",
-        "xfun",
-        "yaml"
-      ],
-      "Hash": "d65e35823c817f09f4de424fcdfa812a"
-    },
     "htmlwidgets": {
       "Package": "htmlwidgets",
       "Version": "1.6.4",
@@ -717,6 +693,34 @@
         "utils"
       ],
       "Hash": "50a6dbdc522936ca35afc5e2082ea91b"
+    },
+    "rmarkdown": {
+      "Package": "rmarkdown",
+      "Version": "2.25.3",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "rmarkdown",
+      "RemoteRef": "main",
+      "RemoteSha": "07e2a9902915eef52ab0b085ca344f1a371dcdf0",
+      "Requirements": [
+        "R",
+        "bslib",
+        "evaluate",
+        "fontawesome",
+        "htmltools",
+        "jquerylib",
+        "jsonlite",
+        "knitr",
+        "methods",
+        "tinytex",
+        "tools",
+        "utils",
+        "xfun",
+        "yaml"
+      ],
+      "Hash": "900b7114db1a44a2a3d172f6413caea6"
     },
     "rprojroot": {
       "Package": "rprojroot",
