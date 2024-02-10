@@ -20,7 +20,6 @@ This R package is a wrapper of the <a href="https://echarts.apache.org/en/index.
 options(warn=-1)
 
 library(dplyr)
-library(rmarkdown)
 library(echarts4r)
 library(lubridate)
 
