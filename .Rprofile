@@ -1,6 +1,7 @@
 
 Sys.setenv(
-  RETICULATE_CONDA = "~/snap/miniforge3/bin/conda"
+  RETICULATE_CONDA = "~/snap/miniforge3/bin/conda",
+  RETICULATE_PYTHON = "/usr/bin/python"
 )
 
 source("renv/activate.R")

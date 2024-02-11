@@ -8,7 +8,7 @@ tags: ["language models", "llm", "chatGPT"]
 
 
 ```{r}
-#| label: setup
+#| label: setup python
 #| include: false
 library(reticulate)
 path <- here::here()
@@ -25,7 +25,6 @@ By [David Munoz Tord](https://david-munoztord.com/)
 
 [Read more about it](https://github.com/jncraton/languagemodels)
 
-You can morph between plot like this:
 
 ```{python}
 
@@ -46,27 +45,27 @@ Aouch...
 
 Indeed the model performance is quite low because the models used by this package are 1000x smaller than the largest models in use today. They are useful as learning tools, but if you are expecting ChatGPT or similar performance, you will be very disappointed...
 
-The base model should work on any system with 512MB of memory, but this memory limit can be increased. Setting this value higher will require more memory and generate results more slowly, but the results should be superior. I let your try at home because this is rendered on a free server but if you uncomment `lm.set_max_ram('4gb')` you should get better results.
+The base model should work on any system with 512MB of memory, but this memory limit can be increased. Setting this value higher will require more memory and generate results more slowly, but the results should be superior. 
 
 ```{python}
-lm.set_max_ram('8gb')
+lm.set_max_ram('4gb')
 lm.do("If I have 7 apples then eat 5, how many apples do I have?")
 ```
 
-Yeah, here we go little (*gb) buddy!
+Yeah, here we go little (4gb) buddy!
 
 <br/>
 
-Now that we got the basics, let's play with it!
+Now that we got the basics, let's play with it! You can change the prompt like such
 
 ```{python}
 
 lm.chat('''
-     System: Respond as a helpful assistant.
+     System: Respond as a physics professor.
 
      User: What is relativity?
 
-     Assistant:
+     Professor:
      ''')
 
 ```
