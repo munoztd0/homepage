@@ -245,71 +245,101 @@ gtag('config', 'G-DGPQ7WF7PV', { 'anonymize_ip': true});
 <p>{<a href="https://github.com/jncraton/languagemodels">languagemodels</a>} is a python module designed to be as simple as possible for learners and educators exploring how large language models intersect with modern software development. The interfaces to this package are all simple functions using standard types. The complexity of large language models is hidden from view while providing free local inference using light-weight, open models. All included models are free for educational use, no API keys are required, and all inference is performed locally by default.</p>
 <p><a href="https://github.com/jncraton/languagemodels">Read more about it</a></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> languagemodels <span class="im">as</span> lm</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>lm.do(<span class="st">"What color is the sky?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> languagemodels <span class="im">as</span> lm</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>lm.do(<span class="st">"What color is the sky?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'The color of the sky is blue.'
 
 
 tokenizer.json:   0%|          | 0.00/2.42M [00:00&lt;?, ?B/s]
-tokenizer.json: 100%|##########| 2.42M/2.42M [00:00&lt;00:00, 40.0MB/s]
+tokenizer.json: 100%|##########| 2.42M/2.42M [00:00&lt;00:00, 19.2MB/s]
+tokenizer.json: 100%|##########| 2.42M/2.42M [00:00&lt;00:00, 18.9MB/s]
 
 Fetching 6 files:   0%|          | 0/6 [00:00&lt;?, ?it/s]
 
 config.json:   0%|          | 0.00/162 [00:00&lt;?, ?B/s][A
-config.json: 100%|##########| 162/162 [00:00&lt;00:00, 948kB/s]
+config.json: 100%|##########| 162/162 [00:00&lt;00:00, 973kB/s]
 
-Fetching 6 files:  17%|#6        | 1/6 [00:00&lt;00:00,  6.20it/s]
+Fetching 6 files:  17%|#6        | 1/6 [00:00&lt;00:01,  3.86it/s]
 
 model.bin:   0%|          | 0.00/249M [00:00&lt;?, ?B/s][A
 
-model.bin:   4%|4         | 10.5M/249M [00:00&lt;00:03, 75.5MB/s][A
+model.bin:   4%|4         | 10.5M/249M [00:00&lt;00:13, 18.2MB/s][A
 
-model.bin:  13%|#2        | 31.5M/249M [00:00&lt;00:01, 130MB/s] [A
+model.bin:   8%|8         | 21.0M/249M [00:00&lt;00:07, 31.3MB/s][A
 
-model.bin:  21%|##1       | 52.4M/249M [00:00&lt;00:01, 153MB/s][A
+model.bin:  13%|#2        | 31.5M/249M [00:00&lt;00:05, 43.1MB/s][A
 
-model.bin:  29%|##9       | 73.4M/249M [00:00&lt;00:01, 165MB/s][A
+model.bin:  17%|#6        | 41.9M/249M [00:01&lt;00:04, 47.8MB/s][A
 
-model.bin:  38%|###7      | 94.4M/249M [00:00&lt;00:00, 172MB/s][A
+model.bin:  21%|##1       | 52.4M/249M [00:01&lt;00:03, 50.6MB/s][A
 
-model.bin:  46%|####6     | 115M/249M [00:00&lt;00:00, 176MB/s] [A
+model.bin:  25%|##5       | 62.9M/249M [00:01&lt;00:03, 57.6MB/s][A
 
-model.bin:  55%|#####4    | 136M/249M [00:00&lt;00:00, 178MB/s][A
+model.bin:  29%|##9       | 73.4M/249M [00:01&lt;00:03, 56.5MB/s][A
 
-model.bin:  63%|######3   | 157M/249M [00:00&lt;00:00, 180MB/s][A
+model.bin:  34%|###3      | 83.9M/249M [00:01&lt;00:03, 54.9MB/s][A
 
-model.bin:  72%|#######1  | 178M/249M [00:01&lt;00:00, 181MB/s][A
+model.bin:  38%|###7      | 94.4M/249M [00:01&lt;00:02, 54.2MB/s][A
 
-model.bin:  80%|########  | 199M/249M [00:01&lt;00:00, 183MB/s][A
+model.bin:  42%|####2     | 105M/249M [00:02&lt;00:02, 55.3MB/s] [A
 
-model.bin:  88%|########8 | 220M/249M [00:01&lt;00:00, 183MB/s][A
+model.bin:  46%|####6     | 115M/249M [00:02&lt;00:02, 54.5MB/s][A
 
-model.bin:  97%|#########6| 241M/249M [00:01&lt;00:00, 184MB/s][A
-model.bin: 100%|##########| 249M/249M [00:01&lt;00:00, 172MB/s]
+model.bin:  51%|#####     | 126M/249M [00:02&lt;00:02, 55.0MB/s][A
 
-Fetching 6 files:  33%|###3      | 2/6 [00:01&lt;00:04,  1.12s/it]
+model.bin:  55%|#####4    | 136M/249M [00:02&lt;00:01, 56.7MB/s][A
+
+model.bin:  59%|#####8    | 147M/249M [00:02&lt;00:01, 60.1MB/s][A
+
+model.bin:  63%|######3   | 157M/249M [00:03&lt;00:01, 60.7MB/s][A
+
+model.bin:  67%|######7   | 168M/249M [00:03&lt;00:01, 62.6MB/s][A
+
+model.bin:  72%|#######1  | 178M/249M [00:03&lt;00:01, 61.4MB/s][A
+
+model.bin:  76%|#######5  | 189M/249M [00:03&lt;00:01, 59.7MB/s][A
+
+model.bin:  80%|########  | 199M/249M [00:03&lt;00:01, 49.0MB/s][A
+
+model.bin:  84%|########4 | 210M/249M [00:04&lt;00:00, 50.5MB/s][A
+
+model.bin:  88%|########8 | 220M/249M [00:04&lt;00:00, 53.1MB/s][A
+
+model.bin:  93%|#########2| 231M/249M [00:04&lt;00:00, 57.7MB/s][A
+
+model.bin:  97%|#########6| 241M/249M [00:04&lt;00:00, 57.1MB/s][A
+
+model.bin: 100%|##########| 249M/249M [00:04&lt;00:00, 58.1MB/s][A
+model.bin: 100%|##########| 249M/249M [00:04&lt;00:00, 53.1MB/s]
+
+Fetching 6 files:  33%|###3      | 2/6 [00:05&lt;00:13,  3.29s/it]
 
 shared_vocabulary.txt:   0%|          | 0.00/299k [00:00&lt;?, ?B/s][A
-shared_vocabulary.txt: 100%|##########| 299k/299k [00:00&lt;00:00, 11.6MB/s]
 
-Fetching 6 files:  50%|#####     | 3/6 [00:02&lt;00:01,  1.51it/s]
+shared_vocabulary.txt: 100%|##########| 299k/299k [00:00&lt;00:00, 1.54MB/s][A
+shared_vocabulary.txt: 100%|##########| 299k/299k [00:00&lt;00:00, 1.54MB/s]
+
+Fetching 6 files:  50%|#####     | 3/6 [00:06&lt;00:06,  2.02s/it]
 
 special_tokens_map.json:   0%|          | 0.00/2.20k [00:00&lt;?, ?B/s][A
-special_tokens_map.json: 100%|##########| 2.20k/2.20k [00:00&lt;00:00, 14.9MB/s]
+special_tokens_map.json: 100%|##########| 2.20k/2.20k [00:00&lt;00:00, 13.3MB/s]
 
+Fetching 6 files:  67%|######6   | 4/6 [00:06&lt;00:02,  1.29s/it]
 
 tokenizer_config.json:   0%|          | 0.00/2.50k [00:00&lt;?, ?B/s][A
-tokenizer_config.json: 100%|##########| 2.50k/2.50k [00:00&lt;00:00, 16.1MB/s]
+tokenizer_config.json: 100%|##########| 2.50k/2.50k [00:00&lt;00:00, 14.4MB/s]
 
-Fetching 6 files: 100%|##########| 6/6 [00:02&lt;00:00,  3.81it/s]
-Fetching 6 files: 100%|##########| 6/6 [00:02&lt;00:00,  2.68it/s]</code></pre>
+Fetching 6 files: 100%|##########| 6/6 [00:06&lt;00:00,  1.53it/s]
+Fetching 6 files: 100%|##########| 6/6 [00:06&lt;00:00,  1.09s/it]</code></pre>
 </div>
 </div>
 <p><br></p>
 <p>To easy, let’s try something a bit harder</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>lm.do(<span class="st">"If I have 7 apples then eat 5, how many apples do I have?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>lm.do(<span class="st">"If I have 7 apples then eat 5, how many apples do I have?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'You have 8 apples.'</code></pre>
 </div>
@@ -318,356 +348,578 @@ Fetching 6 files: 100%|##########| 6/6 [00:02&lt;00:00,  2.68it/s]</code></pre>
 <p>Indeed the model performance is quite low because the models used by this package are 1000x smaller than the largest models in use today. They are useful as learning tools, but if you are expecting ChatGPT or similar performance, you will be very disappointed…</p>
 <p>The base model should work on any system with 512MB of memory, but this memory limit can be increased. Setting this value higher will require more memory and generate results more slowly, but the results should be superior.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>lm.set_max_ram(<span class="st">'4gb'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>lm.set_max_ram(<span class="st">'4gb'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>4.0</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>lm.do(<span class="st">"If I have 7 apples then eat 5, how many apples do I have?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>lm.do(<span class="st">"If I have 7 apples then eat 5, how many apples do I have?"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'After eating 5 apples, you will have 7 - 5 = 4 apples left.'
 
 
 tokenizer.json:   0%|          | 0.00/2.42M [00:00&lt;?, ?B/s]
-tokenizer.json: 100%|##########| 2.42M/2.42M [00:00&lt;00:00, 40.8MB/s]
+tokenizer.json: 100%|##########| 2.42M/2.42M [00:00&lt;00:00, 6.15MB/s]
+tokenizer.json: 100%|##########| 2.42M/2.42M [00:00&lt;00:00, 6.12MB/s]
 
 Fetching 7 files:   0%|          | 0/7 [00:00&lt;?, ?it/s]
 
 config.json:   0%|          | 0.00/162 [00:00&lt;?, ?B/s][A
-config.json: 100%|##########| 162/162 [00:00&lt;00:00, 919kB/s]
+config.json: 100%|##########| 162/162 [00:00&lt;00:00, 1.01MB/s]
 
-Fetching 7 files:  14%|#4        | 1/7 [00:00&lt;00:01,  4.76it/s]
+Fetching 7 files:  14%|#4        | 1/7 [00:00&lt;00:01,  3.80it/s]
 
 generation_config.json:   0%|          | 0.00/142 [00:00&lt;?, ?B/s][A
-generation_config.json: 100%|##########| 142/142 [00:00&lt;00:00, 819kB/s]
+generation_config.json: 100%|##########| 142/142 [00:00&lt;00:00, 842kB/s]
 
+Fetching 7 files:  29%|##8       | 2/7 [00:00&lt;00:01,  4.01it/s]
 
 model.bin:   0%|          | 0.00/2.86G [00:00&lt;?, ?B/s][A
 
-model.bin:   0%|          | 10.5M/2.86G [00:00&lt;00:39, 72.9MB/s][A
+model.bin:   0%|          | 10.5M/2.86G [00:00&lt;02:54, 16.3MB/s][A
 
-model.bin:   1%|1         | 31.5M/2.86G [00:00&lt;00:22, 125MB/s] [A
+model.bin:   1%|          | 21.0M/2.86G [00:00&lt;01:42, 27.7MB/s][A
 
-model.bin:   2%|1         | 52.4M/2.86G [00:00&lt;00:18, 149MB/s][A
+model.bin:   1%|1         | 31.5M/2.86G [00:00&lt;01:13, 38.4MB/s][A
 
-model.bin:   3%|2         | 73.4M/2.86G [00:00&lt;00:17, 161MB/s][A
+model.bin:   1%|1         | 41.9M/2.86G [00:01&lt;00:59, 47.1MB/s][A
 
-model.bin:   3%|3         | 94.4M/2.86G [00:00&lt;00:16, 168MB/s][A
+model.bin:   2%|1         | 52.4M/2.86G [00:01&lt;00:55, 50.2MB/s][A
 
-model.bin:   4%|4         | 115M/2.86G [00:00&lt;00:15, 172MB/s] [A
+model.bin:   2%|2         | 62.9M/2.86G [00:01&lt;00:50, 55.5MB/s][A
 
-model.bin:   5%|4         | 136M/2.86G [00:00&lt;00:15, 176MB/s][A
+model.bin:   3%|2         | 73.4M/2.86G [00:01&lt;00:48, 57.6MB/s][A
 
-model.bin:   6%|5         | 157M/2.86G [00:00&lt;00:15, 177MB/s][A
+model.bin:   3%|2         | 83.9M/2.86G [00:01&lt;00:58, 47.7MB/s][A
 
-model.bin:   6%|6         | 178M/2.86G [00:01&lt;00:15, 177MB/s][A
+model.bin:   3%|3         | 94.4M/2.86G [00:02&lt;00:55, 50.0MB/s][A
 
-model.bin:   7%|6         | 199M/2.86G [00:01&lt;00:14, 178MB/s][A
+model.bin:   4%|3         | 105M/2.86G [00:02&lt;00:59, 45.9MB/s] [A
 
-model.bin:   8%|7         | 220M/2.86G [00:01&lt;00:14, 179MB/s][A
+model.bin:   4%|4         | 115M/2.86G [00:02&lt;01:02, 44.2MB/s][A
 
-model.bin:   8%|8         | 241M/2.86G [00:01&lt;00:14, 179MB/s][A
+model.bin:   4%|4         | 126M/2.86G [00:02&lt;00:57, 47.4MB/s][A
 
-model.bin:   9%|9         | 262M/2.86G [00:01&lt;00:14, 179MB/s][A
+model.bin:   5%|4         | 136M/2.86G [00:03&lt;01:06, 40.7MB/s][A
 
-model.bin:  10%|9         | 283M/2.86G [00:01&lt;00:14, 179MB/s][A
+model.bin:   5%|5         | 147M/2.86G [00:03&lt;01:03, 42.4MB/s][A
 
-model.bin:  11%|#         | 304M/2.86G [00:01&lt;00:14, 180MB/s][A
+model.bin:   6%|5         | 157M/2.86G [00:03&lt;00:58, 46.3MB/s][A
 
-model.bin:  11%|#1        | 325M/2.86G [00:01&lt;00:13, 182MB/s][A
+model.bin:   6%|5         | 168M/2.86G [00:03&lt;00:55, 48.2MB/s][A
 
-model.bin:  12%|#2        | 346M/2.86G [00:02&lt;00:13, 182MB/s][A
+model.bin:   6%|6         | 178M/2.86G [00:03&lt;00:49, 53.9MB/s][A
 
-model.bin:  13%|#2        | 367M/2.86G [00:02&lt;00:13, 183MB/s][A
+model.bin:   7%|6         | 189M/2.86G [00:04&lt;00:48, 54.9MB/s][A
 
-model.bin:  14%|#3        | 388M/2.86G [00:02&lt;00:13, 183MB/s][A
+model.bin:   7%|6         | 199M/2.86G [00:04&lt;00:47, 55.4MB/s][A
 
-model.bin:  14%|#4        | 409M/2.86G [00:02&lt;00:13, 183MB/s][A
+model.bin:   7%|7         | 210M/2.86G [00:04&lt;00:49, 53.5MB/s][A
 
-model.bin:  15%|#5        | 430M/2.86G [00:02&lt;00:13, 183MB/s][A
+model.bin:   8%|7         | 220M/2.86G [00:04&lt;00:48, 54.3MB/s][A
 
-model.bin:  16%|#5        | 451M/2.86G [00:02&lt;00:13, 184MB/s][A
+model.bin:   8%|8         | 231M/2.86G [00:04&lt;00:44, 59.1MB/s][A
 
-model.bin:  17%|#6        | 472M/2.86G [00:02&lt;00:12, 183MB/s][A
+model.bin:   8%|8         | 241M/2.86G [00:04&lt;00:44, 58.9MB/s][A
 
-model.bin:  17%|#7        | 493M/2.86G [00:02&lt;00:12, 183MB/s][A
+model.bin:   9%|8         | 252M/2.86G [00:05&lt;00:41, 63.4MB/s][A
 
-model.bin:  18%|#7        | 514M/2.86G [00:02&lt;00:12, 183MB/s][A
+model.bin:   9%|9         | 262M/2.86G [00:05&lt;00:45, 57.1MB/s][A
 
-model.bin:  19%|#8        | 535M/2.86G [00:03&lt;00:12, 183MB/s][A
+model.bin:  10%|9         | 273M/2.86G [00:05&lt;00:48, 53.5MB/s][A
 
-model.bin:  19%|#9        | 556M/2.86G [00:03&lt;00:12, 183MB/s][A
+model.bin:  10%|9         | 283M/2.86G [00:05&lt;00:48, 52.7MB/s][A
 
-model.bin:  20%|##        | 577M/2.86G [00:03&lt;00:12, 183MB/s][A
+model.bin:  10%|#         | 294M/2.86G [00:06&lt;00:53, 47.9MB/s][A
 
-model.bin:  21%|##        | 598M/2.86G [00:03&lt;00:12, 183MB/s][A
+model.bin:  11%|#         | 304M/2.86G [00:06&lt;00:51, 49.9MB/s][A
 
-model.bin:  22%|##1       | 619M/2.86G [00:03&lt;00:12, 183MB/s][A
+model.bin:  11%|#1        | 315M/2.86G [00:06&lt;00:49, 51.5MB/s][A
 
-model.bin:  22%|##2       | 640M/2.86G [00:03&lt;00:12, 184MB/s][A
+model.bin:  11%|#1        | 325M/2.86G [00:06&lt;00:44, 56.5MB/s][A
 
-model.bin:  23%|##3       | 661M/2.86G [00:03&lt;00:12, 181MB/s][A
+model.bin:  12%|#1        | 336M/2.86G [00:06&lt;00:44, 57.1MB/s][A
 
-model.bin:  24%|##3       | 682M/2.86G [00:03&lt;00:12, 180MB/s][A
+model.bin:  12%|#2        | 346M/2.86G [00:07&lt;00:49, 51.1MB/s][A
 
-model.bin:  25%|##4       | 703M/2.86G [00:03&lt;00:12, 177MB/s][A
+model.bin:  12%|#2        | 357M/2.86G [00:07&lt;00:47, 53.0MB/s][A
 
-model.bin:  25%|##5       | 724M/2.86G [00:04&lt;00:11, 179MB/s][A
+model.bin:  13%|#2        | 367M/2.86G [00:07&lt;00:46, 53.0MB/s][A
 
-model.bin:  26%|##6       | 744M/2.86G [00:04&lt;00:11, 180MB/s][A
+model.bin:  13%|#3        | 377M/2.86G [00:07&lt;00:46, 53.8MB/s][A
 
-model.bin:  27%|##6       | 765M/2.86G [00:04&lt;00:11, 181MB/s][A
+model.bin:  14%|#3        | 388M/2.86G [00:07&lt;00:45, 54.1MB/s][A
 
-model.bin:  28%|##7       | 786M/2.86G [00:04&lt;00:11, 182MB/s][A
+model.bin:  14%|#3        | 398M/2.86G [00:07&lt;00:42, 58.4MB/s][A
 
-model.bin:  28%|##8       | 807M/2.86G [00:04&lt;00:11, 183MB/s][A
+model.bin:  14%|#4        | 409M/2.86G [00:08&lt;00:41, 58.3MB/s][A
 
-model.bin:  29%|##9       | 828M/2.86G [00:04&lt;00:11, 183MB/s][A
+model.bin:  15%|#4        | 419M/2.86G [00:08&lt;00:42, 58.0MB/s][A
 
-model.bin:  30%|##9       | 849M/2.86G [00:04&lt;00:10, 183MB/s][A
+model.bin:  15%|#5        | 430M/2.86G [00:08&lt;00:41, 58.0MB/s][A
 
-model.bin:  30%|###       | 870M/2.86G [00:04&lt;00:10, 181MB/s][A
+model.bin:  15%|#5        | 440M/2.86G [00:08&lt;00:38, 62.2MB/s][A
 
-model.bin:  31%|###1      | 891M/2.86G [00:05&lt;00:10, 181MB/s][A
+model.bin:  16%|#5        | 451M/2.86G [00:08&lt;00:39, 60.6MB/s][A
 
-model.bin:  32%|###1      | 912M/2.86G [00:05&lt;00:10, 182MB/s][A
+model.bin:  16%|#6        | 461M/2.86G [00:08&lt;00:38, 61.6MB/s][A
 
-model.bin:  33%|###2      | 933M/2.86G [00:05&lt;00:10, 179MB/s][A
+model.bin:  17%|#6        | 472M/2.86G [00:09&lt;00:37, 63.4MB/s][A
 
-model.bin:  33%|###3      | 954M/2.86G [00:05&lt;00:10, 180MB/s][A
+model.bin:  17%|#6        | 482M/2.86G [00:09&lt;00:41, 57.1MB/s][A
 
-model.bin:  34%|###4      | 975M/2.86G [00:05&lt;00:10, 180MB/s][A
+model.bin:  17%|#7        | 493M/2.86G [00:09&lt;00:41, 56.7MB/s][A
 
-model.bin:  35%|###4      | 996M/2.86G [00:05&lt;00:10, 178MB/s][A
+model.bin:  18%|#7        | 503M/2.86G [00:09&lt;00:38, 61.9MB/s][A
 
-model.bin:  36%|###5      | 1.02G/2.86G [00:05&lt;00:10, 178MB/s][A
+model.bin:  18%|#7        | 514M/2.86G [00:09&lt;00:39, 60.0MB/s][A
 
-model.bin:  36%|###6      | 1.04G/2.86G [00:05&lt;00:10, 179MB/s][A
+model.bin:  18%|#8        | 524M/2.86G [00:09&lt;00:36, 64.5MB/s][A
 
-model.bin:  37%|###7      | 1.06G/2.86G [00:05&lt;00:10, 179MB/s][A
+model.bin:  19%|#8        | 535M/2.86G [00:10&lt;00:37, 61.9MB/s][A
 
-model.bin:  38%|###7      | 1.08G/2.86G [00:06&lt;00:09, 179MB/s][A
+model.bin:  19%|#9        | 545M/2.86G [00:10&lt;00:38, 60.0MB/s][A
 
-model.bin:  39%|###8      | 1.10G/2.86G [00:06&lt;00:09, 179MB/s][A
+model.bin:  19%|#9        | 556M/2.86G [00:10&lt;00:35, 64.6MB/s][A
 
-model.bin:  39%|###9      | 1.12G/2.86G [00:06&lt;00:09, 180MB/s][A
+model.bin:  20%|#9        | 566M/2.86G [00:10&lt;00:38, 60.0MB/s][A
 
-model.bin:  40%|####      | 1.14G/2.86G [00:06&lt;00:09, 180MB/s][A
+model.bin:  20%|##        | 577M/2.86G [00:10&lt;00:43, 52.2MB/s][A
 
-model.bin:  41%|####      | 1.16G/2.86G [00:06&lt;00:09, 179MB/s][A
+model.bin:  21%|##        | 587M/2.86G [00:11&lt;00:41, 55.2MB/s][A
 
-model.bin:  41%|####1     | 1.18G/2.86G [00:06&lt;00:09, 176MB/s][A
+model.bin:  21%|##        | 598M/2.86G [00:11&lt;00:38, 58.2MB/s][A
 
-model.bin:  42%|####2     | 1.21G/2.86G [00:06&lt;00:09, 178MB/s][A
+model.bin:  21%|##1       | 608M/2.86G [00:11&lt;00:46, 47.8MB/s][A
 
-model.bin:  43%|####2     | 1.23G/2.86G [00:06&lt;00:09, 180MB/s][A
+model.bin:  22%|##1       | 619M/2.86G [00:11&lt;00:42, 52.4MB/s][A
 
-model.bin:  44%|####3     | 1.25G/2.86G [00:06&lt;00:08, 180MB/s][A
+model.bin:  22%|##2       | 629M/2.86G [00:11&lt;00:40, 54.7MB/s][A
 
-model.bin:  44%|####4     | 1.27G/2.86G [00:07&lt;00:08, 181MB/s][A
+model.bin:  22%|##2       | 640M/2.86G [00:12&lt;00:37, 59.7MB/s][A
 
-model.bin:  45%|####5     | 1.29G/2.86G [00:07&lt;00:08, 181MB/s][A
+model.bin:  23%|##2       | 650M/2.86G [00:12&lt;00:37, 58.4MB/s][A
 
-model.bin:  46%|####5     | 1.31G/2.86G [00:07&lt;00:08, 180MB/s][A
+model.bin:  23%|##3       | 661M/2.86G [00:12&lt;00:38, 57.7MB/s][A
 
-model.bin:  47%|####6     | 1.33G/2.86G [00:07&lt;00:08, 181MB/s][A
+model.bin:  24%|##3       | 671M/2.86G [00:12&lt;00:36, 60.2MB/s][A
 
-model.bin:  47%|####7     | 1.35G/2.86G [00:07&lt;00:08, 181MB/s][A
+model.bin:  24%|##3       | 682M/2.86G [00:12&lt;00:35, 61.1MB/s][A
 
-model.bin:  48%|####8     | 1.37G/2.86G [00:07&lt;00:08, 181MB/s][A
+model.bin:  24%|##4       | 692M/2.86G [00:12&lt;00:36, 59.5MB/s][A
 
-model.bin:  49%|####8     | 1.39G/2.86G [00:07&lt;00:08, 182MB/s][A
+model.bin:  25%|##4       | 703M/2.86G [00:13&lt;00:33, 63.4MB/s][A
 
-model.bin:  50%|####9     | 1.42G/2.86G [00:07&lt;00:07, 181MB/s][A
+model.bin:  25%|##4       | 713M/2.86G [00:13&lt;00:35, 60.9MB/s][A
 
-model.bin:  50%|#####     | 1.44G/2.86G [00:08&lt;00:07, 182MB/s][A
+model.bin:  25%|##5       | 724M/2.86G [00:13&lt;00:36, 59.1MB/s][A
 
-model.bin:  51%|#####1    | 1.46G/2.86G [00:08&lt;00:07, 182MB/s][A
+model.bin:  26%|##5       | 734M/2.86G [00:13&lt;00:33, 63.6MB/s][A
 
-model.bin:  52%|#####1    | 1.48G/2.86G [00:08&lt;00:07, 182MB/s][A
+model.bin:  26%|##6       | 744M/2.86G [00:13&lt;00:41, 51.4MB/s][A
 
-model.bin:  53%|#####2    | 1.50G/2.86G [00:08&lt;00:07, 181MB/s][A
+model.bin:  27%|##6       | 765M/2.86G [00:14&lt;00:31, 65.4MB/s][A
 
-model.bin:  53%|#####3    | 1.52G/2.86G [00:08&lt;00:07, 176MB/s][A
+model.bin:  27%|##7       | 776M/2.86G [00:14&lt;00:33, 61.3MB/s][A
 
-model.bin:  54%|#####3    | 1.54G/2.86G [00:08&lt;00:07, 176MB/s][A
+model.bin:  28%|##7       | 786M/2.86G [00:14&lt;00:32, 64.5MB/s][A
 
-model.bin:  55%|#####4    | 1.56G/2.86G [00:08&lt;00:07, 177MB/s][A
+model.bin:  28%|##7       | 797M/2.86G [00:14&lt;00:33, 62.1MB/s][A
 
-model.bin:  55%|#####5    | 1.58G/2.86G [00:08&lt;00:07, 177MB/s][A
+model.bin:  28%|##8       | 807M/2.86G [00:14&lt;00:33, 60.4MB/s][A
 
-model.bin:  56%|#####6    | 1.60G/2.86G [00:08&lt;00:07, 178MB/s][A
+model.bin:  29%|##8       | 818M/2.86G [00:14&lt;00:31, 64.6MB/s][A
 
-model.bin:  57%|#####6    | 1.63G/2.86G [00:09&lt;00:06, 178MB/s][A
+model.bin:  29%|##9       | 828M/2.86G [00:15&lt;00:32, 61.8MB/s][A
 
-model.bin:  58%|#####7    | 1.65G/2.86G [00:09&lt;00:06, 180MB/s][A
+model.bin:  29%|##9       | 839M/2.86G [00:15&lt;00:30, 65.3MB/s][A
 
-model.bin:  58%|#####8    | 1.67G/2.86G [00:09&lt;00:06, 179MB/s][A
+model.bin:  30%|##9       | 849M/2.86G [00:15&lt;00:32, 62.2MB/s][A
 
-model.bin:  59%|#####9    | 1.69G/2.86G [00:09&lt;00:06, 180MB/s][A
+model.bin:  30%|###       | 860M/2.86G [00:15&lt;00:33, 60.3MB/s][A
 
-model.bin:  60%|#####9    | 1.71G/2.86G [00:09&lt;00:06, 181MB/s][A
+model.bin:  30%|###       | 870M/2.86G [00:15&lt;00:30, 64.5MB/s][A
 
-model.bin:  61%|######    | 1.73G/2.86G [00:09&lt;00:06, 180MB/s][A
+model.bin:  31%|###       | 881M/2.86G [00:15&lt;00:31, 61.8MB/s][A
 
-model.bin:  61%|######1   | 1.75G/2.86G [00:09&lt;00:06, 180MB/s][A
+model.bin:  31%|###1      | 891M/2.86G [00:16&lt;00:41, 47.0MB/s][A
 
-model.bin:  62%|######2   | 1.77G/2.86G [00:09&lt;00:05, 181MB/s][A
+model.bin:  32%|###1      | 912M/2.86G [00:16&lt;00:28, 68.8MB/s][A
 
-model.bin:  63%|######2   | 1.79G/2.86G [00:10&lt;00:05, 182MB/s][A
+model.bin:  32%|###2      | 923M/2.86G [00:16&lt;00:28, 68.0MB/s][A
 
-model.bin:  64%|######3   | 1.81G/2.86G [00:10&lt;00:05, 182MB/s][A
+model.bin:  33%|###2      | 933M/2.86G [00:16&lt;00:29, 64.3MB/s][A
 
-model.bin:  64%|######4   | 1.84G/2.86G [00:10&lt;00:05, 183MB/s][A
+model.bin:  33%|###3      | 944M/2.86G [00:16&lt;00:28, 67.9MB/s][A
 
-model.bin:  65%|######4   | 1.86G/2.86G [00:10&lt;00:09, 110MB/s][A
+model.bin:  33%|###3      | 954M/2.86G [00:17&lt;00:29, 63.9MB/s][A
 
-model.bin:  66%|######5   | 1.88G/2.86G [00:10&lt;00:11, 87.3MB/s][A
+model.bin:  34%|###3      | 965M/2.86G [00:17&lt;00:30, 61.0MB/s][A
 
-model.bin:  66%|######6   | 1.90G/2.86G [00:11&lt;00:09, 103MB/s] [A
+model.bin:  34%|###4      | 975M/2.86G [00:17&lt;00:31, 59.1MB/s][A
 
-model.bin:  67%|######7   | 1.92G/2.86G [00:11&lt;00:11, 82.3MB/s][A
+model.bin:  35%|###4      | 986M/2.86G [00:17&lt;00:29, 63.5MB/s][A
 
-model.bin:  68%|######7   | 1.94G/2.86G [00:11&lt;00:10, 84.6MB/s][A
+model.bin:  35%|###4      | 996M/2.86G [00:17&lt;00:36, 50.7MB/s][A
 
-model.bin:  69%|######8   | 1.96G/2.86G [00:11&lt;00:08, 101MB/s] [A
+model.bin:  35%|###5      | 1.01G/2.86G [00:18&lt;00:32, 56.4MB/s][A
 
-model.bin:  69%|######9   | 1.98G/2.86G [00:12&lt;00:10, 85.3MB/s][A
+model.bin:  36%|###5      | 1.02G/2.86G [00:18&lt;00:36, 50.3MB/s][A
 
-model.bin:  70%|#######   | 2.00G/2.86G [00:12&lt;00:09, 91.1MB/s][A
+model.bin:  36%|###5      | 1.03G/2.86G [00:18&lt;00:41, 44.3MB/s][A
 
-model.bin:  71%|#######   | 2.02G/2.86G [00:12&lt;00:09, 91.7MB/s][A
+model.bin:  36%|###6      | 1.04G/2.86G [00:18&lt;00:38, 47.4MB/s][A
 
-model.bin:  71%|#######1  | 2.03G/2.86G [00:12&lt;00:09, 88.5MB/s][A
+model.bin:  37%|###6      | 1.05G/2.86G [00:19&lt;00:40, 44.1MB/s][A
 
-model.bin:  72%|#######1  | 2.04G/2.86G [00:12&lt;00:09, 86.3MB/s][A
+model.bin:  37%|###7      | 1.06G/2.86G [00:19&lt;00:36, 49.9MB/s][A
 
-model.bin:  72%|#######1  | 2.06G/2.86G [00:13&lt;00:10, 79.0MB/s][A
+model.bin:  37%|###7      | 1.07G/2.86G [00:19&lt;00:34, 51.8MB/s][A
 
-model.bin:  72%|#######2  | 2.07G/2.86G [00:13&lt;00:10, 72.5MB/s][A
+model.bin:  38%|###7      | 1.08G/2.86G [00:19&lt;00:32, 54.1MB/s][A
 
-model.bin:  73%|#######2  | 2.08G/2.86G [00:13&lt;00:10, 71.4MB/s][A
+model.bin:  38%|###8      | 1.09G/2.86G [00:19&lt;00:32, 53.8MB/s][A
 
-model.bin:  73%|#######3  | 2.10G/2.86G [00:13&lt;00:08, 89.7MB/s][A
+model.bin:  39%|###8      | 1.10G/2.86G [00:19&lt;00:31, 55.0MB/s][A
 
-model.bin:  74%|#######4  | 2.12G/2.86G [00:13&lt;00:07, 96.0MB/s][A
+model.bin:  39%|###8      | 1.11G/2.86G [00:20&lt;00:32, 54.4MB/s][A
 
-model.bin:  75%|#######4  | 2.14G/2.86G [00:13&lt;00:07, 98.0MB/s][A
+model.bin:  39%|###9      | 1.12G/2.86G [00:20&lt;00:29, 58.2MB/s][A
 
-model.bin:  76%|#######5  | 2.16G/2.86G [00:14&lt;00:07, 87.3MB/s][A
+model.bin:  40%|###9      | 1.13G/2.86G [00:20&lt;00:29, 57.8MB/s][A
 
-model.bin:  76%|#######6  | 2.18G/2.86G [00:14&lt;00:07, 93.8MB/s][A
+model.bin:  40%|####      | 1.14G/2.86G [00:20&lt;00:31, 55.2MB/s][A
 
-model.bin:  77%|#######6  | 2.19G/2.86G [00:14&lt;00:08, 81.2MB/s][A
+model.bin:  40%|####      | 1.15G/2.86G [00:20&lt;00:28, 59.0MB/s][A
 
-model.bin:  77%|#######7  | 2.20G/2.86G [00:14&lt;00:07, 85.1MB/s][A
+model.bin:  41%|####      | 1.16G/2.86G [00:21&lt;00:28, 59.1MB/s][A
 
-model.bin:  78%|#######7  | 2.22G/2.86G [00:14&lt;00:05, 106MB/s] [A
+model.bin:  41%|####1     | 1.17G/2.86G [00:21&lt;00:26, 62.5MB/s][A
 
-model.bin:  79%|#######8  | 2.24G/2.86G [00:15&lt;00:05, 104MB/s][A
+model.bin:  41%|####1     | 1.18G/2.86G [00:21&lt;00:29, 57.0MB/s][A
 
-model.bin:  79%|#######9  | 2.26G/2.86G [00:15&lt;00:04, 121MB/s][A
+model.bin:  42%|####1     | 1.20G/2.86G [00:21&lt;00:29, 56.6MB/s][A
 
-model.bin:  80%|########  | 2.29G/2.86G [00:15&lt;00:04, 135MB/s][A
+model.bin:  42%|####2     | 1.21G/2.86G [00:21&lt;00:28, 58.7MB/s][A
 
-model.bin:  81%|########  | 2.31G/2.86G [00:15&lt;00:03, 146MB/s][A
+model.bin:  43%|####2     | 1.22G/2.86G [00:21&lt;00:29, 55.5MB/s][A
 
-model.bin:  82%|########1 | 2.33G/2.86G [00:15&lt;00:03, 155MB/s][A
+model.bin:  43%|####2     | 1.23G/2.86G [00:22&lt;00:27, 58.8MB/s][A
 
-model.bin:  82%|########2 | 2.35G/2.86G [00:15&lt;00:03, 162MB/s][A
+model.bin:  43%|####3     | 1.24G/2.86G [00:22&lt;00:28, 56.1MB/s][A
 
-model.bin:  83%|########2 | 2.37G/2.86G [00:15&lt;00:02, 164MB/s][A
+model.bin:  44%|####3     | 1.25G/2.86G [00:22&lt;00:28, 56.4MB/s][A
 
-model.bin:  84%|########3 | 2.39G/2.86G [00:15&lt;00:02, 168MB/s][A
+model.bin:  44%|####4     | 1.26G/2.86G [00:22&lt;00:27, 57.2MB/s][A
 
-model.bin:  84%|########4 | 2.41G/2.86G [00:15&lt;00:02, 171MB/s][A
+model.bin:  44%|####4     | 1.27G/2.86G [00:22&lt;00:27, 57.1MB/s][A
 
-model.bin:  85%|########5 | 2.43G/2.86G [00:16&lt;00:02, 174MB/s][A
+model.bin:  45%|####4     | 1.28G/2.86G [00:23&lt;00:26, 58.6MB/s][A
 
-model.bin:  86%|########5 | 2.45G/2.86G [00:16&lt;00:02, 176MB/s][A
+model.bin:  45%|####5     | 1.29G/2.86G [00:23&lt;00:25, 60.4MB/s][A
 
-model.bin:  87%|########6 | 2.47G/2.86G [00:16&lt;00:02, 178MB/s][A
+model.bin:  46%|####5     | 1.30G/2.86G [00:23&lt;00:25, 61.9MB/s][A
 
-model.bin:  87%|########7 | 2.50G/2.86G [00:16&lt;00:02, 180MB/s][A
+model.bin:  46%|####5     | 1.31G/2.86G [00:23&lt;00:24, 61.9MB/s][A
 
-model.bin:  88%|########8 | 2.52G/2.86G [00:16&lt;00:01, 176MB/s][A
+model.bin:  46%|####6     | 1.32G/2.86G [00:23&lt;00:26, 58.9MB/s][A
 
-model.bin:  89%|########8 | 2.54G/2.86G [00:16&lt;00:01, 177MB/s][A
+model.bin:  47%|####6     | 1.33G/2.86G [00:23&lt;00:24, 62.1MB/s][A
 
-model.bin:  90%|########9 | 2.56G/2.86G [00:16&lt;00:01, 179MB/s][A
+model.bin:  47%|####7     | 1.34G/2.86G [00:24&lt;00:25, 60.5MB/s][A
 
-model.bin:  90%|######### | 2.58G/2.86G [00:16&lt;00:01, 180MB/s][A
+model.bin:  47%|####7     | 1.35G/2.86G [00:24&lt;00:25, 59.0MB/s][A
 
-model.bin:  91%|#########1| 2.60G/2.86G [00:16&lt;00:01, 180MB/s][A
+model.bin:  48%|####7     | 1.36G/2.86G [00:24&lt;00:24, 62.0MB/s][A
 
-model.bin:  92%|#########1| 2.62G/2.86G [00:17&lt;00:01, 181MB/s][A
+model.bin:  48%|####8     | 1.37G/2.86G [00:24&lt;00:24, 61.3MB/s][A
 
-model.bin:  93%|#########2| 2.64G/2.86G [00:17&lt;00:01, 182MB/s][A
+model.bin:  48%|####8     | 1.38G/2.86G [00:24&lt;00:23, 63.8MB/s][A
 
-model.bin:  93%|#########3| 2.66G/2.86G [00:17&lt;00:01, 182MB/s][A
+model.bin:  49%|####8     | 1.39G/2.86G [00:24&lt;00:23, 62.8MB/s][A
 
-model.bin:  94%|#########4| 2.68G/2.86G [00:17&lt;00:00, 182MB/s][A
+model.bin:  49%|####9     | 1.41G/2.86G [00:25&lt;00:22, 64.3MB/s][A
 
-model.bin:  95%|#########4| 2.71G/2.86G [00:17&lt;00:00, 181MB/s][A
+model.bin:  50%|####9     | 1.42G/2.86G [00:25&lt;00:26, 54.8MB/s][A
 
-model.bin:  95%|#########5| 2.73G/2.86G [00:17&lt;00:00, 181MB/s][A
+model.bin:  50%|####9     | 1.43G/2.86G [00:25&lt;00:24, 58.9MB/s][A
 
-model.bin:  96%|#########6| 2.75G/2.86G [00:17&lt;00:00, 180MB/s][A
+model.bin:  50%|#####     | 1.44G/2.86G [00:25&lt;00:24, 57.7MB/s][A
 
-model.bin:  97%|#########6| 2.77G/2.86G [00:18&lt;00:01, 66.0MB/s][A
+model.bin:  51%|#####     | 1.45G/2.86G [00:25&lt;00:22, 62.3MB/s][A
 
-model.bin:  98%|#########7| 2.79G/2.86G [00:19&lt;00:01, 60.9MB/s][A
+model.bin:  51%|#####1    | 1.46G/2.86G [00:25&lt;00:23, 59.7MB/s][A
 
-model.bin:  98%|#########8| 2.81G/2.86G [00:19&lt;00:00, 74.8MB/s][A
+model.bin:  51%|#####1    | 1.47G/2.86G [00:26&lt;00:24, 57.6MB/s][A
 
-model.bin:  99%|#########9| 2.83G/2.86G [00:19&lt;00:00, 91.0MB/s][A
+model.bin:  52%|#####1    | 1.48G/2.86G [00:26&lt;00:22, 60.4MB/s][A
 
-model.bin: 100%|#########9| 2.85G/2.86G [00:19&lt;00:00, 107MB/s] [A
-model.bin: 100%|##########| 2.86G/2.86G [00:19&lt;00:00, 147MB/s]
+model.bin:  52%|#####2    | 1.49G/2.86G [00:26&lt;00:22, 60.3MB/s][A
 
-Fetching 7 files:  43%|####2     | 3/7 [00:20&lt;00:29,  7.39s/it]
+model.bin:  53%|#####2    | 1.50G/2.86G [00:26&lt;00:22, 60.9MB/s][A
+
+model.bin:  53%|#####2    | 1.51G/2.86G [00:26&lt;00:26, 50.4MB/s][A
+
+model.bin:  53%|#####3    | 1.52G/2.86G [00:27&lt;00:25, 51.9MB/s][A
+
+model.bin:  54%|#####3    | 1.53G/2.86G [00:27&lt;00:22, 57.6MB/s][A
+
+model.bin:  54%|#####3    | 1.54G/2.86G [00:27&lt;00:22, 57.4MB/s][A
+
+model.bin:  54%|#####4    | 1.55G/2.86G [00:27&lt;00:23, 55.1MB/s][A
+
+model.bin:  55%|#####4    | 1.56G/2.86G [00:29&lt;01:09, 18.5MB/s][A
+
+model.bin:  55%|#####5    | 1.57G/2.86G [00:29&lt;00:53, 23.9MB/s][A
+
+model.bin:  56%|#####5    | 1.59G/2.86G [00:29&lt;00:31, 40.3MB/s][A
+
+model.bin:  56%|#####6    | 1.60G/2.86G [00:30&lt;01:01, 20.4MB/s][A
+
+model.bin:  57%|#####6    | 1.63G/2.86G [00:30&lt;00:38, 31.6MB/s][A
+
+model.bin:  58%|#####7    | 1.65G/2.86G [00:32&lt;00:54, 22.2MB/s][A
+
+model.bin:  58%|#####8    | 1.67G/2.86G [00:32&lt;00:38, 31.2MB/s][A
+
+model.bin:  59%|#####9    | 1.70G/2.86G [00:32&lt;00:23, 49.6MB/s][A
+
+model.bin:  61%|######    | 1.73G/2.86G [00:32&lt;00:16, 70.3MB/s][A
+
+model.bin:  61%|######1   | 1.75G/2.86G [00:32&lt;00:16, 68.7MB/s][A
+
+model.bin:  62%|######2   | 1.77G/2.86G [00:33&lt;00:16, 64.3MB/s][A
+
+model.bin:  63%|######2   | 1.79G/2.86G [00:33&lt;00:17, 60.7MB/s][A
+
+model.bin:  63%|######3   | 1.80G/2.86G [00:34&lt;00:18, 57.1MB/s][A
+
+model.bin:  64%|######3   | 1.81G/2.86G [00:34&lt;00:18, 57.3MB/s][A
+
+model.bin:  64%|######3   | 1.82G/2.86G [00:34&lt;00:18, 57.1MB/s][A
+
+model.bin:  64%|######4   | 1.84G/2.86G [00:34&lt;00:16, 60.2MB/s][A
+
+model.bin:  65%|######4   | 1.85G/2.86G [00:34&lt;00:16, 59.6MB/s][A
+
+model.bin:  65%|######4   | 1.86G/2.86G [00:34&lt;00:15, 62.8MB/s][A
+
+model.bin:  65%|######5   | 1.87G/2.86G [00:35&lt;00:16, 61.4MB/s][A
+
+model.bin:  66%|######5   | 1.88G/2.86G [00:35&lt;00:15, 64.1MB/s][A
+
+model.bin:  66%|######6   | 1.89G/2.86G [00:35&lt;00:15, 63.1MB/s][A
+
+model.bin:  66%|######6   | 1.90G/2.86G [00:35&lt;00:15, 61.1MB/s][A
+
+model.bin:  67%|######6   | 1.91G/2.86G [00:35&lt;00:14, 63.4MB/s][A
+
+model.bin:  67%|######7   | 1.92G/2.86G [00:35&lt;00:14, 62.5MB/s][A
+
+model.bin:  68%|######7   | 1.93G/2.86G [00:35&lt;00:14, 64.9MB/s][A
+
+model.bin:  68%|######7   | 1.94G/2.86G [00:36&lt;00:14, 63.7MB/s][A
+
+model.bin:  68%|######8   | 1.95G/2.86G [00:36&lt;00:14, 61.1MB/s][A
+
+model.bin:  69%|######8   | 1.96G/2.86G [00:36&lt;00:14, 63.7MB/s][A
+
+model.bin:  69%|######9   | 1.97G/2.86G [00:36&lt;00:14, 62.5MB/s][A
+
+model.bin:  69%|######9   | 1.98G/2.86G [00:36&lt;00:13, 65.5MB/s][A
+
+model.bin:  70%|######9   | 1.99G/2.86G [00:36&lt;00:13, 63.1MB/s][A
+
+model.bin:  70%|#######   | 2.00G/2.86G [00:37&lt;00:17, 47.8MB/s][A
+
+model.bin:  71%|#######   | 2.02G/2.86G [00:37&lt;00:12, 66.7MB/s][A
+
+model.bin:  71%|#######1  | 2.03G/2.86G [00:37&lt;00:12, 64.9MB/s][A
+
+model.bin:  72%|#######1  | 2.04G/2.86G [00:37&lt;00:12, 62.4MB/s][A
+
+model.bin:  72%|#######1  | 2.06G/2.86G [00:38&lt;00:17, 46.7MB/s][A
+
+model.bin:  72%|#######2  | 2.07G/2.86G [00:38&lt;00:16, 49.1MB/s][A
+
+model.bin:  73%|#######2  | 2.08G/2.86G [00:38&lt;00:15, 50.8MB/s][A
+
+model.bin:  73%|#######3  | 2.09G/2.86G [00:38&lt;00:13, 56.4MB/s][A
+
+model.bin:  73%|#######3  | 2.10G/2.86G [00:38&lt;00:13, 55.9MB/s][A
+
+model.bin:  74%|#######3  | 2.11G/2.86G [00:39&lt;00:13, 55.8MB/s][A
+
+model.bin:  74%|#######4  | 2.12G/2.86G [00:39&lt;00:12, 60.7MB/s][A
+
+model.bin:  75%|#######4  | 2.13G/2.86G [00:39&lt;00:12, 58.9MB/s][A
+
+model.bin:  75%|#######4  | 2.14G/2.86G [00:39&lt;00:11, 63.5MB/s][A
+
+model.bin:  75%|#######5  | 2.15G/2.86G [00:39&lt;00:11, 61.1MB/s][A
+
+model.bin:  76%|#######5  | 2.16G/2.86G [00:39&lt;00:10, 65.0MB/s][A
+
+model.bin:  76%|#######6  | 2.17G/2.86G [00:40&lt;00:11, 61.6MB/s][A
+
+model.bin:  76%|#######6  | 2.18G/2.86G [00:40&lt;00:11, 59.6MB/s][A
+
+model.bin:  77%|#######6  | 2.19G/2.86G [00:40&lt;00:10, 63.7MB/s][A
+
+model.bin:  77%|#######7  | 2.20G/2.86G [00:40&lt;00:10, 61.4MB/s][A
+
+model.bin:  77%|#######7  | 2.21G/2.86G [00:40&lt;00:09, 64.9MB/s][A
+
+model.bin:  78%|#######7  | 2.22G/2.86G [00:40&lt;00:10, 62.0MB/s][A
+
+model.bin:  78%|#######8  | 2.23G/2.86G [00:41&lt;00:09, 66.2MB/s][A
+
+model.bin:  79%|#######8  | 2.24G/2.86G [00:41&lt;00:09, 62.7MB/s][A
+
+model.bin:  79%|#######8  | 2.25G/2.86G [00:41&lt;00:09, 60.7MB/s][A
+
+model.bin:  79%|#######9  | 2.26G/2.86G [00:41&lt;00:09, 64.6MB/s][A
+
+model.bin:  80%|#######9  | 2.28G/2.86G [00:41&lt;00:11, 48.7MB/s][A
+
+model.bin:  80%|########  | 2.29G/2.86G [00:42&lt;00:11, 50.8MB/s][A
+
+model.bin:  80%|########  | 2.30G/2.86G [00:42&lt;00:10, 52.1MB/s][A
+
+model.bin:  81%|########  | 2.31G/2.86G [00:42&lt;00:09, 57.7MB/s][A
+
+model.bin:  81%|########1 | 2.32G/2.86G [00:42&lt;00:09, 57.1MB/s][A
+
+model.bin:  82%|########1 | 2.33G/2.86G [00:42&lt;00:08, 62.1MB/s][A
+
+model.bin:  82%|########1 | 2.34G/2.86G [00:42&lt;00:08, 60.2MB/s][A
+
+model.bin:  82%|########2 | 2.35G/2.86G [00:43&lt;00:08, 58.4MB/s][A
+
+model.bin:  83%|########2 | 2.36G/2.86G [00:43&lt;00:08, 57.5MB/s][A
+
+model.bin:  83%|########2 | 2.37G/2.86G [00:43&lt;00:07, 62.5MB/s][A
+
+model.bin:  83%|########3 | 2.38G/2.86G [00:43&lt;00:07, 60.0MB/s][A
+
+model.bin:  84%|########3 | 2.39G/2.86G [00:43&lt;00:07, 59.2MB/s][A
+
+model.bin:  84%|########4 | 2.40G/2.86G [00:43&lt;00:07, 63.4MB/s][A
+
+model.bin:  84%|########4 | 2.41G/2.86G [00:44&lt;00:07, 60.5MB/s][A
+
+model.bin:  85%|########4 | 2.42G/2.86G [00:44&lt;00:06, 65.2MB/s][A
+
+model.bin:  85%|########5 | 2.43G/2.86G [00:44&lt;00:06, 62.1MB/s][A
+
+model.bin:  86%|########5 | 2.44G/2.86G [00:44&lt;00:06, 59.8MB/s][A
+
+model.bin:  86%|########5 | 2.45G/2.86G [00:44&lt;00:06, 64.1MB/s][A
+
+model.bin:  86%|########6 | 2.46G/2.86G [00:45&lt;00:08, 44.5MB/s][A
+
+model.bin:  87%|########6 | 2.47G/2.86G [00:45&lt;00:07, 50.7MB/s][A
+
+model.bin:  87%|########7 | 2.49G/2.86G [00:45&lt;00:08, 43.1MB/s][A
+
+model.bin:  87%|########7 | 2.50G/2.86G [00:45&lt;00:07, 47.1MB/s][A
+
+model.bin:  88%|########7 | 2.51G/2.86G [00:46&lt;00:07, 48.2MB/s][A
+
+model.bin:  88%|########8 | 2.52G/2.86G [00:46&lt;00:06, 54.3MB/s][A
+
+model.bin:  88%|########8 | 2.53G/2.86G [00:46&lt;00:05, 55.0MB/s][A
+
+model.bin:  89%|########8 | 2.54G/2.86G [00:46&lt;00:05, 54.9MB/s][A
+
+model.bin:  89%|########9 | 2.55G/2.86G [00:46&lt;00:05, 56.3MB/s][A
+
+model.bin:  90%|########9 | 2.56G/2.86G [00:46&lt;00:04, 59.7MB/s][A
+
+model.bin:  90%|########9 | 2.57G/2.86G [00:47&lt;00:04, 58.1MB/s][A
+
+model.bin:  90%|######### | 2.58G/2.86G [00:47&lt;00:04, 62.2MB/s][A
+
+model.bin:  91%|######### | 2.59G/2.86G [00:47&lt;00:04, 59.7MB/s][A
+
+model.bin:  91%|#########1| 2.60G/2.86G [00:47&lt;00:04, 58.4MB/s][A
+
+model.bin:  91%|#########1| 2.61G/2.86G [00:47&lt;00:04, 58.5MB/s][A
+
+model.bin:  92%|#########1| 2.62G/2.86G [00:47&lt;00:03, 62.0MB/s][A
+
+model.bin:  92%|#########2| 2.63G/2.86G [00:48&lt;00:03, 59.8MB/s][A
+
+model.bin:  93%|#########2| 2.64G/2.86G [00:48&lt;00:03, 63.8MB/s][A
+
+model.bin:  93%|#########2| 2.65G/2.86G [00:48&lt;00:03, 61.6MB/s][A
+
+model.bin:  93%|#########3| 2.66G/2.86G [00:49&lt;00:09, 20.6MB/s][A
+
+model.bin:  94%|#########3| 2.67G/2.86G [00:49&lt;00:07, 25.7MB/s][A
+
+model.bin:  94%|#########4| 2.69G/2.86G [00:50&lt;00:03, 42.5MB/s][A
+
+model.bin:  95%|#########5| 2.72G/2.86G [00:51&lt;00:05, 26.1MB/s][A
+
+model.bin:  96%|#########5| 2.74G/2.86G [00:51&lt;00:03, 37.1MB/s][A
+
+model.bin:  97%|#########6| 2.76G/2.86G [00:51&lt;00:01, 51.5MB/s][A
+
+model.bin:  98%|#########7| 2.79G/2.86G [00:51&lt;00:00, 77.4MB/s][A
+
+model.bin:  99%|#########8| 2.82G/2.86G [00:51&lt;00:00, 91.5MB/s][A
+
+model.bin: 100%|#########9| 2.84G/2.86G [00:52&lt;00:00, 74.5MB/s][A
+
+model.bin: 100%|##########| 2.86G/2.86G [00:53&lt;00:00, 48.1MB/s][A
+model.bin: 100%|##########| 2.86G/2.86G [00:53&lt;00:00, 53.8MB/s]
+
+Fetching 7 files:  43%|####2     | 3/7 [00:54&lt;01:38, 24.68s/it]
 
 shared_vocabulary.txt:   0%|          | 0.00/299k [00:00&lt;?, ?B/s][A
-shared_vocabulary.txt: 100%|##########| 299k/299k [00:00&lt;00:00, 9.72MB/s]
+shared_vocabulary.txt: 100%|##########| 299k/299k [00:00&lt;00:00, 4.05MB/s]
 
-Fetching 7 files:  57%|#####7    | 4/7 [00:20&lt;00:14,  4.91s/it]
+Fetching 7 files:  57%|#####7    | 4/7 [00:54&lt;00:45, 15.04s/it]
 
 special_tokens_map.json:   0%|          | 0.00/2.20k [00:00&lt;?, ?B/s][A
-special_tokens_map.json: 100%|##########| 2.20k/2.20k [00:00&lt;00:00, 13.3MB/s]
+special_tokens_map.json: 100%|##########| 2.20k/2.20k [00:00&lt;00:00, 12.7MB/s]
 
-Fetching 7 files:  71%|#######1  | 5/7 [00:20&lt;00:06,  3.32s/it]
+Fetching 7 files:  71%|#######1  | 5/7 [00:54&lt;00:19,  9.73s/it]
 
 tokenizer_config.json:   0%|          | 0.00/2.35k [00:00&lt;?, ?B/s][A
-tokenizer_config.json: 100%|##########| 2.35k/2.35k [00:00&lt;00:00, 15.3MB/s]
+tokenizer_config.json: 100%|##########| 2.35k/2.35k [00:00&lt;00:00, 14.4MB/s]
 
-Fetching 7 files: 100%|##########| 7/7 [00:20&lt;00:00,  1.74s/it]
-Fetching 7 files: 100%|##########| 7/7 [00:20&lt;00:00,  2.93s/it]</code></pre>
+Fetching 7 files: 100%|##########| 7/7 [00:55&lt;00:00,  4.84s/it]
+Fetching 7 files: 100%|##########| 7/7 [00:55&lt;00:00,  7.86s/it]</code></pre>
 </div>
 </div>
 <p>Yeah, here we go little (4gb) buddy!</p>
 <p><br></p>
 <p>Now that we got the basics, let’s play with it! You can change the prompt like such</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>lm.chat(<span class="st">'''</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="st">     System: Respond as a physics professor.</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="st">     User: What is relativity?</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="st">     Assistant:</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="st">     '''</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>lm.chat(<span class="st">'''</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="st">     System: Respond as a physics professor.</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="st">     User: What is relativity?</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="st">     Assistant:</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="st">     '''</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>"Relativity is a fundamental theory of classical mechanics that describes the behavior of matter and energy in space. It was first proposed by Albert Einstein in 1905, and has since become one of the most widely accepted theories in modern physics. The idea behind relativity is that objects with mass have an effect on their motion relative to light, which causes them to accelerate at different rates depending on the distance between them. This acceleration is due to gravity, which acts as a force acting upon the object's mass. In other words, when two masses are near each other, they tend to move towards each other more rapidly than when they are farther apart. According to this principle, we can understand why stars appear redder in the sky during winter or how galaxies look differently from Earth during summer."</code></pre>
+<pre><code>'Relativity is a branch of physics that deals with the behavior and interactions between objects in space-time. It was proposed by Albert Einstein, who introduced it as a theory to explain how light travels through space-time at different speeds depending on the distance from which it is observed. The theory has been widely accepted throughout history and has revolutionized our understanding of the universe.'</code></pre>
 </div>
 </div>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>lm.complete(<span class="st">"She hid in her room until"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>lm.complete(<span class="st">"She hid in her room until"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>' the storm passed and she could finally leave.'</code></pre>
+<pre><code>' the power went out and she could call for help.'</code></pre>
 </div>
 </div>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>lm.get_wiki(<span class="st">"Physics"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>lm.get_wiki(<span class="st">"Physics"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'Physics is the natural science of matter, involving the study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force. Physics is one of the most fundamental scientific disciplines, with its main goal being to understand how the universe behaves. A scientist who specializes in the field of physics is called a physicist.\n\nPhysics is one of the oldest academic disciplines and, through its inclusion of astronomy, perhaps the oldest. Over much of the past two millennia, physics, chemistry, biology, and certain branches of mathematics were a part of natural philosophy, but during the Scientific Revolution in the 17th century these natural sciences emerged as unique research endeavors in their own right. Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined. New ideas in physics often explain the fundamental mechanisms studied by other sciences and suggest new avenues of research in these and other academic disciplines such as mathematics and philosophy.\n\nAdvances in physics often enable new technologies. For example, advances in the understanding of electromagnetism, solid-state physics, and nuclear physics led directly to the development of new products that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons; advances in thermodynamics led to the development of industrialization; and advances in mechanics inspired the development of calculus.'</code></pre>
 </div>
