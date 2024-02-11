@@ -65,7 +65,7 @@ lm.chat('''
 
      User: What is relativity?
 
-     Professor:
+     Assistant:
      ''')
 
 ```
