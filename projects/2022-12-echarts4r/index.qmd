@@ -34,7 +34,7 @@ mtcars |>
   e_boxplot(hp, colorBy="data",) |>
   e_boxplot(mpg, colorBy="data",) |>
   e_tooltip(trigger = "axis") |>
-  e_title("Descriptive Stats on mtcars Data") #|>
+  e_title("Descriptive Stats on mtcars Data") |>
   e_toolbox_feature(feature = "saveAsImage")  # add the download button!
 
 # Plot 2
