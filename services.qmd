@@ -4,7 +4,6 @@ listing:
   contents: services
   sort: "date desc"
   type: default
-  categories: true
   sort-ui: false
   filter-ui: false
   fields: [title, image, description] 

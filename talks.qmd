@@ -12,6 +12,6 @@ page-layout: full
 title-block-banner: true
 ---
 
-# Talks
+# Talks, Podcasts & Worshops
 
 <br>

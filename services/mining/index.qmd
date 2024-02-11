@@ -1,0 +1,45 @@
+---
+title: ""
+format: html
+image: ./mining.png
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+## {{< fa search >}}  Data Science and Analysis
+
+Data exploration, application of statistical methods, reproducible data analysis.
+
+<br> Crunch the data to get answer to your question. Give insight to the information.
+
+I can help you to:
+
+-   {{< fa angle-double-right >}} Exploratory analysis of a dataset.
+
+-   {{< fa angle-double-right >}} Creation of clean and reproducible reports using `Rmardown` and `Shiny`.
+
+-   {{< fa angle-double-right >}} Application of statistical methods on your dataset.
+
+-   {{< fa angle-double-right >}} Creation of custom scripts for analyzing/ingesting your data automatically
+
+
+<br>
+
+### Examples:
+
+<br> 
+
+-   {{< fa angle-double-right >}} I'm the author of several scientific publications where I was in charge to explore and understand complex dataset in order to answer scientific questions.
+
+
+-   {{< fa angle-double-right >}} I built machine learning pipelines to implement predictive models to detect fraud in clients behavior and analyze it..
+
+-   {{< fa angle-double-right >}} - Designed and implemented Apache NiFi ETL for efficient data processing and orchestration,
+contributing to streamlined data workflows.
+
+<br>
+
+### Contact Me 
+
+If you're interested in learning more about how I can assist with your project, feel free to reach out at [david.munoztord@mailbox.org](mailto:david.munoztord@mailbox.org).

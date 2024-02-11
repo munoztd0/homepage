@@ -1,0 +1,47 @@
+---
+title: ""
+format: html
+image: ./dataviz.png
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+## {{< fa chart-bar >}}  Data Visualization
+
+Creation of static and interactive dataviz, review of scientific figures.
+
+<br>
+
+I'm an expert in the field of dataviz. I've created several tutorials and given talks on this topic.
+
+I can help you to:
+
+-   {{< fa angle-double-right >}} Creation and review of graphs for scientific publication.
+
+-   {{< fa angle-double-right >}} Development of data application using `R` and `Shiny`.
+
+-   {{< fa angle-double-right >}} Creation of custom data visualization for the web.
+
+-   {{< fa angle-double-right >}} Dashboard creation for real time data analysis.
+
+-   {{< fa angle-double-right >}} Visualization of geospatial data.
+
+
+<br>
+
+### Examples:
+
+<br> 
+
+-   {{< fa angle-double-right >}} I maintain and develop <a href="https://github.com/JohnCoene/echarts4r">echarts4r</a>, a declarative framework for rapid construction of Web-based data visualization.
+
+-   {{< fa angle-double-right >}} I reviewed and improved scientific figures for research publications, ensuring clarity and accuracy in data representation.
+
+-   {{< fa angle-double-right >}} I conducted several workshops on data visualization techniques, covering topics such as chart types, color theory, and storytelling with data.
+
+<br>
+
+### Contact Me 
+
+If you're interested in learning more about how I can assist with your project, feel free to reach out at [david.munoztord@mailbox.org](mailto:david.munoztord@mailbox.org).

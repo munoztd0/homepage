@@ -1,0 +1,50 @@
+---
+title: ""
+format: html
+image: ./teaching.png
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+## {{< fa university >}}  Teaching & Training
+
+Short talks or multi-day courses on dataviz, R, ggplot2, data analytics and more.
+
+<br>
+
+I have a passion for teaching and have conducted numerous workshops and training sessions on various topics related to data science and analytics. 
+
+
+I can help you to:
+
+-   {{< fa angle-double-right >}} Conducting short talks or multi-day courses on data visualization, R programming, ggplot2, reproducible research, bayesian statistics, and data analytics.
+
+-   {{< fa angle-double-right >}} Providing customized training sessions tailored to your specific needs and objectives.
+
+
+<br>
+
+### Examples:
+
+<br> 
+
+-   {{< fa angle-double-right >}} I delivered a series of short talks on data visualization techniques for undergraduate students, covering fundamental principles and practical tips for creating effective visualizations.
+
+-   {{< fa angle-double-right >}} I taught a multi-day course on R programming for beginners, covering topics such as data manipulation, visualization, and basic statistical analysis.
+
+-   {{< fa angle-double-right >}} I organized and facilitated a workshop on ggplot2, a popular data visualization package in R, demonstrating how to create customized plots and advanced visualizations.
+
+
+-   {{< fa angle-double-right >}} I provided training sessions on data analytics tools and techniques to professionals in the industry, helping them develop skills in data exploration, modeling, and interpretation.
+ 
+-   {{< fa angle-double-right >}} Additionally, I have contributed to educational materials, such as [this repository](https://github.com/munoztd0/teaching), where I share resources and tutorials for learning data science concepts and tools.
+
+-   {{< fa angle-double-right >}} I have also been a guest on several podcasts, discussing topics related to data science, analytics, and visualization.
+
+
+<br>
+
+### Contact me:
+
+Tell me more about your training needs at [david.munoztord@mailbox.org](mailto:david.munoztord@mailbox.org) to see if we can work together.

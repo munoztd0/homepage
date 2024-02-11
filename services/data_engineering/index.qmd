@@ -1,5 +1,5 @@
 ---
-title: "Data Engineering"
+title: ""
 format: html
 image: ./engineering.png
 editor: 
@@ -41,4 +41,4 @@ I can help you to:
 
 ### Contact Me 
 
-If you're interested in learning more about how I can assist with your project, feel free to reach out at [david.munoztord\@mailbox.org](mailto:david.munoztord@mailbox.org).
+If you're interested in learning more about how I can assist with your project, feel free to reach out at [david.munoztord@mailbox.org](mailto:david.munoztord@mailbox.org).
