@@ -40,7 +40,10 @@
   {
     "listing": "/services.html",
     "items": [
-      "/services/data_engineering/index.html"
+      "/services/teaching/index.html",
+      "/services/mining/index.html",
+      "/services/data_engineering/index.html",
+      "/services/dataviz/index.html"
     ]
   }
 ]
