@@ -11,7 +11,8 @@ tags: ["language models", "llm", "chatGPT"]
 #| label: setup
 #| include: false
 library(reticulate)
-reticulate::use_virtualenv("/home/david/Repos/WEBSITES/MY_HOMEPAGE/renv/python/virtualenvs/renv-python-3.11")
+path <- here::here()
+reticulate::use_virtualenv(paste0(path, "/renv/python/virtualenvs/renv-python-3.11"))
 ```
 
 ![](ai.jpg)
