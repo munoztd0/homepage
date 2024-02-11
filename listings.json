@@ -15,7 +15,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/blog/llm/index.html",
+      "/blog/llm2/index.html",
       "/blog/R-Lunches/index.html",
       "/blog/Live/index.html",
       "/blog/Data_manip_Fundamental/index.html",
@@ -29,7 +29,7 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/llm/index.html",
+      "/blog/llm2/index.html",
       "/blog/R-Lunches/index.html",
       "/blog/Live/index.html",
       "/blog/Data_manip_Fundamental/index.html",
