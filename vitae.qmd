@@ -217,15 +217,23 @@ title-block-banner: true
 
 <br>
 
--   {{< fa angle-double-right >}} **brms**
-    -   `R` - 2022
-    -   Made small contributions to the [brms](https://paul-buerkner.github.io/brms/) package, including resolving issues related to class definition.
+<!-- -   {{< fa angle-double-right >}} **brms** -->
+<!--     -   `R` - 2022 -->
+<!--     -   Made small contributions to the [brms](https://paul-buerkner.github.io/brms/) package, including resolving issues related to class definition. -->
+    
+    
 -   {{< fa angle-double-right >}} **reprtree**
     -   `R` - 2022
     -   Integrated the caret ensemble for [reprtree](https://github.com/araastat/reprtree) (implementation of representative trees from ensembles of tree-based machines).
+    
+<br>  
+    
 -   {{< fa angle-double-right >}} **hBayesDM**
     -   `STAN`, `R`, `Python` - 2021
     -   Collaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library. Built Q-learning algorithm for probabilistic selection task. [hBayesDM](https://github.com/CCS-Lab/hBayesDM)
+    
+<br>
+
 -   {{< fa angle-double-right >}} **3dLMEr**
     -   `BASH`, `R` - 2020
     -   Collaborated on the AFNI's functions for 3Dimensional Linear Mixed-Effects Regression. Fixed residuals output image by adding bottom tolerance. [3dLMEr](https://github.com/afni/afni/blob/ebd2aef51c27cf7684f38f580e1db832b1ccf621/src/R_scripts/3dLMEr.R)
