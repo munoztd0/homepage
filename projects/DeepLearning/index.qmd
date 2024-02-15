@@ -1,0 +1,28 @@
+---
+title: "Deep Reinforcement Learning with PyTorch (Super Mario Bros)"
+author: "David Munoz Tord"
+date: 2022-02-04
+categories: [Deep Learning, AI, PyTorch, Python, Machine Learning, Algorithm, Games]
+format: html
+image: ./mario.gif
+---
+
+#  Reinforcement Learning with PyTorch (Super Mario Bros)
+
+
+Here is a project I worked on to train AI agents to play and solve games using reinforcement learning. The project is based on the Super Mario Bros game, and the AI agents are trained using the Proximal Policy Optimization (PPO) algorithm. The agents are implemented using the [PyTorch](https://pytorch.org/) library, and the game environment is provided by the [OpenAI Gym library](https://lablab.ai/tech/openai/openai-gym) . The project also includes a custom implementation of the game environment, which is based on the Super Mario Bros game for the Nintendo Entertainment System (NES). The game environment is implemented using the FCEUX emulator, and the game is controlled using the Python library [PyAutoGUI](https://pypi.org/project/PyAutoGUI).
+
+
+    
+
+<img src="./mario.gif" alt="Super Mario Bros" style="width: 100%; height: auto;">
+
+
+I also used TensorBoard to visualize and evaluate the quality metrics of the model.
+
+<img src="./tensor.gif" alt="TensorBoard" style="width: 100%; height: auto;">
+
+
+ <!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    -->
+Check out the project on <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL">GitHub</a>. 
+

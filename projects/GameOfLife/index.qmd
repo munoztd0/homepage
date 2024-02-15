@@ -1,0 +1,30 @@
+---
+title: "Cellular Automata: Conway's Game of Life"
+author: "David Munoz Tord"
+date: 2019-05-06
+categories: [Python, Games, Machine Learning, AI, Algorithm]
+format: html
+image: ./life_game.gif
+---
+
+# Conway's Game Of Life implemented in Python
+
+Conway's Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+
+A given cell (i, j) in the simulation is accessed on a grid [i][j], where i and j are the row and column indices, respectively. The value of a given cell at a given instant of time depends on the state of its neighbors at the previous time step.
+
+Conway's Game of Life has four rules:
+
+1) If a cell is ON and has fewer than two neighbors that are ON, it turns OFF.
+2) If a cell is ON and has either two or three neighbors that are ON, it remains ON.
+3) If a cell is ON and has more than three neighbors that are ON, it turns OFF.
+4) If a cell is OFF and has exactly three neighbors that are ON, it turns ON.
+
+
+The bulk of the graphical implementation was made using [PyGame](https://www.pygame.org/news).
+
+<img src="./life_game.gif" alt="Conway's Game of Life" style="width: 100%; height: auto;">
+
+Check out the project on <a href="https://github.com/munoztd0/AI_games/tree/master/Game_Life">GitHub</a>.
+
+

@@ -1,0 +1,24 @@
+---
+title: "Shiny Usage Monitor"
+author: "David Munoz Tord"
+date: 2022-07-12
+categories: [Shiny, R, App, Monitor, Statistics]
+format: html
+image: ./images.png
+---
+
+# Know thyself
+
+Keeping track of the number of users on your Shiny Server is helpful for several reasons:
+
+-   {{< fa long-arrow-right >}} Identifies low-traffic periods (best times to push updates or restart the server).
+-   {{< fa long-arrow-right >}} Tells you if you need to pay more attention to scaling your apps (i.e. adjust server size, optimize slow apps).
+-   {{< fa long-arrow-right >}} Shows which apps are most popular.
+-   {{< fa long-arrow-right >}} Basic architecture.
+-   {{< fa long-arrow-right >}} Deploy Shiny Server Open Source with one or more apps.
+-   {{< fa long-arrow-right >}} Continuously check your server's logs and save off data on the number of users on each app (check_server.R plus a cronjob).
+-   {{< fa long-arrow-right >}} Use Shiny to display the data over time.
+
+<img src="monitor.gif" alt="monitor" width="100%"/>
+
+<!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    --> Check out the project on <a href="https://github.com/munoztd0/shiny-usage-monitor">GitHub</a>.

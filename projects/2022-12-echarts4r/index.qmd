@@ -2,7 +2,7 @@
 title: "Echarts4r"
 author: "David Munoz Tord"
 date: 2022-04-12
-categories: [Project, Package, R, Interactive, DataViz]
+categories: [Package, R, Interactive, DataViz]
 format: html
 image: https://echarts.apache.org/en/images/logo.png
 ---

@@ -1,0 +1,22 @@
+---
+title: "Voxel-wise Bayesian model selection"
+author: "David Munoz Tord"
+date: 2022-22-03
+categories: [Neurosciences, Data Science, MRI, Bayesian Modeling]
+format: html
+image: ./braininfl2.gif
+---
+
+# Voxels-wise Bayesian model selection
+
+Is a technique to compare brain maps using Bayesian methods.
+
+Building and comparing brain maps between several models is a common task for neuroscientist.
+
+<img src="./SOCH.jpg" alt="brain" style="width: 100%; height: auto;"/>
+
+Here we performed a Bayesian model selection (BMS) to select the best model given the data for group-level analysis. This procedure computes the probability of the data given the model (model evidence) for a set of candidate models. It also allows to compare characterize maps"heat zones" and to visualize them.
+
+<img src="./fmriBMS.png" alt="brain" style="width: 100%; height: auto;"/>
+
+<!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    --> Check out the project on <a href="https://github.com/evapool/VS_AffectiveResponse">GitHub</a> or the <a href="https://www.jneurosci.org/content/42/13/2716">paper</a> published in *the Journal of Neuroscience*.

@@ -2,7 +2,7 @@
 title: "DbVieweR"
 author: "David Munoz Tord"
 date: 2024-02-12
-categories: [Project, Package, R, DBMS, SQL]
+categories: [Package, R, DBMS, SQL]
 format: html
 image: https://www.interviewbit.com/blog/wp-content/uploads/2021/08/dbms.jpg
 ---

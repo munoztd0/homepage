@@ -1,0 +1,22 @@
+---
+title: "Sensory Brain Mapping"
+author: "David Munoz Tord"
+date: 2021-22-09
+categories: [Neurosciences, Data Science, MRI, Signal Processing]
+format: html
+image: ./braininfl2.gif
+---
+
+# Sensory Brain Mapping
+
+My group from the [Swiss Center of Affective Science](https://www.unige.ch/cisa/) investigated the neuronal networks underlying fundamental processes of taste perception.
+
+I processed all the MRI data of 97 individuals to analyze and summarize the results in support of the paper intitled [3D-Printed Mouthpiece for fMRI-Compatible Gustometers](https://www.eneuro.org/content/8/5/ENEURO.0208-21.2021).
+
+<img src="./brain.png" alt="brain" style="width: 100%; height: auto;"/>
+
+My work allowed to visualize the parameter distribution of the BOLD signal in 3D.
+
+<img src="./brainrot.gif" alt="brainRot" style="width: 100%; height: auto;"/>
+
+<!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    --> Check out the project on <a href="https://github.com/munoztd0/Mouthpiecegusto">GitHub</a> or the <a href="https://www.jneurosci.org/content/42/13/2716">paper</a> published in *eNeuro*.

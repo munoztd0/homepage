@@ -1,0 +1,20 @@
+---
+title: "Leek Wars: Training AI agents to beat each other in a game"
+author: "David Munoz Tord"
+date: 2021-07-08
+categories: [AI, Reinforcement Learning, Algorithm, Games, JavaScript]
+format: html
+image: ./leek.gif
+---
+
+# Leek Wars: Training AI agents to compete in a game
+
+Leek Wars is a multiplayer Artifical Intelligence programming game. The language of Leek Wars is LeekScript. Follow my best leek [@leakit22](https://leekwars.com/leek/82556) ! I remain in the top 300 for the time being.
+
+<img src="./leek.gif" alt="Leek Wars" style="width: 100%; height: auto;">
+
+
+ <!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    -->
+Check out the project on <a href="https://github.com/munoztd0/AI_games/tree/master/Leek_Wars">GitHub</a>. 
+
+

@@ -1,0 +1,24 @@
+---
+title: "Hierarchical Bayesian Modeling"
+author: "David Munoz Tord"
+date: 2021-03-08
+categories: [Bayesian Modeling, Statistics, Package, R, STAN, Python]
+format: html
+image: ./hmbayes.png
+---
+
+# Hierarchical Bayesian modeling of Decision-Making tasks
+
+I collaborated on the Hierarchical Bayesian modeling of Decision-Making tasks library [hBayesDM](https://github.com/CCS-Lab/hBayesDM/), a user-friendly package that offers hierarchical Bayesian analysis of various computational models on an array of decision-making tasks.
+
+<img src="./simmu.png" alt="simulation" style="width: 100%; height: auto;">
+
+It uses [STAN](https://mc-stan.org/) for Bayesian inference and supports both {R} and {Python}. hBayesDM's goal is to help interpreting experimental data through computational models using a full Bayesian statistical inference approach with MCMC sampling.
+My work involved the implementation of the Q-learning algorithm for reinforcement learning tasks.
+
+<img src="./RL.gif" alt="RL" style="width: 100%; height: auto;">
+
+ <!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    -->
+Check out the project on <a href="https://github.com/CCS-Lab/hBayesDM/commit/279b7eafaea9e05c2dc741ea9c86623abf35c6e5">GitHub</a>. 
+
+
