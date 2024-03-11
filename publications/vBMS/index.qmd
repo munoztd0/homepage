@@ -19,4 +19,6 @@ Here we performed a Bayesian model selection (BMS) to select the best model give
 
 <img src="./fmriBMS.png" alt="brain" style="width: 100%; height: auto;"/>
 
-<!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    --> Check out the project on <a href="https://github.com/evapool/VS_AffectiveResponse">GitHub</a> or the <a href="https://www.jneurosci.org/content/42/13/2716">paper</a> published in *the Journal of Neuroscience*.
+<!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    -->
+
+Check out the project on <a href="https://github.com/evapool/VS_AffectiveResponse">GitHub</a> or the <a href="https://www.jneurosci.org/content/42/13/2716">paper</a> published in *the Journal of Neuroscience*.

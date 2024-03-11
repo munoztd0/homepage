@@ -2,9 +2,9 @@
 title: "Look a doggo!: A deep learning approach to detect dogs in images"
 author: "David Munoz Tord"
 date: 2024-03-11
-categories: [Deep Learning, CNN, tensorflow, Python, Machine Learning, Algorithm, Computer Vision]
+categories: [Deep Learning, CNN, tensorflow, Python, Machine Learning, Algorithm, Computer Vision, VGG16, Resnet_50]
 format: html
-image: ./mario.gif
+image: ./dog.jpg
 ---
 
 #  Algorithm for a Dog Identification App
@@ -17,6 +17,12 @@ I used python and keras interface from tensorflow to build a Convolutional Neura
     
 
 <img src="./dog.jpg" alt="Dog detection" style="width: 100%; height: auto;">
+
+[Open it full](https://munoztd0.shinyapps.io/Tuto_learnR_Data_Viz/)
+
+```{=html}
+<iframe width="760" height="815" src="https://munoztd0.github.io/dog_classifier/"></iframe>
+```
 
 
  <!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    -->

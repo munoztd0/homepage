@@ -8,6 +8,11 @@ title-block-banner: true
 
 <br>
 
+-   {{< fa angle-double-right >}} {{< fa file-pdf >}} [Download PDF](https://raw.githubusercontent.com/munoztd0/CV_DMT/main/CV_DMT.pdf)
+
+<br>
+
+
 ## {{< fa compass >}} Personal Philosophy
 
 -   {{< fa angle-double-right >}} I believe that the 21st century requires a more multifaceted toolkit if we hope to solve complex challenges--process and task oriented approaches balanced within a framework that fosters strategic thinking. That interdisciplinary relationships can be strengthened through active community participation--working toward something with the shared value of doing good.
