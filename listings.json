@@ -1,29 +1,22 @@
 [
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/CNN/index.html",
+      "/projects/DbVieweR/index.html",
+      "/projects/WeData/index.html",
+      "/projects/MonitoR/index.html",
+      "/projects/2022-12-echarts4r/index.html",
+      "/projects/DeepLearning/index.html",
+      "/projects/LeekWars/index.html",
+      "/projects/hBDM/index.html",
+      "/projects/GameOfLife/index.html"
+    ]
+  },
+  {
     "listing": "/talks.html",
     "items": [
       "/talks/2023-04-Deploy-your-R-code/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/DbVieweR/index.html",
-      "/projects/2022-12-echarts4r/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/llm2/index.html",
-      "/blog/R-Lunches/index.html",
-      "/blog/Live/index.html",
-      "/blog/Data_manip_Fundamental/index.html",
-      "/blog/Data_explor_Fundamentals/index.html",
-      "/blog/Data_Viz_Fundamentals/index.html",
-      "/talks/2023-04-Deploy-your-R-code/index.html",
-      "/projects/DbVieweR/index.html",
-      "/projects/2022-12-echarts4r/index.html"
     ]
   },
   {
@@ -38,12 +31,33 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/blog/llm2/index.html",
+      "/blog/R-Lunches/index.html",
+      "/blog/Live/index.html",
+      "/blog/Data_manip_Fundamental/index.html",
+      "/blog/Data_explor_Fundamentals/index.html",
+      "/blog/Data_Viz_Fundamentals/index.html",
+      "/talks/2023-04-Deploy-your-R-code/index.html",
+      "/projects/CNN/index.html",
+      "/projects/DbVieweR/index.html",
+      "/projects/WeData/index.html",
+      "/projects/MonitoR/index.html",
+      "/projects/2022-12-echarts4r/index.html",
+      "/projects/DeepLearning/index.html",
+      "/projects/LeekWars/index.html",
+      "/projects/hBDM/index.html",
+      "/projects/GameOfLife/index.html"
+    ]
+  },
+  {
     "listing": "/services.html",
     "items": [
-      "/services/teaching/index.html",
       "/services/mining/index.html",
       "/services/data_engineering/index.html",
-      "/services/dataviz/index.html"
+      "/services/dataviz/index.html",
+      "/services/teaching/index.html"
     ]
   }
 ]
