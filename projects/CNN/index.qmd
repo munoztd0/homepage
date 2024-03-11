@@ -1,0 +1,24 @@
+---
+title: "Look a doggo!: A deep learning approach to detect dogs in images"
+author: "David Munoz Tord"
+date: 2024-03-11
+categories: [Deep Learning, CNN, tensorflow, Python, Machine Learning, Algorithm, Computer Vision]
+format: html
+image: ./mario.gif
+---
+
+#  Algorithm for a Dog Identification App
+
+The goal of this project was to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images. Given an image of a dog, the algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
+
+I used python and keras interface from tensorflow to build a Convolutional Neural Networks (CNN) to classify dog breeds. The model was trained on the [Dog Breed Identification dataset](https://www.kaggle.com/c/dog-breed-identification/data). The dataset contains 8351 dog images and 133 breeds.
+
+
+    
+
+<img src="./dog.jpg" alt="Dog detection" style="width: 100%; height: auto;">
+
+
+ <!-- <a href="https://github.com/munoztd0/AI_games/tree/master/MarioRL" class="btn btn-secondary">Demo</a>    -->
+Check out the project on <a href="https://munoztd0.github.io/dog_classifier/">GitHub</a>. 
+
