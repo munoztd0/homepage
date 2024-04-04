@@ -5,10 +5,10 @@ title-block-banner: true
 resources:
   - .nojekyll
 listing: 
-  - id: listing-blog
-    contents: "blog/"
-    template: /ejs/most-recent-only.ejs
-    sort: "date desc"
+  # - id: listing-blog
+  #   contents: "blog/"
+  #   template: /ejs/most-recent-only.ejs
+    # sort: "date desc"
   - id: listing-talks
     contents: "talks/"
     template: /ejs/most-recent-only.ejs
@@ -36,8 +36,7 @@ listing:
 > My job consists in helping companies and researchers to analyse and manage their datasets. 
 I am skilled for most data-science steps: data pre-processing, data-ingestion,application of statistical methods, data visualization and results communication.
 <br><br>
-After having worked for renowned research institutes like the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Center 
-for Affective Sciences</a>. I'm now working as a freelance data scientist for different companies (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>) and 
+After having worked for renowned research institutes like the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Centerfor Affective Sciences</a>. I'm now working as a freelance data scientist for different companies (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>) and 
 nonprofit organizations (<a href="http://cicad.ch/">CICAD</a> ). In parallel, I am also working as an open-source R developer for <a href="https://opifex.org/">Opifex</a>. 
 <br>
 :::
@@ -60,14 +59,91 @@ Still curious? click 'About'<br> above or this button here:<br><br>
 
 Latest from the blog
 
-::: {#listing-blog}
+
+
+```{r}
+#| label: setup callback
+#| echo: false
+#| message: false
+
+
+library(curl)
+
+# Fetch webpage content
+url <- "https://wedata.ch/blog"
+webpage <- curl_fetch_memory(url)
+
+# Convert raw content to character
+html_content <- rawToChar(webpage$content)
+
+# link
+pattern <- '<a href="([^"]*blog[^"]*)">'
+
+#take the 5th link (which is the second latest blog post)
+link <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][5]
+
+link <- gsub('<a href="', '', link)
+
+link <- gsub('">', '', link)
+
+link <- paste0("https://wedata.ch/", link)
+
+
+
+#content
+pattern <- '<h3 class="no-anchor listing-title">([^<]+)</h3>'
+
+#take the 2th link (which is the second latest blog post)
+content <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][2]
+
+content <- gsub('<h3 class=\"no-anchor listing-title\">\n', '', content)
+
+content <- gsub('\n</h3>', '', content)
+
+
+
+# date
+pattern <- '<div class="listing-date">([^<]+)</div>'
+#take the 2th link (which is the second latest blog post)
+date <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][2]
+
+date <- gsub('<div class=\"listing-date\">\n', '', date)
+
+date <- gsub('\\n</div>', '', date)
+
+
+
+
+
+```
+
+
+::: {} 
+<h4>[`r content`](`r link`)</h4>
+<!-- <iframe style="width:100%;overflow:auto;" src=`r link`></iframe> .iframe-container -->
+<p><small><i class="fa-solid fa-calendar" aria-label="calendar"></i> 
+`r date`
+</small></p>
 :::
 :::
 
+
+<!-- ::: {} -->
+<!-- ::: {.iframe-container} -->
+<!-- <iframe class="iframe-responsive" scrolling="no" src="https://wedata.ch/blog.html"></iframe> -->
+<!-- ::: -->
+<!-- ::: -->
+
+
 ::: {.feature-bottom}
-[Blog](blog.qmd){.btn .btn-secondary role="button"}
+[Blog](`r link`){.btn .btn-secondary role="button"}
 :::
 :::
+
+<!-- ::: {.feature-bottom} -->
+<!-- [Blog](https://wedata.ch/blog.html){.btn .btn-secondary role="button"} -->
+<!-- ::: -->
+<!-- ::: -->
 
 ::: {.feature}
 ::: {.feature-top}
