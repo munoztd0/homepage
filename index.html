@@ -68,34 +68,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-execute','listing-format','listing-website','listing-language','listing-freeze','listing-title-block-banner','listing-date','listing-title','listing-categories','listing-image','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-tags','listing-editor_options',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
-      
-      searchColumns: ["listing-project","listing-execute","listing-format","listing-website","listing-language","listing-freeze","listing-title-block-banner","listing-date","listing-title","listing-categories","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-tags","listing-editor_options"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-blog'] = new List('listing-listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-listing-talks .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -103,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-execute','listing-format','listing-website','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-date','listing-categories','listing-image','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-execute','listing-format','listing-website','listing-language','listing-freeze','listing-title-block-banner','listing-date','listing-title','listing-categories','listing-image','listing-author','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-format","listing-website","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-date","listing-categories","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-execute","listing-format","listing-website","listing-language","listing-freeze","listing-title-block-banner","listing-date","listing-title","listing-categories","listing-image","listing-author","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -271,7 +243,7 @@ gtag('config', 'G-DGPQ7WF7PV', { 'anonymize_ip': true});
 <section id="little-about-me" class="level5 g-col-8">
 <h5 class="anchored" data-anchor-id="little-about-me">little about me</h5>
 <blockquote class="blockquote">
-<p>My job consists in helping companies and researchers to analyse and manage their datasets. I am skilled for most data-science steps: data pre-processing, data-ingestion,application of statistical methods, data visualization and results communication. <br><br> After having worked for renowned research institutes like the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Center for Affective Sciences</a>. I’m now working as a freelance data scientist for different companies (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>) and nonprofit organizations (<a href="http://cicad.ch/">CICAD</a> ). In parallel, I am also working as an open-source R developer for <a href="https://opifex.org/">Opifex</a>. <br></p>
+<p>My job consists in helping companies and researchers to analyse and manage their datasets. I am skilled for most data-science steps: data pre-processing, data-ingestion,application of statistical methods, data visualization and results communication. <br><br> After having worked for renowned research institutes like the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Centerfor Affective Sciences</a>. I’m now working as a freelance data scientist for different companies (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>) and nonprofit organizations (<a href="http://cicad.ch/">CICAD</a> ). In parallel, I am also working as an open-source R developer for <a href="https://opifex.org/">Opifex</a>. <br></p>
 </blockquote>
 </section>
 <div class="g-col-4 vh-center center-text">
@@ -285,36 +257,29 @@ gtag('config', 'G-DGPQ7WF7PV', { 'anonymize_ip': true});
 <section id="blog" class="level3 feature-top">
 <h3 class="anchored" data-anchor-id="blog">Blog</h3>
 <p>Latest from the blog</p>
-<div id="listing-listing-blog" class="quarto-listing quarto-listing-container-custom">
-<!-- attributes for item -->
-
-<!--  freeze,
-      title-block-banner,
-      title,
-      author,
-      date,
-      categories,
-      image,
-      path,
-      image-alt,
-      description,
-      filename,
-      file-modified,
-      reading-time,
-      sortableValues -->
+<div>
 <h4 class="anchored">
-<a href="./blog/llm2/index.html">Your first chat bot with python!</a>
+<a href="https://wedata.ch/./blog/github_wrapped/index.html">🚀🚀 Github Wrapped 2023 🚀🚀</a>
 </h4>
-<p><small><i class="fa-solid fa-calendar" aria-label="calendar"></i> Jun 27, 2023</small></p>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<!-- <iframe style="width:100%;overflow:auto;" src=https://wedata.ch/./blog/github_wrapped/index.html></iframe> .iframe-container -->
+<p>
+<small><i class="fa-solid fa-calendar" aria-label="calendar"></i> Mar 19, 2024 </small>
+</p>
 </div>
 </section>
+<!-- ::: {} -->
+<!-- ::: {.iframe-container} -->
+<!-- <iframe class="iframe-responsive" scrolling="no" src="https://wedata.ch/blog.html"></iframe> -->
+<!-- ::: -->
+<!-- ::: -->
 <div class="feature-bottom">
-<p><a href="./blog.html" class="btn btn-secondary" role="button">Blog</a></p>
+<p><a href="https://wedata.ch/./blog/github_wrapped/index.html" class="btn btn-secondary" role="button">Blog</a></p>
 </div>
 </div>
+<!-- ::: {.feature-bottom} -->
+<!-- [Blog](https://wedata.ch/blog.html){.btn .btn-secondary role="button"} -->
+<!-- ::: -->
+<!-- ::: -->
 <div class="feature">
 <section id="talks" class="level3 feature-top">
 <h3 class="anchored" data-anchor-id="talks">Talks</h3>
@@ -337,9 +302,9 @@ No matching items
       reading-time,
       sortableValues -->
 <h4 class="anchored">
-<a href="./talks/2023-04-Deploy-your-R-code/index.html">Deploy Your R Code!</a>
+<a href="./talks/learning_from_data/index.html">Learning From Data: A Podcast of WeData’s Story now on Spotify 🎧</a>
 </h4>
-<p><small><i class="fa-solid fa-calendar" aria-label="calendar"></i> Apr 4, 2023</small></p>
+<p><small><i class="fa-solid fa-calendar" aria-label="calendar"></i> Apr 3, 2024</small></p>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
