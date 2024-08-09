@@ -26,32 +26,17 @@ jobs:
       - name: Set CRAN Mirror
         run: R -e 'options(repos = c(CRAN = "https://cloud.r-project.org"))'
           
-      - name: Install libs
-        run: >
-          sudo apt-get update && sudo apt-get install --yes
-          libcurl4-openssl-dev
-          
-      - name: Update renv
+      - name: Install system dependencies
         run: |
-          install.packages('renv')
-          renv::upgrade()
-        shell: Rscript {0}
-
-      - name: Clean renv cache
-        run: |
-          renv::clean()
-        shell: Rscript {0}
-
-      - name: Install rlang
-        run: |
-          install.packages('rlang', repos = 'https://cloud.r-project.org')
-        shell: Rscript {0}
+          sudo apt-get update
+          sudo apt-get install --yes libcurl4-openssl-dev
 
       - name: Install dependencies with renv
         uses: r-lib/actions/setup-renv@v2
         env:
-          R_COMPILE_AND_INSTALL_PACKAGES: 'never'
-          _R_CHECK_FORCE_SUGGESTS_: false
+          RENV_CONFIG_REPOS_OVERRIDE: https://cloud.r-project.org
+          R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+          R_COMPILE_AND_INSTALL_PACKAGES: never
 
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
