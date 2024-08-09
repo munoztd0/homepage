@@ -7,6 +7,7 @@ format: html
 image: ./bio.webp
 ---
 
+
 ## 🌿 Welcome to the Forest of Data! 
 
 <img src="./bio.webp" alt="diversity" style="width: 100%; height: auto;">
