@@ -1,9 +1,10 @@
 ---
 title: "Biodiversity Bonanza: Crafting a Shiny Species Spotter!"
-author: "Data Detective Extraordinaire"
-date: "2024-08-09"
-categories: [R, Shiny, Data Visualization, Biodiversity]
-image: "wild_marmot.jpg"
+author: "David Munoz Tord"
+date: 2024-08-09
+categories: [R, Shiny, Data Visualization, App, Data Wrangling]
+format: html
+image: ./bio.webp
 ---
 
 ## 🌿 Welcome to the Forest of Data! 
