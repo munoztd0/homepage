@@ -1,19 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/CNN/index.html",
-      "/projects/DbVieweR/index.html",
-      "/projects/WeData/index.html",
-      "/projects/MonitoR/index.html",
-      "/projects/2022-12-echarts4r/index.html",
-      "/projects/DeepLearning/index.html",
-      "/projects/LeekWars/index.html",
-      "/projects/hBDM/index.html",
-      "/projects/GameOfLife/index.html"
-    ]
-  },
-  {
     "listing": "/talks.html",
     "items": [
       "/talks/learning_from_data/index.html",
@@ -21,10 +7,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
-      "/talks/learning_from_data/index.html",
-      "/talks/2023-04-Deploy-your-R-code/index.html",
+      "/projects/biodiverRsity/index.html",
       "/projects/CNN/index.html",
       "/projects/DbVieweR/index.html",
       "/projects/WeData/index.html",
@@ -34,15 +19,6 @@
       "/projects/LeekWars/index.html",
       "/projects/hBDM/index.html",
       "/projects/GameOfLife/index.html"
-    ]
-  },
-  {
-    "listing": "/services.html",
-    "items": [
-      "/services/teaching/index.html",
-      "/services/data_engineering/index.html",
-      "/services/mining/index.html",
-      "/services/dataviz/index.html"
     ]
   },
   {
@@ -54,6 +30,32 @@
       "/blog/Data_manip_Fundamental/index.html",
       "/blog/Data_explor_Fundamentals/index.html",
       "/blog/Data_Viz_Fundamentals/index.html"
+    ]
+  },
+  {
+    "listing": "/services.html",
+    "items": [
+      "/services/data_engineering/index.html",
+      "/services/teaching/index.html",
+      "/services/mining/index.html",
+      "/services/dataviz/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/talks/learning_from_data/index.html",
+      "/talks/2023-04-Deploy-your-R-code/index.html",
+      "/projects/biodiverRsity/index.html",
+      "/projects/CNN/index.html",
+      "/projects/DbVieweR/index.html",
+      "/projects/WeData/index.html",
+      "/projects/MonitoR/index.html",
+      "/projects/2022-12-echarts4r/index.html",
+      "/projects/DeepLearning/index.html",
+      "/projects/LeekWars/index.html",
+      "/projects/hBDM/index.html",
+      "/projects/GameOfLife/index.html"
     ]
   }
 ]
