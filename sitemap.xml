@@ -2,130 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://david-munoztord.com/vitae.html</loc>
-    <lastmod>2024-08-09T05:17:39.426Z</lastmod>
+    <lastmod>2024-08-13T00:10:51.362Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/about.html</loc>
-    <lastmod>2024-08-09T05:17:41.382Z</lastmod>
+    <lastmod>2024-08-13T00:10:53.322Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/talks.html</loc>
-    <lastmod>2024-08-09T05:17:41.954Z</lastmod>
+    <lastmod>2024-08-13T00:10:53.886Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects.html</loc>
-    <lastmod>2024-08-09T05:17:43.154Z</lastmod>
+    <lastmod>2024-08-13T00:10:55.190Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog.html</loc>
-    <lastmod>2024-08-09T05:17:43.826Z</lastmod>
+    <lastmod>2024-08-13T00:10:55.854Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/contact.html</loc>
-    <lastmod>2024-08-09T05:17:44.146Z</lastmod>
+    <lastmod>2024-08-13T00:10:56.162Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/R-Lunches/index.html</loc>
-    <lastmod>2024-08-09T05:17:44.430Z</lastmod>
+    <lastmod>2024-08-13T00:10:56.454Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Live/index.html</loc>
-    <lastmod>2024-08-09T05:17:44.730Z</lastmod>
+    <lastmod>2024-08-13T00:10:56.746Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Data_explor_Fundamentals/index.html</loc>
-    <lastmod>2024-08-09T05:17:45.018Z</lastmod>
+    <lastmod>2024-08-13T00:10:57.030Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Data_Viz_Fundamentals/index.html</loc>
-    <lastmod>2024-08-09T05:17:45.306Z</lastmod>
+    <lastmod>2024-08-13T00:10:57.322Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/llm2/index.html</loc>
-    <lastmod>2024-08-09T05:17:45.718Z</lastmod>
+    <lastmod>2024-08-13T00:10:57.758Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/blog/Data_manip_Fundamental/index.html</loc>
-    <lastmod>2024-08-09T05:17:46.038Z</lastmod>
+    <lastmod>2024-08-13T00:10:58.050Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/GameOfLife/index.html</loc>
-    <lastmod>2024-08-09T05:17:46.366Z</lastmod>
+    <lastmod>2024-08-13T00:10:58.386Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/DeepLearning/index.html</loc>
-    <lastmod>2024-08-09T05:17:46.690Z</lastmod>
+    <lastmod>2024-08-13T00:10:58.734Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/MonitoR/index.html</loc>
-    <lastmod>2024-08-09T05:17:47.038Z</lastmod>
+    <lastmod>2024-08-13T00:10:59.066Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/DbVieweR/index.html</loc>
-    <lastmod>2024-08-09T05:17:47.370Z</lastmod>
+    <lastmod>2024-08-13T00:10:59.394Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/WeData/index.html</loc>
-    <lastmod>2024-08-09T05:17:47.690Z</lastmod>
+    <lastmod>2024-08-13T00:10:59.702Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/2022-12-echarts4r/index.html</loc>
-    <lastmod>2024-08-09T05:17:51.678Z</lastmod>
+    <lastmod>2024-08-13T00:11:03.718Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/biodiverRsity/index.html</loc>
-    <lastmod>2024-08-09T05:17:54.886Z</lastmod>
+    <lastmod>2024-08-13T00:11:06.962Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/hBDM/index.html</loc>
-    <lastmod>2024-08-09T05:17:55.198Z</lastmod>
+    <lastmod>2024-08-13T00:11:07.298Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/CNN/index.html</loc>
-    <lastmod>2024-08-09T05:17:55.518Z</lastmod>
+    <lastmod>2024-08-13T00:11:07.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-munoztord.com/projects/RoadKills/index.html</loc>
+    <lastmod>2024-08-13T00:11:08.022Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/projects/LeekWars/index.html</loc>
-    <lastmod>2024-08-09T05:17:55.862Z</lastmod>
+    <lastmod>2024-08-13T00:11:08.350Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/publications/vBMS/index.html</loc>
-    <lastmod>2024-08-09T05:17:56.190Z</lastmod>
+    <lastmod>2024-08-13T00:11:08.666Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/publications/sbm/index.html</loc>
-    <lastmod>2024-08-09T05:17:56.502Z</lastmod>
+    <lastmod>2024-08-13T00:11:09.002Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/services/data_engineering/index.html</loc>
-    <lastmod>2024-08-09T05:17:56.862Z</lastmod>
+    <lastmod>2024-08-13T00:11:09.330Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/services/teaching/index.html</loc>
-    <lastmod>2024-08-09T05:17:57.206Z</lastmod>
+    <lastmod>2024-08-13T00:11:09.670Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/services/mining/index.html</loc>
-    <lastmod>2024-08-09T05:17:57.518Z</lastmod>
+    <lastmod>2024-08-13T00:11:10.018Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/services/dataviz/index.html</loc>
-    <lastmod>2024-08-09T05:17:57.842Z</lastmod>
+    <lastmod>2024-08-13T00:11:10.342Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/services.html</loc>
-    <lastmod>2024-08-09T05:17:58.274Z</lastmod>
+    <lastmod>2024-08-13T00:11:10.734Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/index.html</loc>
-    <lastmod>2024-08-09T05:17:58.722Z</lastmod>
+    <lastmod>2024-08-13T00:11:11.186Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/talks/2023-04-Deploy-your-R-code/index.html</loc>
-    <lastmod>2024-08-09T05:17:59.022Z</lastmod>
+    <lastmod>2024-08-13T00:11:11.474Z</lastmod>
   </url>
   <url>
     <loc>https://david-munoztord.com/talks/learning_from_data/index.html</loc>
-    <lastmod>2024-08-09T05:17:59.350Z</lastmod>
+    <lastmod>2024-08-13T00:11:11.798Z</lastmod>
   </url>
 </urlset>
