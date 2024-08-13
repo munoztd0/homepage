@@ -76,27 +76,30 @@ webpage <- curl_fetch_memory(url)
 # Convert raw content to character
 html_content <- rawToChar(webpage$content)
 
-# link
-pattern <- '<a href="([^"]*blog[^"]*)">'
+pattern <- 'href="\\./blog/([^/]+)/index\\.html"'
+#take the 1th link 
+link <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))
 
-#take the 5th link (which is the second latest blog post)
-link <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][5]
+link <- unique(link[[1]])[1]
 
-link <- gsub('<a href="', '', link)
+link <- gsub('href="', '', link)
 
-link <- gsub('">', '', link)
+link <- gsub('"', '', link)
 
 link <- paste0("https://wedata.ch/", link)
 
 
 
 #content
-pattern <- '<h3 class="no-anchor listing-title">([^<]+)</h3>'
+pattern <- '<h3 class="no-anchor listing-title">\n<a [^>]*>([^<]+)</a>\n</h3>'
 
-#take the 2th link (which is the second latest blog post)
-content <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][2]
+#take the 2th link (which is thee second latest blog post)
+content <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][1]
 
-content <- gsub('<h3 class=\"no-anchor listing-title\">\n', '', content)
+content <- stringr::str_match(content, "<h3 class=\"no-anchor listing-title\">\\n<a [^>]*>([^<]+)</a>\\n</h3>")[,2]
+
+
+content <- gsub('<h3 class=\"no-anchor listing-title\">\n<a href=\"./', '', content)
 
 content <- gsub('\n</h3>', '', content)
 
@@ -105,7 +108,7 @@ content <- gsub('\n</h3>', '', content)
 # date
 pattern <- '<div class="listing-date">([^<]+)</div>'
 #take the 2th link (which is the second latest blog post)
-date <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][2]
+date <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][1]
 
 date <- gsub('<div class=\"listing-date\">\n', '', date)
 
@@ -180,8 +183,8 @@ Latest tinkering
 
 ### Currently at
 
-`Freelancer`<br>
-__R Developper / Data Scientist__<br>
+`We Data`<br>
+__Freelance R Developper / Data Scientist__<br>
 _Services, products, and open-source projects on <br>
 data and programming._ <br>
 <small>Oct 2022--Present</small> 
