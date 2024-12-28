@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/services.html",
+    "items": [
+      "/services/dataviz/index.html",
+      "/services/mining/index.html",
+      "/services/data_engineering/index.html",
+      "/services/teaching/index.html"
+    ]
+  },
+  {
     "listing": "/talks.html",
     "items": [
       "/talks/learning_from_data/index.html",
@@ -23,26 +32,6 @@
     ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/llm2/index.html",
-      "/blog/R-Lunches/index.html",
-      "/blog/Live/index.html",
-      "/blog/Data_manip_Fundamental/index.html",
-      "/blog/Data_explor_Fundamentals/index.html",
-      "/blog/Data_Viz_Fundamentals/index.html"
-    ]
-  },
-  {
-    "listing": "/services.html",
-    "items": [
-      "/services/data_engineering/index.html",
-      "/services/teaching/index.html",
-      "/services/mining/index.html",
-      "/services/dataviz/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/talks/learning_from_data/index.html",
@@ -58,6 +47,17 @@
       "/projects/LeekWars/index.html",
       "/projects/hBDM/index.html",
       "/projects/GameOfLife/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/llm2/index.html",
+      "/blog/R-Lunches/index.html",
+      "/blog/Live/index.html",
+      "/blog/Data_manip_Fundamental/index.html",
+      "/blog/Data_explor_Fundamentals/index.html",
+      "/blog/Data_Viz_Fundamentals/index.html"
     ]
   }
 ]
