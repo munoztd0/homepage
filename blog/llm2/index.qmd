@@ -19,7 +19,7 @@ reticulate::use_virtualenv(paste0(path, "/renv/python/virtualenvs/renv-python-3.
 
 ![](ai.jpg)
 
-By [David Munoz Tord](https://david-munoztord.com/)
+By [David Munoz Tord](https://david-munoztord.online/)
 
 **Goal**: Learn about *language models* and familiarize yourself with some of the basic functions of the {[languagemodels](https://github.com/jncraton/languagemodels)} to create your own chat bot.
 

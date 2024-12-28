@@ -7,7 +7,7 @@ categories:
 image: homework.jpg
 ---
 
-By [David Munoz Tord](https://david-munoztord.com/)
+By [David Munoz Tord](https://david-munoztord.online/)
 
 **Goal**: Learn about *data exploration* and familiarize yourself with some of the basic functions of the tidyverse.
 

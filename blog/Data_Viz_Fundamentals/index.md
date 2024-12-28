@@ -7,7 +7,7 @@ categories:
 image: homework.jpg
 ---
 
-By [David Munoz Tord](https://david-munoztord.com/)
+By [David Munoz Tord](https://david-munoztord.online/)
 
 **Goal**: Go over the *basics of data visualization with R* and learn more advanced concepts using the ggplot package.
 

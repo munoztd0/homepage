@@ -68,59 +68,73 @@ Latest from the blog
 
 
 library(curl)
+library(stringr)
 
-# Fetch webpage content
+# Fetch the main blog webpage
 url <- "https://wedata.ch/blog"
 webpage <- curl_fetch_memory(url)
 
 # Convert raw content to character
 html_content <- rawToChar(webpage$content)
 
-pattern <- 'href="\\./blog/([^/]+)/index\\.html"'
-#take the 1th link 
-link <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))
+# Regex to find all blog post links
+link_pattern <- 'href="\\./blog/([^/]+)/index\\.html"'
+link_matches <- regmatches(html_content, gregexpr(link_pattern, html_content, perl=TRUE))[[1]]
 
-link <- unique(link[[1]])[1]
+# Process links to clean and construct full URLs
+links <- unique(gsub('href="|"', '', link_matches))
+links <- paste0("https://wedata.ch/", links)
 
-link <- gsub('href="', '', link)
+# Function to fetch and check author for a single link
+check_author <- function(link) {
+  # Fetch blog post content
+  post_page <- curl_fetch_memory(link)
+  post_content <- rawToChar(post_page$content)
+  
+  # Regex to check for the author
+  author_pattern <- 'name=\"author\" content=\"David Munoz Tord\"'
+  if (grepl(author_pattern, post_content)) {
+    # Extract the title and date if the author matches
+      pattern <- '<title>We Data - \\s*([^<]+)\\s*</title>'
+      content <- stringr::str_match(post_content, pattern)[,2]
+      
+      # Trim whitespace (if any)
+      content <- trimws(content)
+    
 
-link <- gsub('"', '', link)
+      # date
+      pattern <- '<p class=\"date\">\\s*([^<]+)\\s*</p>'
+      date <- stringr::str_match(post_content, pattern)[,2]
+      
+      # Trim whitespace (if any)
+      date <- trimws(date)
 
-link <- paste0("https://wedata.ch/", link)
+    
+    return(list(content = content, date = date, link = link))
+  }
+  return(NULL)
+}
 
+# Iterate through the links, stopping after finding the author or checking N links
+max_checks <- 10
+result <- NULL
 
+for (i in seq_len(min(length(links), max_checks))) {
+  result <- check_author(links[i])
+  if (!is.null(result)) break
+}
 
-#content
-pattern <- '<h3 class="no-anchor listing-title">\n<a [^>]*>([^<]+)</a>\n</h3>'
-
-#take the 2th link (which is thee second latest blog post)
-content <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][1]
-
-content <- stringr::str_match(content, "<h3 class=\"no-anchor listing-title\">\\n<a [^>]*>([^<]+)</a>\\n</h3>")[,2]
-
-
-content <- gsub('<h3 class=\"no-anchor listing-title\">\n<a href=\"./', '', content)
-
-content <- gsub('\n</h3>', '', content)
-
-
-
-# date
-pattern <- '<div class="listing-date">([^<]+)</div>'
-#take the 2th link (which is the second latest blog post)
-date <- regmatches(html_content, gregexpr(pattern, html_content, perl=TRUE))[[1]][1]
-
-date <- gsub('<div class=\"listing-date\">\n', '', date)
-
-date <- gsub('\\n</div>', '', date)
-
-
-
+# Output the result
+if (!is.null(result)) {
+  link <- result$link
+  content <- result$content
+  date <- result$date
+} else {
+  print("No articles found authored by David Munoz Tord within the first N links.")
+}
 
 
 ```
-
-
 ::: {} 
 <h4>[`r content`](`r link`)</h4>
 <!-- <iframe style="width:100%;overflow:auto;" src=`r link`></iframe> .iframe-container -->

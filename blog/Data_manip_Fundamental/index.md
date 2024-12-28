@@ -7,7 +7,7 @@ categories:
 image: homework.jpg
 ---
 
-By [David Munoz Tord](https://david-munoztord.com/)
+By [David Munoz Tord](https://david-munoztord.online/)
 
 **Goal**: Learn more about data manipulation: how to *pivot, join and filter data* using {dplyr} and {tidyr} packages.
 
