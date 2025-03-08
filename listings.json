@@ -1,23 +1,11 @@
 [
   {
-    "listing": "/services.html",
+    "listing": "/index.html",
     "items": [
-      "/services/dataviz/index.html",
-      "/services/mining/index.html",
-      "/services/data_engineering/index.html",
-      "/services/teaching/index.html"
-    ]
-  },
-  {
-    "listing": "/talks.html",
-    "items": [
+      "/talks/Ai2025_discussion/index.html",
       "/talks/learning_from_data/index.html",
-      "/talks/2023-04-Deploy-your-R-code/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
+      "/talks/2023-04-Deploy-your-R-code/index.html",
+      "/projects/AiForGood/index.html",
       "/projects/RoadKills/index.html",
       "/projects/biodiverRsity/index.html",
       "/projects/CNN/index.html",
@@ -32,10 +20,18 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/services.html",
     "items": [
-      "/talks/learning_from_data/index.html",
-      "/talks/2023-04-Deploy-your-R-code/index.html",
+      "/services/teaching/index.html",
+      "/services/data_engineering/index.html",
+      "/services/mining/index.html",
+      "/services/dataviz/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/AiForGood/index.html",
       "/projects/RoadKills/index.html",
       "/projects/biodiverRsity/index.html",
       "/projects/CNN/index.html",
@@ -58,6 +54,14 @@
       "/blog/Data_manip_Fundamental/index.html",
       "/blog/Data_explor_Fundamentals/index.html",
       "/blog/Data_Viz_Fundamentals/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/Ai2025_discussion/index.html",
+      "/talks/learning_from_data/index.html",
+      "/talks/2023-04-Deploy-your-R-code/index.html"
     ]
   }
 ]
