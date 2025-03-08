@@ -197,12 +197,12 @@ Latest tinkering
 
 ### Currently at
 
-`We Data`<br>
-__Freelance R Developper / Data Scientist__<br>
+`Johnson & Johnson`<br>
+__Senior R Programmer __<br>
 _Services, products, and open-source projects on <br>
-data and programming._ <br>
-<small>Oct 2022--Present</small> 
+clinical data and programming._ <br>
+<small>Feb 2025--Present</small> 
 
-[Full CV](https://github.com/munoztd0/CV_DMT/raw/main/CV_DMT.pdf){.btn .btn-secondary role="button"}
+[Full CV](https://github.com/munoztd0/homepage/raw/main/files/CV.pdf){.btn .btn-secondary role="button"}
 
 <link rel="me" href="https://github/com/munoztd0">
