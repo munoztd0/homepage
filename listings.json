@@ -20,12 +20,31 @@
     ]
   },
   {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/llm2/index.html",
+      "/blog/R-Lunches/index.html",
+      "/blog/Live/index.html",
+      "/blog/Data_manip_Fundamental/index.html",
+      "/blog/Data_explor_Fundamentals/index.html",
+      "/blog/Data_Viz_Fundamentals/index.html"
+    ]
+  },
+  {
     "listing": "/services.html",
     "items": [
-      "/services/teaching/index.html",
-      "/services/data_engineering/index.html",
       "/services/mining/index.html",
-      "/services/dataviz/index.html"
+      "/services/dataviz/index.html",
+      "/services/teaching/index.html",
+      "/services/data_engineering/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/Ai2025_discussion/index.html",
+      "/talks/learning_from_data/index.html",
+      "/talks/2023-04-Deploy-your-R-code/index.html"
     ]
   },
   {
@@ -43,25 +62,6 @@
       "/projects/LeekWars/index.html",
       "/projects/hBDM/index.html",
       "/projects/GameOfLife/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/llm2/index.html",
-      "/blog/R-Lunches/index.html",
-      "/blog/Live/index.html",
-      "/blog/Data_manip_Fundamental/index.html",
-      "/blog/Data_explor_Fundamentals/index.html",
-      "/blog/Data_Viz_Fundamentals/index.html"
-    ]
-  },
-  {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/Ai2025_discussion/index.html",
-      "/talks/learning_from_data/index.html",
-      "/talks/2023-04-Deploy-your-R-code/index.html"
     ]
   }
 ]
