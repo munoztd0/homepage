@@ -33,11 +33,29 @@ listing:
 ::: {.g-col-8}
 ##### little about me
 
-> My job consists in helping companies and researchers to analyse and manage their datasets. 
-I am skilled for most data-science steps: data pre-processing, data-ingestion,application of statistical methods, data visualization and results communication.
-<br><br>
-After having worked for renowned research institutes like the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Centerfor Affective Sciences</a>. I'm now working as a freelance data scientist for different companies (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>) and 
-nonprofit organizations (<a href="http://cicad.ch/">CICAD</a> ). In parallel, I am also working as an open-source R developer for <a href="https://opifex.org/">Opifex</a>. 
+> My work centers on developing statistical solutions and R packages that make data analysis more robust, reproducible, and accessible.  
+I specialize in statistical programming, applied modeling, data workflows, and clear communication of results.  
+
+<br>
+
+I studied Computational Neuroscience at the University of Geneva, where I explored computational models and statistical methods to better understand the human brain. During this time, I contributed to world-renowned institutions such as the <a href="https://neurocenter-unige.ch/">Geneva Neurocenter</a> and the <a href="https://www.unige.ch/cisa/">Swiss Center for Affective Sciences</a>, applying data-driven approaches to cutting-edge research.  
+
+<br>
+
+Today, I work as a <b>Senior Statistical Developer at Johnson & Johnson</b>, where I design and implement statistical tools to support clinical research and healthcare innovation. Alongside my role, I’ve worked as a freelance data scientist for clients in pharma, biotech, fintech, and nonprofit sectors (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>, <a href="http://cicad.ch/">CICAD</a>), building solutions in statistical modeling, automation, and cloud-based workflows.  
+
+<br>
+
+Beyond industry, I’m deeply involved in fostering the data science and R communities. I co-founded <a href="https://www.wedata.ch/">We Data</a>, an organization dedicated to sharing knowledge and enthusiasm for coding in the social sciences and beyond. Through blog posts, YouTube tutorials, and workshops, we make data science more approachable. At the University of Geneva, I helped lead the “UniGe Take Over” initiative and continue to organize R-Lunches at UniMail—multidisciplinary meetups on R and applied data science.  
+
+<br>
+
+I am also an active contributor to the open-source ecosystem as an R developer for <a href="https://opifex.org/">Opifex</a> and a proud member of <a href="https://ropensci.org/">rOpenSci</a>, supporting open tools for open and reproducible science. More recently, I joined the <a href="https://aiforgood.itu.int/">AI for Good Geneva Hub</a>, the UN’s leading platform for using AI to advance sustainable development goals.  
+
+<br>
+
+With a background spanning computational neuroscience, statistical programming, and open-source development, my career is driven by building tools and methods that make research and industry analyses more reliable, transparent, and impactful.  
+
 <br>
 :::
 
