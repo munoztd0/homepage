@@ -42,7 +42,7 @@ I studied Computational Neuroscience at the University of Geneva, where I explor
 
 <br>
 
-Today, I work as a <b>Senior Statistical Developer at Johnson & Johnson</b>, where I design and implement statistical tools to support clinical research and healthcare innovation. Alongside my role, I’ve worked as a freelance data scientist for clients in pharma, biotech, fintech, and nonprofit sectors (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>, <a href="http://cicad.ch/">CICAD</a>), building solutions in statistical modeling, automation, and cloud-based workflows.  
+Today, I work as a <b>Senior Statistical Developer at Cytel</b>, where I design and implement statistical tools to support clinical research and healthcare innovation. Alongside my role, I’ve worked as a freelance data scientist for clients in pharma, biotech, fintech, and nonprofit sectors (<a href="https://www.flowbank.com/en/about-us">FlowBank</a>, <a href="https://duckrabbit.ch/">DuckRabbit</a>, <a href="http://cicad.ch/">CICAD</a>), building solutions in statistical modeling, automation, and cloud-based workflows.  
 
 <br>
 
